@@ -1,559 +1,601 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
+
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width,initial-scale=1.0">
-<meta name="theme-color" content="#080808">
+
+<meta
+  name="viewport"
+  content="width=device-width,initial-scale=1.0">
+
+<meta
+  name="theme-color"
+  content="#080808">
+
 <title>Minha TV Online</title>
 
 <style>
-*{box-sizing:border-box}
-html,body{margin:0;background:#080808;color:#fff;font-family:Arial,sans-serif}
-body{overflow-x:hidden}
-header{position:sticky;top:0;z-index:20;background:#0b0b0b;border-bottom:1px solid #222;padding:12px 14px}
-.top{display:flex;align-items:center;gap:10px;max-width:1400px;margin:auto}
-.logo{font-size:20px;font-weight:800;white-space:nowrap}
-.logo b{color:#f22}
-.search{flex:1;background:#171717;border:1px solid #303030;color:#fff;border-radius:22px;padding:11px 16px;outline:0}
-.search:focus{border-color:#777}
-.btn{border:0;background:#202020;color:#fff;border-radius:20px;padding:10px 14px;cursor:pointer}
-.btn:hover{background:#303030}
-main{max-width:1400px;margin:auto;padding:18px 14px 60px}
-.hero{background:linear-gradient(135deg,#161616,#0d0d0d);border:1px solid #252525;border-radius:16px;padding:18px;margin-bottom:24px}
-.hero h1{margin:0 0 5px;font-size:25px}
-.hero p{margin:0;color:#aaa;font-size:14px}
-.section{margin:25px 0 34px}
-.section-title{display:flex;align-items:center;gap:10px;margin-bottom:12px}
-.section-title h2{font-size:19px;margin:0}
-.count{color:#888;font-size:12px}
-.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(180px,1fr));gap:14px}
-.card{position:relative;background:#121212;border:1px solid #242424;border-radius:12px;overflow:hidden;cursor:pointer}
-.card:hover{border-color:#555}
-.cover{position:relative;aspect-ratio:16/9;background:#1c1c1c;overflow:hidden}
-.cover img{width:100%;height:100%;object-fit:cover;display:block}
-.live{position:absolute;top:8px;left:8px;background:#e50914;color:#fff;font-weight:bold;font-size:11px;padding:5px 7px;border-radius:5px;box-shadow:0 0 10px #000}
-.live-dot{display:inline-block;width:6px;height:6px;border-radius:50%;background:#fff;margin-right:4px}
-.star{position:absolute;right:7px;top:7px;width:31px;height:31px;border:0;border-radius:50%;background:#000b;color:#aaa;font-size:18px;cursor:pointer;z-index:3}
-.star.on{color:#ffd21c}
-.info{padding:10px}
-.name{font-weight:bold;font-size:14px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
-.handle{font-size:11px;color:#777;margin-top:4px}
-.empty{padding:35px;text-align:center;color:#777}
-#playerScreen{display:none;position:fixed;inset:0;background:#000;z-index:100;overflow:auto}
-.playerTop{height:55px;display:flex;align-items:center;gap:10px;padding:8px 12px;background:#101010}
-.back{background:#222;color:#fff;border:0;border-radius:18px;padding:9px 14px;cursor:pointer}
-.playerTitle{font-weight:bold;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
-.playerWrap{max-width:1200px;margin:0 auto}
-.video{width:100%;aspect-ratio:16/9;background:#000}
-.video iframe{width:100%;height:100%;border:0}
-.playerInfo{padding:14px}
-.playerLive{display:inline-block;background:#e50914;padding:5px 8px;border-radius:5px;font-size:12px;font-weight:bold}
-.playerInfo h2{margin:10px 0 5px}
-.playerInfo p{color:#999;margin:0}
-.notice{margin:15px 0;padding:12px;border:1px solid #343434;background:#151515;border-radius:9px;color:#bbb;font-size:13px}
-@media(max-width:650px){
-.logo{font-size:17px}
-.grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:9px}
-.card{border-radius:9px}.info{padding:8px}.name{font-size:13px}
-.hero{padding:14px}.hero h1{font-size:20px}
+
+*{
+  box-sizing:border-box
 }
-@media(min-width:1100px){.grid{grid-template-columns:repeat(6,minmax(0,1fr))}}
+
+html,
+body{
+  margin:0;
+  background:#080808;
+  color:#fff;
+  font-family:Arial,sans-serif
+}
+
+body{
+  overflow-x:hidden
+}
+
+header{
+  position:sticky;
+  top:0;
+  z-index:20;
+  background:#0b0b0b;
+  border-bottom:1px solid #222;
+  padding:12px 14px
+}
+
+.top{
+  display:flex;
+  align-items:center;
+  gap:10px;
+  max-width:1400px;
+  margin:auto
+}
+
+.logo{
+  font-size:20px;
+  font-weight:800;
+  white-space:nowrap
+}
+
+.logo b{
+  color:#f22
+}
+
+.search{
+  flex:1;
+  background:#171717;
+  border:1px solid #303030;
+  color:#fff;
+  border-radius:22px;
+  padding:11px 16px;
+  outline:0
+}
+
+.search:focus{
+  border-color:#777
+}
+
+.btn{
+  border:0;
+  background:#202020;
+  color:#fff;
+  border-radius:20px;
+  padding:10px 14px;
+  cursor:pointer
+}
+
+.btn:hover{
+  background:#303030
+}
+
+main{
+  max-width:1400px;
+  margin:auto;
+  padding:18px 14px 60px
+}
+
+.hero{
+  background:
+    linear-gradient(
+      135deg,
+      #161616,
+      #0d0d0d
+    );
+
+  border:1px solid #252525;
+  border-radius:16px;
+  padding:18px;
+  margin-bottom:24px
+}
+
+.hero h1{
+  margin:0 0 5px;
+  font-size:25px
+}
+
+.hero p{
+  margin:0;
+  color:#aaa;
+  font-size:14px
+}
+
+.section{
+  margin:25px 0 34px
+}
+
+.section-title{
+  display:flex;
+  align-items:center;
+  gap:10px;
+  margin-bottom:12px
+}
+
+.section-title h2{
+  font-size:19px;
+  margin:0
+}
+
+.count{
+  color:#888;
+  font-size:12px
+}
+
+.grid{
+  display:grid;
+  grid-template-columns:
+    repeat(
+      auto-fill,
+      minmax(180px,1fr)
+    );
+  gap:14px
+}
+
+.card{
+  position:relative;
+  background:#121212;
+  border:1px solid #242424;
+  border-radius:12px;
+  overflow:hidden;
+  cursor:pointer;
+  transition:.2s
+}
+
+.card:hover{
+  border-color:#555;
+  transform:translateY(-2px)
+}
+
+.cover{
+  position:relative;
+  aspect-ratio:16/9;
+  background:#1c1c1c;
+  overflow:hidden
+}
+
+.cover img{
+  width:100%;
+  height:100%;
+  object-fit:cover;
+  display:block
+}
+
+.placeholder{
+  width:100%;
+  height:100%;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  font-size:42px;
+  color:#555
+}
+
+.live{
+  position:absolute;
+  top:8px;
+  left:8px;
+  background:#e50914;
+  color:#fff;
+  font-weight:bold;
+  font-size:11px;
+  padding:5px 7px;
+  border-radius:5px;
+  box-shadow:0 0 10px #000
+}
+
+.offline{
+  position:absolute;
+  top:8px;
+  left:8px;
+  background:#444;
+  color:#ddd;
+  font-weight:bold;
+  font-size:11px;
+  padding:5px 7px;
+  border-radius:5px
+}
+
+.live-dot{
+  display:inline-block;
+  width:6px;
+  height:6px;
+  border-radius:50%;
+  background:#fff;
+  margin-right:4px
+}
+
+.star{
+  position:absolute;
+  right:7px;
+  top:7px;
+  width:31px;
+  height:31px;
+  border:0;
+  border-radius:50%;
+  background:#000b;
+  color:#aaa;
+  font-size:18px;
+  cursor:pointer;
+  z-index:3
+}
+
+.star.on{
+  color:#ffd21c
+}
+
+.info{
+  padding:10px
+}
+
+.name{
+  font-weight:bold;
+  font-size:14px;
+  white-space:nowrap;
+  overflow:hidden;
+  text-overflow:ellipsis
+}
+
+.handle{
+  font-size:11px;
+  color:#777;
+  margin-top:4px;
+  white-space:nowrap;
+  overflow:hidden;
+  text-overflow:ellipsis
+}
+
+.status{
+  font-size:10px;
+  color:#777;
+  margin-top:7px
+}
+
+.status.online{
+  color:#e50914
+}
+
+.empty{
+  padding:35px;
+  text-align:center;
+  color:#777
+}
+
+.loading{
+  padding:40px;
+  text-align:center;
+  color:#888
+}
+
+
+/* PLAYER */
+
+#playerScreen{
+  display:none;
+  position:fixed;
+  inset:0;
+  background:#000;
+  z-index:100;
+  overflow:auto
+}
+
+.playerTop{
+  height:55px;
+  display:flex;
+  align-items:center;
+  gap:10px;
+  padding:8px 12px;
+  background:#101010
+}
+
+.back{
+  background:#222;
+  color:#fff;
+  border:0;
+  border-radius:18px;
+  padding:9px 14px;
+  cursor:pointer
+}
+
+.playerTitle{
+  font-weight:bold;
+  overflow:hidden;
+  text-overflow:ellipsis;
+  white-space:nowrap
+}
+
+.playerWrap{
+  max-width:1200px;
+  margin:0 auto
+}
+
+.video{
+  width:100%;
+  aspect-ratio:16/9;
+  background:#000
+}
+
+.video iframe{
+  width:100%;
+  height:100%;
+  border:0
+}
+
+.playerInfo{
+  padding:14px
+}
+
+.playerLive{
+  display:inline-block;
+  background:#e50914;
+  padding:5px 8px;
+  border-radius:5px;
+  font-size:12px;
+  font-weight:bold
+}
+
+.playerInfo h2{
+  margin:10px 0 5px
+}
+
+.playerInfo p{
+  color:#999;
+  margin:0
+}
+
+.notice{
+  margin:15px 0;
+  padding:12px;
+  border:1px solid #343434;
+  background:#151515;
+  border-radius:9px;
+  color:#bbb;
+  font-size:13px
+}
+
+.playerButton{
+  display:inline-block;
+  border:0;
+  background:#e50914;
+  color:#fff;
+  border-radius:20px;
+  padding:11px 17px;
+  cursor:pointer;
+  margin-top:12px
+}
+
+
+/* MOBILE */
+
+@media(max-width:650px){
+
+  .logo{
+    font-size:17px
+  }
+
+  .grid{
+    grid-template-columns:
+      repeat(2,minmax(0,1fr));
+    gap:9px
+  }
+
+  .card{
+    border-radius:9px
+  }
+
+  .info{
+    padding:8px
+  }
+
+  .name{
+    font-size:13px
+  }
+
+  .hero{
+    padding:14px
+  }
+
+  .hero h1{
+    font-size:20px
+  }
+
+  .btn{
+    padding:9px 11px
+  }
+
+}
+
+@media(min-width:1100px){
+
+  .grid{
+    grid-template-columns:
+      repeat(6,minmax(0,1fr))
+  }
+
+}
+
 </style>
+
 </head>
 
 <body>
 
+
 <header>
+
 <div class="top">
-<div class="logo">📺 <b>MINHA</b> TV ONLINE</div>
-<input id="search" class="search" placeholder="Pesquisar canal..." autocomplete="off">
-<button class="btn" id="favBtn">⭐ Favoritos</button>
+
+<div class="logo">
+📺 <b>MINHA</b> TV ONLINE
 </div>
+
+<input
+  id="search"
+  class="search"
+  placeholder="Pesquisar canal..."
+  autocomplete="off">
+
+<button
+  class="btn"
+  id="favBtn">
+⭐ Favoritos
+</button>
+
+</div>
+
 </header>
 
+
 <main>
+
 <div class="hero">
-<h1>📺 Canais ao vivo</h1>
-<p>Escolha um canal para assistir dentro do próprio site.</p>
+
+<h1>
+📺 Canais ao vivo
+</h1>
+
+<p>
+Escolha um canal para assistir dentro do próprio site.
+</p>
+
 </div>
-<div id="conteudo"><div class="empty">Carregando canais...</div></div>
+
+
+<div id="conteudo">
+
+<div class="loading">
+Carregando canais...
+</div>
+
+</div>
+
 </main>
 
+
+<!-- PLAYER -->
+
 <div id="playerScreen">
+
 <div class="playerTop">
-<button class="back" onclick="fecharPlayer()">← Voltar</button>
-<div class="playerTitle" id="playerTitle"></div>
+
+<button
+  class="back"
+  onclick="fecharPlayer()">
+
+← Voltar
+
+</button>
+
+<div
+  class="playerTitle"
+  id="playerTitle">
 </div>
+
+</div>
+
 
 <div class="playerWrap">
-<div class="video" id="videoBox"></div>
+
+<div
+  class="video"
+  id="videoBox">
+</div>
+
+
 <div class="playerInfo">
-<span class="playerLive">🔴 AO VIVO</span>
-<h2 id="playerName"></h2>
-<p id="playerHandle"></p>
-<div class="notice" id="playerNotice"></div>
+
+<span class="playerLive">
+🔴 AO VIVO
+</span>
+
+<h2 id="playerName">
+</h2>
+
+<p id="playerHandle">
+</p>
+
+<div
+  class="notice"
+  id="playerNotice">
 </div>
+
 </div>
+
 </div>
+
+</div>
+
 
 <script>
-/*
-=========================================================
-CONFIGURAÇÃO
-=========================================================
-Troque somente JSON_URL se o seu JSON estiver em outro
-usuário/repositório do GitHub.
-=========================================================
-*/
-const JSON_URL="https://raw.githubusercontent.com/Isac-Arqueiro/mylist/main/canaisyoutube.json";
-
-let dados=null;
-let canais=[];
-let favoritos=JSON.parse(localStorage.getItem("meusFavoritosYT")||"[]");
-let somenteFavoritos=false;
-
-const $=id=>document.getElementById(id);
-
-async function carregar(){
-  try{
-    const r=await fetch(JSON_URL+"?v="+Date.now(),{
-      cache:"no-store"
-    });
-
-    if(!r.ok) throw new Error("JSON não carregou: "+r.status);
-
-    dados=await r.json();
-
-    /*
-      Aceita os dois formatos:
-
-      1) { categorias:[...] }
-
-      2) { canais:[...] }
-    */
-
-    canais=[];
-
-    if(Array.isArray(dados.categorias)){
-      dados.categorias.forEach(cat=>{
-        (cat.canais||[]).forEach(c=>{
-          c.categoria=cat.nome||"Canais";
-          canais.push(normalizar(c));
-        });
-      });
-    }
-
-    if(Array.isArray(dados.canais)){
-      dados.canais.forEach(c=>{
-        c.categoria=c.categoria||"Canais";
-        canais.push(normalizar(c));
-      });
-    }
-
-    if(!canais.length){
-      throw new Error("Nenhum canal encontrado no JSON");
-    }
-
-    renderizar();
-
-  }catch(e){
-    console.error(e);
-    $("conteudo").innerHTML=
-      '<div class="empty">'+
-      'Não foi possível carregar os canais.<br><br>'+
-      '<small>'+esc(e.message)+'</small>'+
-      '</div>';
-  }
-}
-
-/*
-=========================================================
-NORMALIZAÇÃO DOS CANAIS
-=========================================================
-Aceita:
-videoId
-videoID
-video_id
-idVideo
-youtubeId
-youtube_id
-
-Também aceita:
-url
-link
-youtube
-live
-canal
-handle
-=========================================================
-*/
-function normalizar(c){
-
-  let videoId=
-    c.videoId||
-    c.videoID||
-    c.video_id||
-    c.idVideo||
-    c.youtubeId||
-    c.youtube_id||
-    "";
-
-  videoId=extrairVideoId(videoId);
-
-  let handle=
-    c.handle||
-    c.canal||
-    c.usuario||
-    "";
-
-  let url=
-    c.url||
-    c.link||
-    c.youtube||
-    c.live||
-    "";
-
-  /*
-    Se o JSON tiver URL do vídeo individual,
-    conseguimos extrair o ID automaticamente.
-  */
-  if(!videoId && url){
-    videoId=extrairVideoId(url);
-  }
 
-  return {
-    ...c,
-    id:String(c.id||c.nome||handle||Math.random()),
-    nome:c.nome||c.titulo||"Canal",
-    handle:handle,
-    url:url,
-    videoId:videoId,
-    capa:c.capa||c.imagem||c.logo||""
-  };
-}
 
-/*
-=========================================================
-EXTRAI VIDEO ID DE URLs DO YOUTUBE
-=========================================================
-*/
-function extrairVideoId(valor){
-
-  if(!valor) return "";
-
-  valor=String(valor).trim();
-
-  /*
-    Se já for somente o ID.
-  */
-  if(/^[a-zA-Z0-9_-]{11}$/.test(valor)){
-    return valor;
-  }
+// =====================================================
+// CONFIGURAÇÃO
+// =====================================================
 
-  try{
-    let u=new URL(valor);
+const JSON_URL =
+"https://raw.githubusercontent.com/leitor266-tech/you10/refs/heads/main/canaisyout.json";
 
-    if(u.hostname.includes("youtu.be")){
-      return u.pathname.replace("/","").substring(0,11);
-    }
 
-    if(u.searchParams.get("v")){
-      return u.searchParams.get("v");
-    }
-
-    let partes=u.pathname.split("/");
-
-    let pos=partes.indexOf("live");
-    if(pos>=0 && partes[pos+1]){
-      return partes[pos+1].substring(0,11);
-    }
-
-    pos=partes.indexOf("embed");
-    if(pos>=0 && partes[pos+1]){
-      return partes[pos+1].substring(0,11);
-    }
-
-  }catch(e){}
-
-  return "";
-}
-
-function isFav(id){
-  return favoritos.includes(id);
-}
-
-function alternarFav(id,ev){
-  if(ev) ev.stopPropagation();
-
-  if(isFav(id)){
-    favoritos=favoritos.filter(x=>x!==id);
-  }else{
-    favoritos.push(id);
-  }
-
-  localStorage.setItem("meusFavoritosYT",JSON.stringify(favoritos));
-  renderizar();
-}
-
-function imagem(c){
-
-  if(c.capa) return c.capa;
-
-  if(c.videoId){
-    return "https://img.youtube.com/vi/"+c.videoId+"/hqdefault.jpg";
-  }
-
-  return "";
-}
-
-function card(c){
-
-  const f=isFav(c.id);
+const API_URL =
+"api.php";
 
-  return `
-  <div class="card" onclick="abrirCanal('${esc(c.id)}')">
 
-    <div class="cover">
-
-      ${imagem(c)
-        ? `<img src="${esc(imagem(c))}" loading="lazy"
-             onerror="this.style.display='none'">`
-        : ""}
-
-      <div class="live">
-        <span class="live-dot"></span>AO VIVO
-      </div>
-
-      <button class="star ${f?'on':''}"
-        onclick="alternarFav('${esc(c.id)}',event)">
-        ${f?'★':'☆'}
-      </button>
+const REFRESH_LIVE =
+60000;
 
-    </div>
 
-    <div class="info">
-      <div class="name">${esc(c.nome)}</div>
-      <div class="handle">
-        ${esc(c.handle||c.categoria||"Canal")}
-      </div>
-    </div>
+// =====================================================
+// ESTADO
+// =====================================================
 
-  </div>`;
-}
-
-function renderizar(){
-
-  const q=$("search").value.trim().toLowerCase();
+let dados = null;
 
-  if(somenteFavoritos){
+let canais = [];
 
-    const fav=canais.filter(c=>
-      isFav(c.id) &&
-      (!q ||
-       (c.nome+" "+(c.handle||"")).toLowerCase().includes(q))
-    );
+let somenteFavoritos = false;
 
-    $("conteudo").innerHTML=fav.length
-      ? `
-        <div class="section">
-          <div class="section-title">
-            <h2>⭐ FAVORITOS</h2>
-            <span class="count">${fav.length}</span>
-          </div>
-          <div class="grid">${fav.map(card).join("")}</div>
-        </div>`
-      : '<div class="empty">Nenhum favorito encontrado.</div>';
-
-    return;
-  }
-
-  let html="";
-
-  /*
-    Se o JSON tiver categorias, usa categorias.
-    Se tiver somente canais, cria uma categoria automática.
-  */
-  let cats=[];
-
-  if(Array.isArray(dados.categorias)){
-    cats=dados.categorias;
-  }else{
-    cats=[{
-      nome:"CANAIS",
-      canais:canais
-    }];
-  }
-
-  cats.forEach(cat=>{
-
-    const lista=(cat.canais||[]).map(normalizar).filter(c=>{
-
-      const texto=
-        (c.nome+" "+
-         (c.handle||"")+" "+
-         (cat.nome||"")).toLowerCase();
-
-      return !q || texto.includes(q);
-    });
-
-    if(!lista.length) return;
-
-    html+=`
-    <section class="section">
-
-      <div class="section-title">
-        <h2>${esc(cat.nome||"Canais")}</h2>
-        <span class="count">${lista.length} canais</span>
-      </div>
-
-      <div class="grid">
-        ${lista.map(c=>{
-
-          c.categoria=cat.nome||"Canais";
-
-          /*
-            Atualiza o objeto usado pelo player.
-          */
-          const existente=canais.find(x=>x.id===c.id);
-
-          if(existente){
-            Object.assign(existente,c);
-          }else{
-            canais.push(c);
-          }
-
-          return card(c);
-
-        }).join("")}
-      </div>
-
-    </section>`;
-  });
-
-  $("conteudo").innerHTML=
-    html||
-    '<div class="empty">Nenhum canal encontrado.</div>';
-}
-
-/*
-=========================================================
-ABRIR CANAL
-=========================================================
-*/
-function abrirCanal(id){
-
-  const c=canais.find(x=>String(x.id)===String(id));
-
-  if(!c) return;
-
-  $("playerTitle").textContent=c.nome;
-  $("playerName").textContent=c.nome;
-  $("playerHandle").textContent=c.handle||"";
-  $("playerScreen").style.display="block";
-  document.body.style.overflow="hidden";
-
-  /*
-    PRIMEIRA OPÇÃO:
-    videoId informado no JSON.
-  */
-  if(c.videoId){
-
-    $("videoBox").innerHTML=`
-      <iframe
-        src="https://www.youtube.com/embed/${encodeURIComponent(c.videoId)}?autoplay=1&rel=0"
-        allow="autoplay; encrypted-media; picture-in-picture"
-        allowfullscreen>
-      </iframe>`;
-
-    $("playerNotice").textContent=
-      "Vídeo carregado pelo player incorporado do YouTube.";
-
-    return;
-  }
-
-  /*
-    SEGUNDA OPÇÃO:
-    Se não houver videoId, tentamos abrir a página
-    oficial do canal ao vivo dentro de uma nova janela.
-
-    IMPORTANTE:
-    O YouTube pode bloquear essa página em iframe.
-  */
-  let url=c.url||"";
-
-  if(!url && c.handle){
-    url="https://www.youtube.com/"+c.handle+"/live";
-  }
-
-  if(url){
-
-    $("videoBox").innerHTML=`
-      <div style="
-        height:100%;
-        display:flex;
-        align-items:center;
-        justify-content:center;
-        flex-direction:column;
-        gap:14px;
-        background:#101010;
-        padding:20px;
-        text-align:center">
-
-        <div style="font-size:45px">🔴</div>
-
-        <strong>${esc(c.nome)}</strong>
-
-        <span style="color:#888;font-size:13px">
-          Este canal não possui videoId no JSON.
-        </span>
-
-        <button class="btn"
-          onclick="window.open('${esc(url)}','_blank')">
-          ▶ Abrir transmissão no YouTube
-        </button>
-
-      </div>`;
-
-    $("playerNotice").textContent=
-      "Para abrir diretamente dentro deste site, coloque o videoId da transmissão atual no JSON.";
-
-    return;
-  }
-
-  $("videoBox").innerHTML=`
-    <div style="
-      height:100%;
-      display:flex;
-      align-items:center;
-      justify-content:center;
-      flex-direction:column;
-      gap:12px;
-      background:#101010">
-
-      <div style="font-size:45px">🔴</div>
-      <strong>${esc(c.nome)}</strong>
-
-      <span style="color:#888;font-size:13px">
-        Este canal não possui videoId nem endereço de transmissão.
-      </span>
-
-    </div>`;
-
-  $("playerNotice").textContent=
-    "Adicione videoId ou url ao registro deste canal no JSON.";
-}
-
-function fecharPlayer(){
-  $("videoBox").innerHTML="";
-  $("playerScreen").style.display="none";
-  document.body.style.overflow="";
-}
-
-function esc(v){
-
-  return String(v??"").replace(
+let favoritos =
+JSON.parse(
+  localStorage.getItem(
+    "meusFavoritosYT"
+  ) || "[]"
+);
+
+
+// =====================================================
+// HELPERS
+// =====================================================
+
+const $ =
+id =>
+document.getElementById(id);
+
+
+function esc(valor){
+
+  return String(
+    valor ?? ""
+  ).replace(
     /[&<>"']/g,
-    m=>({
+    m => ({
       "&":"&amp;",
       "<":"&lt;",
       ">":"&gt;",
@@ -561,27 +603,1056 @@ function esc(v){
       "'":"&#39;"
     }[m])
   );
+
 }
 
-$("search").addEventListener("input",renderizar);
 
-$("favBtn").addEventListener("click",()=>{
+// =====================================================
+// CARREGA JSON
+// =====================================================
 
-  somenteFavoritos=!somenteFavoritos;
+async function carregar(){
 
-  $("favBtn").textContent=
-    somenteFavoritos
-    ? "📺 Todos"
-    : "⭐ Favoritos";
+  try{
+
+    const r =
+    await fetch(
+      JSON_URL +
+      "?v=" +
+      Date.now(),
+      {
+        cache:"no-store"
+      }
+    );
+
+
+    if(!r.ok){
+
+      throw new Error(
+        "JSON não carregou: " +
+        r.status
+      );
+
+    }
+
+
+    dados =
+    await r.json();
+
+
+    canais = [];
+
+
+    if(
+      Array.isArray(
+        dados.categorias
+      )
+    ){
+
+      dados.categorias
+      .forEach(cat => {
+
+        (cat.canais || [])
+        .forEach(c => {
+
+          canais.push({
+
+            ...normalizar(c),
+
+            categoria:
+              cat.nome ||
+              "Canais"
+
+          });
+
+        });
+
+      });
+
+    }
+
+
+    if(!canais.length){
+
+      throw new Error(
+        "Nenhum canal encontrado."
+      );
+
+    }
+
+
+    renderizar();
+
+  }
+  catch(e){
+
+    console.error(e);
+
+    $("conteudo").innerHTML =
+
+      `<div class="empty">
+        Não foi possível carregar os canais.
+        <br><br>
+        <small>
+          ${esc(e.message)}
+        </small>
+      </div>`;
+
+  }
+
+}
+
+
+// =====================================================
+// NORMALIZA
+// =====================================================
+
+function normalizar(c){
+
+  return {
+
+    ...c,
+
+    id:
+      String(
+        c.id ||
+        c.nome ||
+        c.url
+      ),
+
+    nome:
+      c.nome ||
+      c.titulo ||
+      "Canal",
+
+    url:
+      c.url ||
+      "",
+
+    categoria:
+      c.categoria ||
+      "Canais",
+
+    videoId:
+      c.videoId ||
+      "",
+
+    online:
+      null,
+
+    resolved:
+      false,
+
+    videoTitle:
+      "",
+
+    thumbnail:
+      ""
+
+  };
+
+}
+
+
+// =====================================================
+// FAVORITOS
+// =====================================================
+
+function isFav(id){
+
+  return favoritos.includes(id);
+
+}
+
+
+function alternarFav(
+  id,
+  ev
+){
+
+  if(ev)
+    ev.stopPropagation();
+
+
+  if(
+    isFav(id)
+  ){
+
+    favoritos =
+      favoritos.filter(
+        x => x !== id
+      );
+
+  }
+  else{
+
+    favoritos.push(id);
+
+  }
+
+
+  localStorage.setItem(
+    "meusFavoritosYT",
+    JSON.stringify(
+      favoritos
+    )
+  );
+
 
   renderizar();
-});
 
-document.addEventListener("keydown",e=>{
-  if(e.key==="Escape") fecharPlayer();
-});
+}
+
+
+// =====================================================
+// DETECTA ID DIRETO
+// =====================================================
+
+function extrairVideoId(url){
+
+  if(!url)
+    return "";
+
+
+  try{
+
+    const u =
+      new URL(url);
+
+
+    const v =
+      u.searchParams.get("v");
+
+
+    if(
+      v &&
+      /^[A-Za-z0-9_-]{11}$/.test(v)
+    ){
+
+      return v;
+
+    }
+
+
+    if(
+      u.hostname.includes(
+        "youtu.be"
+      )
+    ){
+
+      const id =
+        u.pathname
+        .replace(
+          /^\//,
+          ""
+        )
+        .substring(
+          0,
+          11
+        );
+
+      if(
+        /^[A-Za-z0-9_-]{11}$/.test(id)
+      ){
+
+        return id;
+
+      }
+
+    }
+
+  }
+  catch(e){}
+
+
+  return "";
+
+}
+
+
+// =====================================================
+// CARD
+// =====================================================
+
+function card(c){
+
+  const fav =
+    isFav(c.id);
+
+
+  let imagem =
+    c.thumbnail;
+
+
+  if(
+    !imagem &&
+    c.videoId
+  ){
+
+    imagem =
+      "https://img.youtube.com/vi/" +
+      c.videoId +
+      "/hqdefault.jpg";
+
+  }
+
+
+  let status = "";
+
+
+  if(
+    c.online === true
+  ){
+
+    status = `
+      <div class="live">
+        <span class="live-dot"></span>
+        AO VIVO
+      </div>
+    `;
+
+  }
+  else if(
+    c.online === false
+  ){
+
+    status = `
+      <div class="offline">
+        OFFLINE
+      </div>
+    `;
+
+  }
+  else{
+
+    status = `
+      <div class="live">
+        <span class="live-dot"></span>
+        AO VIVO
+      </div>
+    `;
+
+  }
+
+
+  return `
+
+  <div
+    class="card"
+    onclick="abrirCanal('${esc(c.id)}')">
+
+    <div class="cover">
+
+      ${
+        imagem
+
+        ?
+
+        `<img
+          src="${esc(imagem)}"
+          loading="lazy"
+          onerror="this.style.display='none'">`
+
+        :
+
+        `<div class="placeholder">
+          📺
+        </div>`
+      }
+
+
+      ${status}
+
+
+      <button
+        class="star ${fav ? "on" : ""}"
+        onclick="
+          alternarFav(
+            '${esc(c.id)}',
+            event
+          )
+        ">
+
+        ${fav ? "★" : "☆"}
+
+      </button>
+
+    </div>
+
+
+    <div class="info">
+
+      <div class="name">
+
+        ${esc(c.nome)}
+
+      </div>
+
+
+      <div class="handle">
+
+        ${esc(
+          c.url
+        )}
+
+      </div>
+
+
+      <div
+        class="status ${
+          c.online === true
+          ? "online"
+          : ""
+        }">
+
+        ${
+          c.online === true
+          ? "Transmissão disponível"
+          : c.online === false
+          ? "Nenhuma live no momento"
+          : "Verificando transmissão..."
+        }
+
+      </div>
+
+    </div>
+
+  </div>
+
+  `;
+
+}
+
+
+// =====================================================
+// RENDERIZA
+// =====================================================
+
+function renderizar(){
+
+  const q =
+    $("search")
+    .value
+    .trim()
+    .toLowerCase();
+
+
+  if(
+    somenteFavoritos
+  ){
+
+    const fav =
+      canais.filter(c => {
+
+        const texto =
+          (
+            c.nome +
+            " " +
+            c.url
+          ).toLowerCase();
+
+
+        return (
+          isFav(c.id) &&
+          (
+            !q ||
+            texto.includes(q)
+          )
+        );
+
+      });
+
+
+    $("conteudo").innerHTML =
+
+      fav.length
+
+      ?
+
+      `
+      <div class="section">
+
+        <div class="section-title">
+
+          <h2>
+            ⭐ FAVORITOS
+          </h2>
+
+          <span class="count">
+            ${fav.length}
+          </span>
+
+        </div>
+
+        <div class="grid">
+
+          ${fav.map(card).join("")}
+
+        </div>
+
+      </div>
+      `
+
+      :
+
+      `
+      <div class="empty">
+        Nenhum favorito encontrado.
+      </div>
+      `;
+
+
+    return;
+
+  }
+
+
+  let html = "";
+
+
+  const cats =
+    Array.isArray(
+      dados.categorias
+    )
+
+    ? dados.categorias
+
+    : [];
+
+
+  cats.forEach(
+    cat => {
+
+      const lista =
+        canais.filter(c => {
+
+          if(
+            c.categoria !==
+            cat.nome
+          )
+            return false;
+
+
+          const texto =
+            (
+              c.nome +
+              " " +
+              c.url +
+              " " +
+              cat.nome
+            ).toLowerCase();
+
+
+          return (
+            !q ||
+            texto.includes(q)
+          );
+
+        });
+
+
+      if(
+        !lista.length
+      )
+        return;
+
+
+      html += `
+
+      <section
+        class="section">
+
+        <div
+          class="section-title">
+
+          <h2>
+            ${esc(cat.nome)}
+          </h2>
+
+          <span class="count">
+            ${lista.length} canais
+          </span>
+
+        </div>
+
+
+        <div class="grid">
+
+          ${lista.map(card).join("")}
+
+        </div>
+
+      </section>
+
+      `;
+
+    }
+  );
+
+
+  $("conteudo").innerHTML =
+
+    html ||
+
+    `
+    <div class="empty">
+      Nenhum canal encontrado.
+    </div>
+    `;
+
+}
+
+
+// =====================================================
+// RESOLVE LIVE
+// =====================================================
+
+async function resolverCanal(c){
+
+  if(
+    c.resolved
+  ){
+
+    return c;
+
+  }
+
+
+  // ---------------------------------------------------
+  // SE JÁ FOR VIDEO ID
+  // ---------------------------------------------------
+
+  const idDireto =
+    c.videoId ||
+    extrairVideoId(
+      c.url
+    );
+
+
+  if(idDireto){
+
+    c.videoId =
+      idDireto;
+
+    c.online = true;
+
+    c.resolved = true;
+
+    c.thumbnail =
+      "https://img.youtube.com/vi/" +
+      idDireto +
+      "/hqdefault.jpg";
+
+    return c;
+
+  }
+
+
+  // ---------------------------------------------------
+  // @HANDLE/LIVE
+  // ---------------------------------------------------
+
+  try{
+
+    const r =
+      await fetch(
+        API_URL +
+        "?url=" +
+        encodeURIComponent(
+          c.url
+        ) +
+        "&t=" +
+        Date.now(),
+        {
+          cache:"no-store"
+        }
+      );
+
+
+    if(!r.ok){
+
+      throw new Error(
+        "Erro HTTP " +
+        r.status
+      );
+
+    }
+
+
+    const data =
+      await r.json();
+
+
+    if(
+      data.ok &&
+      data.online &&
+      data.videoId
+    ){
+
+      c.videoId =
+        data.videoId;
+
+      c.online =
+        true;
+
+      c.videoTitle =
+        data.title ||
+        "";
+
+      c.thumbnail =
+        data.thumbnail ||
+        (
+          "https://img.youtube.com/vi/" +
+          data.videoId +
+          "/hqdefault.jpg"
+        );
+
+    }
+    else{
+
+      c.online =
+        false;
+
+    }
+
+
+    c.resolved =
+      true;
+
+
+  }
+  catch(e){
+
+    console.error(
+      c.nome,
+      e
+    );
+
+    c.online =
+      false;
+
+    c.resolved =
+      true;
+
+  }
+
+
+  return c;
+
+}
+
+
+// =====================================================
+// ABRIR CANAL
+// =====================================================
+
+async function abrirCanal(id){
+
+  const c =
+    canais.find(
+      x =>
+        String(x.id) ===
+        String(id)
+    );
+
+
+  if(!c)
+    return;
+
+
+  $("playerScreen")
+    .style
+    .display =
+    "block";
+
+
+  document.body.style.overflow =
+    "hidden";
+
+
+  $("playerTitle")
+    .textContent =
+    c.nome;
+
+
+  $("playerName")
+    .textContent =
+    c.nome;
+
+
+  $("playerHandle")
+    .textContent =
+    c.url;
+
+
+  $("videoBox").innerHTML = `
+
+    <div
+      style="
+        height:100%;
+        display:flex;
+        align-items:center;
+        justify-content:center;
+        background:#101010;
+        color:#888;
+      ">
+
+      🔎 Procurando transmissão...
+
+    </div>
+
+  `;
+
+
+  $("playerNotice")
+    .textContent =
+    "Verificando a transmissão atual...";
+
+
+  // ---------------------------------------------------
+  // DESCOBRE O VIDEO ID
+  // ---------------------------------------------------
+
+  await resolverCanal(c);
+
+
+  // Atualiza cards
+  renderizar();
+
+
+  // ---------------------------------------------------
+  // TEM LIVE
+  // ---------------------------------------------------
+
+  if(
+    c.online === true &&
+    c.videoId
+  ){
+
+    $("videoBox").innerHTML = `
+
+      <iframe
+
+        src="
+          https://www.youtube.com/embed/${
+            encodeURIComponent(
+              c.videoId
+            )
+          }?autoplay=1&rel=0
+
+        "
+
+        title="${esc(c.nome)}"
+
+        allow="
+          autoplay;
+          encrypted-media;
+          picture-in-picture;
+          fullscreen
+        "
+
+        allowfullscreen>
+
+      </iframe>
+
+    `;
+
+
+    $("playerNotice")
+      .textContent =
+      "Transmissão ao vivo carregada automaticamente.";
+
+    return;
+
+  }
+
+
+  // ---------------------------------------------------
+  // OFFLINE
+  // ---------------------------------------------------
+
+  $("videoBox").innerHTML = `
+
+    <div
+      style="
+        height:100%;
+        display:flex;
+        align-items:center;
+        justify-content:center;
+        flex-direction:column;
+        gap:12px;
+        background:#101010;
+        text-align:center;
+        padding:20px;
+      ">
+
+      <div
+        style="font-size:50px">
+
+        📺
+
+      </div>
+
+      <strong>
+
+        ${esc(c.nome)}
+
+      </strong>
+
+      <span
+        style="
+          color:#888;
+          font-size:13px
+        ">
+
+        Este canal não está transmitindo
+        ao vivo neste momento.
+
+      </span>
+
+      <button
+        class="playerButton"
+        onclick="
+          window.open(
+            '${esc(c.url)}',
+            '_blank'
+          )
+        ">
+
+        Abrir canal no YouTube
+
+      </button>
+
+    </div>
+
+  `;
+
+
+  $("playerNotice")
+    .textContent =
+    "Nenhuma transmissão ao vivo ativa foi encontrada.";
+
+}
+
+
+// =====================================================
+// FECHAR PLAYER
+// =====================================================
+
+function fecharPlayer(){
+
+  $("videoBox")
+    .innerHTML = "";
+
+
+  $("playerScreen")
+    .style
+    .display =
+    "none";
+
+
+  document.body.style.overflow =
+    "";
+
+}
+
+
+// =====================================================
+// PESQUISA
+// =====================================================
+
+$("search")
+.addEventListener(
+  "input",
+  renderizar
+);
+
+
+// =====================================================
+// FAVORITOS
+// =====================================================
+
+$("favBtn")
+.addEventListener(
+  "click",
+  () => {
+
+    somenteFavoritos =
+      !somenteFavoritos;
+
+
+    $("favBtn")
+      .textContent =
+
+      somenteFavoritos
+
+      ? "📺 Todos"
+
+      : "⭐ Favoritos";
+
+
+    renderizar();
+
+  }
+);
+
+
+// =====================================================
+// ESC
+// =====================================================
+
+document.addEventListener(
+  "keydown",
+  e => {
+
+    if(
+      e.key ===
+      "Escape"
+    ){
+
+      fecharPlayer();
+
+    }
+
+  }
+);
+
+
+// =====================================================
+// INICIALIZA
+// =====================================================
 
 carregar();
+
+
+// =====================================================
+// ATUALIZAÇÃO AUTOMÁTICA
+// =====================================================
+
+setInterval(
+  () => {
+
+    canais.forEach(
+      c => {
+
+        c.resolved =
+          false;
+
+      }
+    );
+
+
+    // Só atualiza a interface.
+    // A nova live será descoberta quando o
+    // usuário abrir o canal novamente.
+
+    renderizar();
+
+  },
+  REFRESH_LIVE
+);
+
+
 </script>
 
 </body>
