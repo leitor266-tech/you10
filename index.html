@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width,initial-scale=1.0">
 <meta name="theme-color" content="#080808">
 <title>Minha TV Online</title>
+
 <style>
 *{box-sizing:border-box}
 html,body{margin:0;background:#080808;color:#fff;font-family:Arial,sans-serif}
@@ -26,8 +27,8 @@ main{max-width:1400px;margin:auto;padding:18px 14px 60px}
 .section-title h2{font-size:19px;margin:0}
 .count{color:#888;font-size:12px}
 .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(180px,1fr));gap:14px}
-.card{position:relative;background:#121212;border:1px solid #242424;border-radius:12px;overflow:hidden;cursor:pointer;transition:.15s}
-.card:hover{transform:translateY(-2px);border-color:#555}
+.card{position:relative;background:#121212;border:1px solid #242424;border-radius:12px;overflow:hidden;cursor:pointer}
+.card:hover{border-color:#555}
 .cover{position:relative;aspect-ratio:16/9;background:#1c1c1c;overflow:hidden}
 .cover img{width:100%;height:100%;object-fit:cover;display:block}
 .live{position:absolute;top:8px;left:8px;background:#e50914;color:#fff;font-weight:bold;font-size:11px;padding:5px 7px;border-radius:5px;box-shadow:0 0 10px #000}
@@ -50,51 +51,61 @@ main{max-width:1400px;margin:auto;padding:18px 14px 60px}
 .playerInfo h2{margin:10px 0 5px}
 .playerInfo p{color:#999;margin:0}
 .notice{margin:15px 0;padding:12px;border:1px solid #343434;background:#151515;border-radius:9px;color:#bbb;font-size:13px}
-.favOnly{display:none}
 @media(max-width:650px){
- .logo{font-size:17px}.grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:9px}
- .card{border-radius:9px}.info{padding:8px}.name{font-size:13px}
- .hero{padding:14px}.hero h1{font-size:20px}
+.logo{font-size:17px}
+.grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:9px}
+.card{border-radius:9px}.info{padding:8px}.name{font-size:13px}
+.hero{padding:14px}.hero h1{font-size:20px}
 }
 @media(min-width:1100px){.grid{grid-template-columns:repeat(6,minmax(0,1fr))}}
 </style>
 </head>
+
 <body>
 
 <header>
-  <div class="top">
-    <div class="logo">📺 <b>MINHA</b> TV ONLINE</div>
-    <input id="search" class="search" placeholder="Pesquisar canal..." autocomplete="off">
-    <button class="btn" id="favBtn">⭐ Favoritos</button>
-  </div>
+<div class="top">
+<div class="logo">📺 <b>MINHA</b> TV ONLINE</div>
+<input id="search" class="search" placeholder="Pesquisar canal..." autocomplete="off">
+<button class="btn" id="favBtn">⭐ Favoritos</button>
+</div>
 </header>
 
 <main>
-  <div class="hero">
-    <h1>📺 Canais ao vivo</h1>
-    <p>Escolha um canal para assistir dentro do próprio site.</p>
-  </div>
-  <div id="conteudo"><div class="empty">Carregando canais...</div></div>
+<div class="hero">
+<h1>📺 Canais ao vivo</h1>
+<p>Escolha um canal para assistir dentro do próprio site.</p>
+</div>
+<div id="conteudo"><div class="empty">Carregando canais...</div></div>
 </main>
 
 <div id="playerScreen">
-  <div class="playerTop">
-    <button class="back" onclick="fecharPlayer()">← Voltar</button>
-    <div class="playerTitle" id="playerTitle"></div>
-  </div>
-  <div class="playerWrap">
-    <div class="video" id="videoBox"></div>
-    <div class="playerInfo">
-      <span class="playerLive">🔴 AO VIVO</span>
-      <h2 id="playerName"></h2>
-      <p id="playerHandle"></p>
-      <div class="notice" id="playerNotice"></div>
-    </div>
-  </div>
+<div class="playerTop">
+<button class="back" onclick="fecharPlayer()">← Voltar</button>
+<div class="playerTitle" id="playerTitle"></div>
+</div>
+
+<div class="playerWrap">
+<div class="video" id="videoBox"></div>
+<div class="playerInfo">
+<span class="playerLive">🔴 AO VIVO</span>
+<h2 id="playerName"></h2>
+<p id="playerHandle"></p>
+<div class="notice" id="playerNotice"></div>
+</div>
+</div>
 </div>
 
 <script>
-const JSON_URL="https://raw.githubusercontent.com/Isac-Arqueiro/mylist/refs/heads/main/canaisyoutube.json";
+/*
+=========================================================
+CONFIGURAÇÃO
+=========================================================
+Troque somente JSON_URL se o seu JSON estiver em outro
+usuário/repositório do GitHub.
+=========================================================
+*/
+const JSON_URL="https://raw.githubusercontent.com/Isac-Arqueiro/mylist/main/canaisyoutube.json";
 
 let dados=null;
 let canais=[];
@@ -105,99 +116,431 @@ const $=id=>document.getElementById(id);
 
 async function carregar(){
   try{
-    const r=await fetch(JSON_URL+"?v="+Date.now());
-    if(!r.ok) throw new Error("JSON não carregou");
-    dados=await r.json();
-    canais=[];
-    (dados.categorias||[]).forEach(cat=>{
-      (cat.canais||[]).forEach(c=>{
-        c.categoria=cat.nome;
-        canais.push(c);
-      });
+    const r=await fetch(JSON_URL+"?v="+Date.now(),{
+      cache:"no-store"
     });
+
+    if(!r.ok) throw new Error("JSON não carregou: "+r.status);
+
+    dados=await r.json();
+
+    /*
+      Aceita os dois formatos:
+
+      1) { categorias:[...] }
+
+      2) { canais:[...] }
+    */
+
+    canais=[];
+
+    if(Array.isArray(dados.categorias)){
+      dados.categorias.forEach(cat=>{
+        (cat.canais||[]).forEach(c=>{
+          c.categoria=cat.nome||"Canais";
+          canais.push(normalizar(c));
+        });
+      });
+    }
+
+    if(Array.isArray(dados.canais)){
+      dados.canais.forEach(c=>{
+        c.categoria=c.categoria||"Canais";
+        canais.push(normalizar(c));
+      });
+    }
+
+    if(!canais.length){
+      throw new Error("Nenhum canal encontrado no JSON");
+    }
+
     renderizar();
+
   }catch(e){
-    $("conteudo").innerHTML='<div class="empty">Não foi possível carregar o canais.json.</div>';
+    console.error(e);
+    $("conteudo").innerHTML=
+      '<div class="empty">'+
+      'Não foi possível carregar os canais.<br><br>'+
+      '<small>'+esc(e.message)+'</small>'+
+      '</div>';
   }
 }
 
-function isFav(id){return favoritos.includes(id)}
+/*
+=========================================================
+NORMALIZAÇÃO DOS CANAIS
+=========================================================
+Aceita:
+videoId
+videoID
+video_id
+idVideo
+youtubeId
+youtube_id
+
+Também aceita:
+url
+link
+youtube
+live
+canal
+handle
+=========================================================
+*/
+function normalizar(c){
+
+  let videoId=
+    c.videoId||
+    c.videoID||
+    c.video_id||
+    c.idVideo||
+    c.youtubeId||
+    c.youtube_id||
+    "";
+
+  videoId=extrairVideoId(videoId);
+
+  let handle=
+    c.handle||
+    c.canal||
+    c.usuario||
+    "";
+
+  let url=
+    c.url||
+    c.link||
+    c.youtube||
+    c.live||
+    "";
+
+  /*
+    Se o JSON tiver URL do vídeo individual,
+    conseguimos extrair o ID automaticamente.
+  */
+  if(!videoId && url){
+    videoId=extrairVideoId(url);
+  }
+
+  return {
+    ...c,
+    id:String(c.id||c.nome||handle||Math.random()),
+    nome:c.nome||c.titulo||"Canal",
+    handle:handle,
+    url:url,
+    videoId:videoId,
+    capa:c.capa||c.imagem||c.logo||""
+  };
+}
+
+/*
+=========================================================
+EXTRAI VIDEO ID DE URLs DO YOUTUBE
+=========================================================
+*/
+function extrairVideoId(valor){
+
+  if(!valor) return "";
+
+  valor=String(valor).trim();
+
+  /*
+    Se já for somente o ID.
+  */
+  if(/^[a-zA-Z0-9_-]{11}$/.test(valor)){
+    return valor;
+  }
+
+  try{
+    let u=new URL(valor);
+
+    if(u.hostname.includes("youtu.be")){
+      return u.pathname.replace("/","").substring(0,11);
+    }
+
+    if(u.searchParams.get("v")){
+      return u.searchParams.get("v");
+    }
+
+    let partes=u.pathname.split("/");
+
+    let pos=partes.indexOf("live");
+    if(pos>=0 && partes[pos+1]){
+      return partes[pos+1].substring(0,11);
+    }
+
+    pos=partes.indexOf("embed");
+    if(pos>=0 && partes[pos+1]){
+      return partes[pos+1].substring(0,11);
+    }
+
+  }catch(e){}
+
+  return "";
+}
+
+function isFav(id){
+  return favoritos.includes(id);
+}
 
 function alternarFav(id,ev){
   if(ev) ev.stopPropagation();
-  if(isFav(id)) favoritos=favoritos.filter(x=>x!==id);
-  else favoritos.push(id);
+
+  if(isFav(id)){
+    favoritos=favoritos.filter(x=>x!==id);
+  }else{
+    favoritos.push(id);
+  }
+
   localStorage.setItem("meusFavoritosYT",JSON.stringify(favoritos));
   renderizar();
 }
 
 function imagem(c){
-  return c.capa || (c.videoId ? "https://img.youtube.com/vi/"+c.videoId+"/hqdefault.jpg" : "");
+
+  if(c.capa) return c.capa;
+
+  if(c.videoId){
+    return "https://img.youtube.com/vi/"+c.videoId+"/hqdefault.jpg";
+  }
+
+  return "";
 }
 
 function card(c){
+
   const f=isFav(c.id);
+
   return `
   <div class="card" onclick="abrirCanal('${esc(c.id)}')">
+
     <div class="cover">
-      <img src="${esc(imagem(c))}" loading="lazy" onerror="this.style.display='none'">
-      <div class="live"><span class="live-dot"></span>AO VIVO</div>
-      <button class="star ${f?'on':''}" onclick="alternarFav('${esc(c.id)}',event)">${f?'★':'☆'}</button>
+
+      ${imagem(c)
+        ? `<img src="${esc(imagem(c))}" loading="lazy"
+             onerror="this.style.display='none'">`
+        : ""}
+
+      <div class="live">
+        <span class="live-dot"></span>AO VIVO
+      </div>
+
+      <button class="star ${f?'on':''}"
+        onclick="alternarFav('${esc(c.id)}',event)">
+        ${f?'★':'☆'}
+      </button>
+
     </div>
+
     <div class="info">
       <div class="name">${esc(c.nome)}</div>
-      <div class="handle">${esc(c.handle||c.categoria||"Canal")}</div>
+      <div class="handle">
+        ${esc(c.handle||c.categoria||"Canal")}
+      </div>
     </div>
+
   </div>`;
 }
 
 function renderizar(){
+
   const q=$("search").value.trim().toLowerCase();
-  let cats=dados.categorias||[];
 
   if(somenteFavoritos){
-    const fav=canais.filter(c=>isFav(c.id) && (!q || (c.nome+" "+(c.handle||"")).toLowerCase().includes(q)));
+
+    const fav=canais.filter(c=>
+      isFav(c.id) &&
+      (!q ||
+       (c.nome+" "+(c.handle||"")).toLowerCase().includes(q))
+    );
+
     $("conteudo").innerHTML=fav.length
-      ? `<div class="section"><div class="section-title"><h2>⭐ FAVORITOS</h2><span class="count">${fav.length}</span></div><div class="grid">${fav.map(card).join("")}</div></div>`
+      ? `
+        <div class="section">
+          <div class="section-title">
+            <h2>⭐ FAVORITOS</h2>
+            <span class="count">${fav.length}</span>
+          </div>
+          <div class="grid">${fav.map(card).join("")}</div>
+        </div>`
       : '<div class="empty">Nenhum favorito encontrado.</div>';
+
     return;
   }
 
   let html="";
+
+  /*
+    Se o JSON tiver categorias, usa categorias.
+    Se tiver somente canais, cria uma categoria automática.
+  */
+  let cats=[];
+
+  if(Array.isArray(dados.categorias)){
+    cats=dados.categorias;
+  }else{
+    cats=[{
+      nome:"CANAIS",
+      canais:canais
+    }];
+  }
+
   cats.forEach(cat=>{
-    const lista=(cat.canais||[]).filter(c=>{
-      const texto=(c.nome+" "+(c.handle||"")+" "+cat.nome).toLowerCase();
+
+    const lista=(cat.canais||[]).map(normalizar).filter(c=>{
+
+      const texto=
+        (c.nome+" "+
+         (c.handle||"")+" "+
+         (cat.nome||"")).toLowerCase();
+
       return !q || texto.includes(q);
     });
-    if(!lista.length)return;
-    html+=`<section class="section"><div class="section-title"><h2>${esc(cat.nome)}</h2><span class="count">${lista.length} canais</span></div><div class="grid">${lista.map(c=>{
-      c.categoria=cat.nome; return card(c);
-    }).join("")}</div></section>`;
+
+    if(!lista.length) return;
+
+    html+=`
+    <section class="section">
+
+      <div class="section-title">
+        <h2>${esc(cat.nome||"Canais")}</h2>
+        <span class="count">${lista.length} canais</span>
+      </div>
+
+      <div class="grid">
+        ${lista.map(c=>{
+
+          c.categoria=cat.nome||"Canais";
+
+          /*
+            Atualiza o objeto usado pelo player.
+          */
+          const existente=canais.find(x=>x.id===c.id);
+
+          if(existente){
+            Object.assign(existente,c);
+          }else{
+            canais.push(c);
+          }
+
+          return card(c);
+
+        }).join("")}
+      </div>
+
+    </section>`;
   });
-  $("conteudo").innerHTML=html||'<div class="empty">Nenhum canal encontrado.</div>';
+
+  $("conteudo").innerHTML=
+    html||
+    '<div class="empty">Nenhum canal encontrado.</div>';
 }
 
+/*
+=========================================================
+ABRIR CANAL
+=========================================================
+*/
 function abrirCanal(id){
-  const c=canais.find(x=>x.id===id);
-  if(!c)return;
+
+  const c=canais.find(x=>String(x.id)===String(id));
+
+  if(!c) return;
+
   $("playerTitle").textContent=c.nome;
   $("playerName").textContent=c.nome;
   $("playerHandle").textContent=c.handle||"";
   $("playerScreen").style.display="block";
   document.body.style.overflow="hidden";
 
+  /*
+    PRIMEIRA OPÇÃO:
+    videoId informado no JSON.
+  */
   if(c.videoId){
-    $("videoBox").innerHTML=`<iframe src="https://www.youtube.com/embed/${encodeURIComponent(c.videoId)}?autoplay=1&rel=0" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe>`;
-    $("playerNotice").textContent="Transmissão carregada pelo player incorporado do YouTube.";
-  }else{
+
     $("videoBox").innerHTML=`
-      <div style="height:100%;display:flex;align-items:center;justify-content:center;flex-direction:column;gap:12px;background:#101010">
-        <div style="font-size:45px">🔴</div>
-        <strong>${esc(c.nome)}</strong>
-        <span style="color:#888;font-size:13px">A transmissão ao vivo atual deste canal precisa de um videoId.</span>
-      </div>`;
-    $("playerNotice").textContent="Este registro do JSON possui apenas o endereço @canal/live. O YouTube não fornece o videoId atual diretamente ao JavaScript do navegador. Quando você colocar o videoId atual no JSON, o player abrirá automaticamente.";
+      <iframe
+        src="https://www.youtube.com/embed/${encodeURIComponent(c.videoId)}?autoplay=1&rel=0"
+        allow="autoplay; encrypted-media; picture-in-picture"
+        allowfullscreen>
+      </iframe>`;
+
+    $("playerNotice").textContent=
+      "Vídeo carregado pelo player incorporado do YouTube.";
+
+    return;
   }
+
+  /*
+    SEGUNDA OPÇÃO:
+    Se não houver videoId, tentamos abrir a página
+    oficial do canal ao vivo dentro de uma nova janela.
+
+    IMPORTANTE:
+    O YouTube pode bloquear essa página em iframe.
+  */
+  let url=c.url||"";
+
+  if(!url && c.handle){
+    url="https://www.youtube.com/"+c.handle+"/live";
+  }
+
+  if(url){
+
+    $("videoBox").innerHTML=`
+      <div style="
+        height:100%;
+        display:flex;
+        align-items:center;
+        justify-content:center;
+        flex-direction:column;
+        gap:14px;
+        background:#101010;
+        padding:20px;
+        text-align:center">
+
+        <div style="font-size:45px">🔴</div>
+
+        <strong>${esc(c.nome)}</strong>
+
+        <span style="color:#888;font-size:13px">
+          Este canal não possui videoId no JSON.
+        </span>
+
+        <button class="btn"
+          onclick="window.open('${esc(url)}','_blank')">
+          ▶ Abrir transmissão no YouTube
+        </button>
+
+      </div>`;
+
+    $("playerNotice").textContent=
+      "Para abrir diretamente dentro deste site, coloque o videoId da transmissão atual no JSON.";
+
+    return;
+  }
+
+  $("videoBox").innerHTML=`
+    <div style="
+      height:100%;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      flex-direction:column;
+      gap:12px;
+      background:#101010">
+
+      <div style="font-size:45px">🔴</div>
+      <strong>${esc(c.nome)}</strong>
+
+      <span style="color:#888;font-size:13px">
+        Este canal não possui videoId nem endereço de transmissão.
+      </span>
+
+    </div>`;
+
+  $("playerNotice").textContent=
+    "Adicione videoId ou url ao registro deste canal no JSON.";
 }
 
 function fecharPlayer(){
@@ -207,21 +550,39 @@ function fecharPlayer(){
 }
 
 function esc(v){
-  return String(v??"").replace(/[&<>"']/g,m=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[m]));
+
+  return String(v??"").replace(
+    /[&<>"']/g,
+    m=>({
+      "&":"&amp;",
+      "<":"&lt;",
+      ">":"&gt;",
+      '"':"&quot;",
+      "'":"&#39;"
+    }[m])
+  );
 }
 
 $("search").addEventListener("input",renderizar);
+
 $("favBtn").addEventListener("click",()=>{
+
   somenteFavoritos=!somenteFavoritos;
-  $("favBtn").textContent=somenteFavoritos?"📺 Todos":"⭐ Favoritos";
+
+  $("favBtn").textContent=
+    somenteFavoritos
+    ? "📺 Todos"
+    : "⭐ Favoritos";
+
   renderizar();
 });
 
 document.addEventListener("keydown",e=>{
-  if(e.key==="Escape")fecharPlayer();
+  if(e.key==="Escape") fecharPlayer();
 });
 
 carregar();
 </script>
+
 </body>
 </html>
