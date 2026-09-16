@@ -2,115 +2,169 @@ import json
 import os
 import urllib.parse
 import urllib.request
+import urllib.error
 
 JSON_FILE = "canaisyout.json"
-
 API_KEY = os.environ.get("YOUTUBE_API_KEY")
 
-if not API_KEY:
-    raise Exception("YOUTUBE_API_KEY não configurada")
 
-with open(JSON_FILE, "r", encoding="utf-8") as f:
-    dados = json.load(f)
-
-
-def youtube_api(url):
+def requisicao(url):
     try:
-        parsed = urllib.parse.urlparse(url)
-        caminho = parsed.path.strip("/")
-
-        if caminho.endswith("/live"):
-            handle = caminho[:-5]
-
-            if not handle.startswith("@"):
-                return None
-
-            params = urllib.parse.urlencode({
-                "part": "id",
-                "forHandle": handle[1:],
-                "key": API_KEY
-            })
-
-            url_api = (
-                "https://www.googleapis.com/youtube/v3/channels?"
-                + params
-            )
-
-            with urllib.request.urlopen(url_api) as response:
-                resultado = json.loads(response.read().decode())
-
-            if not resultado.get("items"):
-                return None
-
-            channel_id = resultado["items"][0]["id"]
-
-            params = urllib.parse.urlencode({
-                "part": "snippet,liveStreamingDetails",
-                "channelId": channel_id,
-                "eventType": "live",
-                "type": "video",
-                "maxResults": "1",
-                "key": API_KEY
-            })
-
-            url_api = (
-                "https://www.googleapis.com/youtube/v3/search?"
-                + params
-            )
-
-            with urllib.request.urlopen(url_api) as response:
-                resultado = json.loads(response.read().decode())
-
-            if not resultado.get("items"):
-                return None
-
-            return resultado["items"][0]["id"]["videoId"]
-
+        with urllib.request.urlopen(url) as resposta:
+            return json.loads(resposta.read().decode("utf-8"))
+    except urllib.error.HTTPError as e:
+        erro = e.read().decode("utf-8", errors="ignore")
+        print("Erro HTTP:", e.code, erro)
+        return None
     except Exception as e:
         print("Erro:", e)
+        return None
+
+
+def pegar_handle(url):
+    try:
+        parsed = urllib.parse.urlparse(url)
+        partes = [p for p in parsed.path.split("/") if p]
+
+        for parte in partes:
+            if parte.startswith("@"):
+                return parte
+
+    except Exception:
+        pass
 
     return None
 
 
-def processar_canais(lista):
+def encontrar_video(url):
+    handle = pegar_handle(url)
+
+    if not handle:
+        print("Handle não encontrado:", url)
+        return None
+
+    print("Consultando:", handle)
+
+    # 1 - Descobrir o canal pelo handle
+    params = urllib.parse.urlencode({
+        "part": "id",
+        "forHandle": handle[1:],
+        "key": API_KEY
+    })
+
+    resposta = requisicao(
+        "https://www.googleapis.com/youtube/v3/channels?" + params
+    )
+
+    if not resposta or not resposta.get("items"):
+        print("Canal não encontrado:", handle)
+        return None
+
+    channel_id = resposta["items"][0]["id"]
+
+    print("Channel ID:", channel_id)
+
+    # 2 - Procurar live atual
+    params = urllib.parse.urlencode({
+        "part": "snippet",
+        "channelId": channel_id,
+        "eventType": "live",
+        "type": "video",
+        "maxResults": 5,
+        "key": API_KEY
+    })
+
+    resposta = requisicao(
+        "https://www.googleapis.com/youtube/v3/search?" + params
+    )
+
+    if not resposta:
+        return None
+
+    itens = resposta.get("items", [])
+
+    for item in itens:
+        video_id = item.get("id", {}).get("videoId")
+
+        if video_id:
+            titulo = item.get("snippet", {}).get("title", "")
+            print("LIVE encontrada:", titulo)
+            print("Video ID:", video_id)
+
+            return video_id
+
+    print("Nenhuma live encontrada:", handle)
+
+    return None
+
+
+def processar(lista):
     for canal in lista:
+
+        nome = canal.get("nome", "Canal")
         url = canal.get("url", "")
 
-        if url:
-            video_id = youtube_api(url)
+        if not url:
+            continue
 
-            if video_id:
-                canal["videoId"] = video_id
-                canal["online"] = True
-                print("LIVE encontrada:", canal.get("nome"), video_id)
-            else:
-                canal["videoId"] = ""
-                canal["online"] = False
-                print("OFFLINE:", canal.get("nome"))
+        print("")
+        print("==============================")
+        print("CANAL:", nome)
+        print("==============================")
 
+        video_id = encontrar_video(url)
+
+        if video_id:
+            canal["videoId"] = video_id
+            canal["online"] = True
         else:
             canal["videoId"] = ""
             canal["online"] = False
 
 
+# Verificar chave
+if not API_KEY:
+    raise Exception("YOUTUBE_API_KEY não encontrada nos Secrets do GitHub.")
+
+
+# Ler JSON
+with open(JSON_FILE, "r", encoding="utf-8") as arquivo:
+    dados = json.load(arquivo)
+
+
+# Processar categorias
 if isinstance(dados, dict):
 
-    if isinstance(dados.get("categorias"), list):
+    categorias = dados.get("categorias", [])
 
-        for categoria in dados["categorias"]:
-            if isinstance(categoria.get("canais"), list):
-                processar_canais(categoria["canais"])
+    for categoria in categorias:
 
-    if isinstance(dados.get("canais"), list):
-        processar_canais(dados["canais"])
+        canais = categoria.get("canais", [])
+
+        if isinstance(canais, list):
+            processar(canais)
 
 
-with open(JSON_FILE, "w", encoding="utf-8") as f:
+# Processar lista simples, se existir
+if isinstance(dados, dict):
+
+    canais = dados.get("canais", [])
+
+    if isinstance(canais, list):
+        processar(canais)
+
+
+# Salvar
+with open(JSON_FILE, "w", encoding="utf-8") as arquivo:
+
     json.dump(
         dados,
-        f,
+        arquivo,
         ensure_ascii=False,
         indent=2
     )
 
-print("JSON atualizado com sucesso.")
+print("")
+print("==============================")
+print("JSON ATUALIZADO COM SUCESSO")
+print("==============================")
