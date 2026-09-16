@@ -1,0 +1,42 @@
+name: Atualizar canais YouTube
+
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: "*/30 * * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  atualizar:
+
+    runs-on: ubuntu-latest
+
+    steps:
+
+      - name: Baixar arquivos
+        uses: actions/checkout@v4
+
+      - name: Configurar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Atualizar canais
+        env:
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+        run: |
+          python atualizar.py
+
+      - name: Salvar alterações
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add canaisyout.json
+
+          git diff --cached --quiet || git commit -m "Atualizar canais"
+
+          git push
