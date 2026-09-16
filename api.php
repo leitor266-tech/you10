@@ -34,7 +34,7 @@ header("Cache-Control: no-store");
 // SUA CHAVE DA YOUTUBE DATA API V3
 // =======================================================
 
-$API_KEY = "COLOQUE_SUA_CHAVE_AQUI";
+$API_KEY = "AIzaSyC75jFj0MJuBD2iaKjDALWKscc8tXadUSg";
 
 
 // =======================================================
