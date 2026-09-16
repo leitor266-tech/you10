@@ -1,5 +1,6 @@
 import json
 import os
+import re
 import urllib.parse
 import urllib.request
 import urllib.error
@@ -8,153 +9,231 @@ JSON_FILE = "canaisyout.json"
 API_KEY = os.environ.get("YOUTUBE_API_KEY")
 
 
-def requisicao(url):
+def api_get(endpoint, params):
+    params["key"] = API_KEY
+
+    url = "https://www.googleapis.com/youtube/v3/" + endpoint
+    url += "?" + urllib.parse.urlencode(params)
+
     try:
-        with urllib.request.urlopen(url) as resposta:
-            return json.loads(resposta.read().decode("utf-8"))
+        with urllib.request.urlopen(url) as response:
+            return json.loads(response.read().decode("utf-8"))
+
     except urllib.error.HTTPError as e:
         erro = e.read().decode("utf-8", errors="ignore")
-        print("Erro HTTP:", e.code, erro)
+        print("ERRO YOUTUBE:", e.code)
+        print(erro)
         return None
+
     except Exception as e:
-        print("Erro:", e)
+        print("ERRO:", e)
         return None
 
 
-def pegar_handle(url):
-    try:
-        parsed = urllib.parse.urlparse(url)
-        partes = [p for p in parsed.path.split("/") if p]
+def extrair_video_id(url):
 
-        for parte in partes:
-            if parte.startswith("@"):
-                return parte
+    if not url:
+        return None
 
-    except Exception:
-        pass
+    # watch?v=XXXXXXXXXXX
+    match = re.search(r"[?&]v=([A-Za-z0-9_-]{11})", url)
+
+    if match:
+        return match.group(1)
+
+    # youtu.be/XXXXXXXXXXX
+    match = re.search(r"youtu\.be/([A-Za-z0-9_-]{11})", url)
+
+    if match:
+        return match.group(1)
+
+    # /embed/XXXXXXXXXXX
+    match = re.search(r"/embed/([A-Za-z0-9_-]{11})", url)
+
+    if match:
+        return match.group(1)
 
     return None
 
 
-def encontrar_video(url):
-    handle = pegar_handle(url)
+def extrair_handle(url):
 
-    if not handle:
-        print("Handle não encontrado:", url)
+    if not url:
         return None
 
-    print("Consultando:", handle)
+    match = re.search(r"youtube\.com/@([^/?]+)", url)
 
-    # 1 - Descobrir o canal pelo handle
-    params = urllib.parse.urlencode({
-        "part": "id",
-        "forHandle": handle[1:],
-        "key": API_KEY
-    })
+    if match:
+        return "@" + match.group(1)
 
-    resposta = requisicao(
-        "https://www.googleapis.com/youtube/v3/channels?" + params
+    return None
+
+
+def canal_por_handle(handle):
+
+    print("Buscando canal:", handle)
+
+    resultado = api_get(
+        "channels",
+        {
+            "part": "id",
+            "forHandle": handle
+        }
     )
 
-    if not resposta or not resposta.get("items"):
+    if not resultado:
+        return None
+
+    itens = resultado.get("items", [])
+
+    if not itens:
         print("Canal não encontrado:", handle)
         return None
 
-    channel_id = resposta["items"][0]["id"]
+    channel_id = itens[0]["id"]
 
     print("Channel ID:", channel_id)
 
-    # 2 - Procurar live atual
-    params = urllib.parse.urlencode({
-        "part": "snippet",
-        "channelId": channel_id,
-        "eventType": "live",
-        "type": "video",
-        "maxResults": 5,
-        "key": API_KEY
-    })
+    return channel_id
 
-    resposta = requisicao(
-        "https://www.googleapis.com/youtube/v3/search?" + params
+
+def procurar_live(channel_id):
+
+    print("Procurando transmissão ativa...")
+
+    resultado = api_get(
+        "search",
+        {
+            "part": "snippet",
+            "channelId": channel_id,
+            "eventType": "live",
+            "type": "video",
+            "maxResults": 5
+        }
     )
 
-    if not resposta:
+    if not resultado:
         return None
 
-    itens = resposta.get("items", [])
+    itens = resultado.get("items", [])
 
     for item in itens:
+
         video_id = item.get("id", {}).get("videoId")
 
         if video_id:
+
             titulo = item.get("snippet", {}).get("title", "")
-            print("LIVE encontrada:", titulo)
+
+            print("LIVE ENCONTRADA!")
+            print("Título:", titulo)
             print("Video ID:", video_id)
 
             return video_id
 
-    print("Nenhuma live encontrada:", handle)
+    print("Nenhuma transmissão ao vivo ativa foi encontrada.")
 
     return None
 
 
-def processar(lista):
-    for canal in lista:
+def processar_canal(canal):
 
-        nome = canal.get("nome", "Canal")
-        url = canal.get("url", "")
+    nome = canal.get("nome", "Canal")
+    url = canal.get("url", "")
 
-        if not url:
-            continue
+    print("")
+    print("================================")
+    print("CANAL:", nome)
+    print("URL:", url)
+    print("================================")
 
-        print("")
-        print("==============================")
-        print("CANAL:", nome)
-        print("==============================")
+    # ------------------------------------------------
+    # PRIMEIRO: se a URL já possui videoId
+    # ------------------------------------------------
 
-        video_id = encontrar_video(url)
+    video_id = extrair_video_id(url)
 
-        if video_id:
-            canal["videoId"] = video_id
-            canal["online"] = True
-        else:
-            canal["videoId"] = ""
-            canal["online"] = False
+    if video_id:
+
+        print("Video ID encontrado na URL:", video_id)
+
+        canal["videoId"] = video_id
+        canal["online"] = True
+
+        return
+
+    # ------------------------------------------------
+    # SEGUNDO: descobrir pelo @handle
+    # ------------------------------------------------
+
+    handle = extrair_handle(url)
+
+    if not handle:
+
+        print("Não foi possível encontrar o @handle.")
+
+        canal["videoId"] = ""
+        canal["online"] = False
+
+        return
+
+    channel_id = canal_por_handle(handle)
+
+    if not channel_id:
+
+        canal["videoId"] = ""
+        canal["online"] = False
+
+        return
+
+    # ------------------------------------------------
+    # TERCEIRO: procurar live ativa
+    # ------------------------------------------------
+
+    video_id = procurar_live(channel_id)
+
+    if video_id:
+
+        canal["videoId"] = video_id
+        canal["online"] = True
+
+    else:
+
+        canal["videoId"] = ""
+        canal["online"] = False
 
 
-# Verificar chave
+# ====================================================
+# INÍCIO
+# ====================================================
+
 if not API_KEY:
-    raise Exception("YOUTUBE_API_KEY não encontrada nos Secrets do GitHub.")
+
+    raise Exception(
+        "A secret YOUTUBE_API_KEY não foi encontrada."
+    )
 
 
 # Ler JSON
+
 with open(JSON_FILE, "r", encoding="utf-8") as arquivo:
+
     dados = json.load(arquivo)
 
 
 # Processar categorias
-if isinstance(dados, dict):
 
-    categorias = dados.get("categorias", [])
+for categoria in dados.get("categorias", []):
 
-    for categoria in categorias:
+    canais = categoria.get("canais", [])
 
-        canais = categoria.get("canais", [])
+    for canal in canais:
 
-        if isinstance(canais, list):
-            processar(canais)
+        processar_canal(canal)
 
 
-# Processar lista simples, se existir
-if isinstance(dados, dict):
+# Salvar JSON
 
-    canais = dados.get("canais", [])
-
-    if isinstance(canais, list):
-        processar(canais)
-
-
-# Salvar
 with open(JSON_FILE, "w", encoding="utf-8") as arquivo:
 
     json.dump(
@@ -164,7 +243,8 @@ with open(JSON_FILE, "w", encoding="utf-8") as arquivo:
         indent=2
     )
 
+
 print("")
-print("==============================")
+print("================================")
 print("JSON ATUALIZADO COM SUCESSO")
-print("==============================")
+print("================================")
