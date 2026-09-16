@@ -10,44 +10,70 @@ API_KEY = os.environ.get("YOUTUBE_API_KEY")
 
 
 def api_get(endpoint, params):
+
     params["key"] = API_KEY
 
     url = "https://www.googleapis.com/youtube/v3/" + endpoint
     url += "?" + urllib.parse.urlencode(params)
 
     try:
-        with urllib.request.urlopen(url, timeout=30) as response:
-            return json.loads(response.read().decode("utf-8"))
+
+        with urllib.request.urlopen(
+            url,
+            timeout=30
+        ) as response:
+
+            return json.loads(
+                response.read().decode("utf-8")
+            )
 
     except urllib.error.HTTPError as e:
-        erro = e.read().decode("utf-8", errors="ignore")
-        print("ERRO DA API:", e.code)
+
+        erro = e.read().decode(
+            "utf-8",
+            errors="ignore"
+        )
+
+        print("ERRO API:", e.code)
         print(erro)
+
         return None
 
     except Exception as e:
+
         print("ERRO:", e)
+
         return None
 
 
 def extrair_video_id(url):
+
     if not url:
         return None
 
-    # https://www.youtube.com/watch?v=XXXXXXXXXXX
-    match = re.search(r"[?&]v=([A-Za-z0-9_-]{11})", url)
+    # youtube.com/watch?v=XXXXXXXXXXX
+    match = re.search(
+        r"[?&]v=([A-Za-z0-9_-]{11})",
+        url
+    )
 
     if match:
         return match.group(1)
 
-    # https://youtu.be/XXXXXXXXXXX
-    match = re.search(r"youtu\.be/([A-Za-z0-9_-]{11})", url)
+    # youtu.be/XXXXXXXXXXX
+    match = re.search(
+        r"youtu\.be/([A-Za-z0-9_-]{11})",
+        url
+    )
 
     if match:
         return match.group(1)
 
-    # https://www.youtube.com/embed/XXXXXXXXXXX
-    match = re.search(r"/embed/([A-Za-z0-9_-]{11})", url)
+    # youtube.com/embed/XXXXXXXXXXX
+    match = re.search(
+        r"/embed/([A-Za-z0-9_-]{11})",
+        url
+    )
 
     if match:
         return match.group(1)
@@ -56,6 +82,7 @@ def extrair_video_id(url):
 
 
 def extrair_handle(url):
+
     if not url:
         return None
 
@@ -72,7 +99,7 @@ def extrair_handle(url):
 
 def encontrar_canal(handle):
 
-    print("Buscando:", handle)
+    print("Buscando canal:", handle)
 
     resultado = api_get(
         "channels",
@@ -85,22 +112,35 @@ def encontrar_canal(handle):
     if not resultado:
         return None
 
-    itens = resultado.get("items", [])
+    itens = resultado.get(
+        "items",
+        []
+    )
 
     if not itens:
-        print("Canal não encontrado:", handle)
+
+        print(
+            "Canal não encontrado:",
+            handle
+        )
+
         return None
 
     channel_id = itens[0]["id"]
 
-    print("Channel ID:", channel_id)
+    print(
+        "Channel ID:",
+        channel_id
+    )
 
     return channel_id
 
 
 def encontrar_live(channel_id):
 
-    print("Procurando live ativa...")
+    print(
+        "Procurando transmissão ativa..."
+    )
 
     resultado = api_get(
         "search",
@@ -116,15 +156,19 @@ def encontrar_live(channel_id):
     if not resultado:
         return None
 
-    itens = resultado.get("items", [])
-
-    if not itens:
-        print("Nenhuma live ativa.")
-        return None
+    itens = resultado.get(
+        "items",
+        []
+    )
 
     for item in itens:
 
-        video_id = item.get("id", {}).get("videoId")
+        video_id = item.get(
+            "id",
+            {}
+        ).get(
+            "videoId"
+        )
 
         if video_id:
 
@@ -136,18 +180,34 @@ def encontrar_live(channel_id):
                 ""
             )
 
-            print("LIVE ENCONTRADA!")
-            print("Título:", titulo)
-            print("Video ID:", video_id)
+            print(
+                "LIVE ENCONTRADA:",
+                titulo
+            )
+
+            print(
+                "Video ID:",
+                video_id
+            )
 
             return video_id
+
+    print(
+        "Nenhuma live ativa encontrada."
+    )
 
     return None
 
 
 def verificar_video(video_id):
 
-    print("Verificando vídeo:", video_id)
+    if not video_id:
+        return False
+
+    print(
+        "Verificando vídeo:",
+        video_id
+    )
 
     resultado = api_get(
         "videos",
@@ -160,7 +220,10 @@ def verificar_video(video_id):
     if not resultado:
         return False
 
-    itens = resultado.get("items", [])
+    itens = resultado.get(
+        "items",
+        []
+    )
 
     if not itens:
         return False
@@ -172,12 +235,20 @@ def verificar_video(video_id):
         {}
     )
 
-    # Se possui actualStartTime, a transmissão começou.
-    if live.get("actualStartTime"):
+    inicio = live.get(
+        "actualStartTime"
+    )
 
-        # Se existe endTime, já terminou.
-        if live.get("actualEndTime"):
-            return False
+    fim = live.get(
+        "actualEndTime"
+    )
+
+    if inicio and not fim:
+
+        print(
+            "LIVE ATIVA:",
+            video_id
+        )
 
         return True
 
@@ -196,84 +267,112 @@ def processar_canal(canal):
         ""
     )
 
+    # ID que já estava salvo
+    id_anterior = canal.get(
+        "videoId",
+        ""
+    )
+
     print("")
     print("================================")
     print("CANAL:", nome)
-    print("URL:", url)
     print("================================")
 
     # ------------------------------------------------
-    # Caso a URL já tenha um videoId
-    # ------------------------------------------------
-
-    video_id = extrair_video_id(url)
-
-    if video_id:
-
-        print(
-            "Video ID encontrado na URL:",
-            video_id
-        )
-
-        if verificar_video(video_id):
-
-            canal["videoId"] = video_id
-            canal["online"] = True
-
-            print("LIVE ATIVA!")
-
-        else:
-
-            canal["videoId"] = ""
-            canal["online"] = False
-
-            print("Vídeo não está ao vivo.")
-
-        return
-
-    # ------------------------------------------------
-    # Caso seja URL @handle/live
+    # 1. Procurar live pelo canal
     # ------------------------------------------------
 
     handle = extrair_handle(url)
 
-    if not handle:
+    if handle:
 
-        print("Não foi possível encontrar o handle.")
+        channel_id = encontrar_canal(
+            handle
+        )
 
-        canal["videoId"] = ""
-        canal["online"] = False
+        if channel_id:
 
-        return
+            novo_id = encontrar_live(
+                channel_id
+            )
 
-    channel_id = encontrar_canal(handle)
+            if novo_id:
 
-    if not channel_id:
+                canal["videoId"] = novo_id
+                canal["online"] = True
 
-        canal["videoId"] = ""
-        canal["online"] = False
+                print(
+                    "NOVO ID SALVO:",
+                    novo_id
+                )
+
+                return
+
+    # ------------------------------------------------
+    # 2. Se não encontrou nova live,
+    #    testar o ID anterior
+    # ------------------------------------------------
+
+    if id_anterior:
+
+        print(
+            "Nenhuma live nova."
+        )
+
+        print(
+            "Mantendo ID anterior:",
+            id_anterior
+        )
+
+        if verificar_video(
+            id_anterior
+        ):
+
+            canal["online"] = True
+
+        else:
+
+            canal["online"] = False
+
+        # NÃO apagar o ID
+        canal["videoId"] = id_anterior
 
         return
 
     # ------------------------------------------------
-    # Procurar transmissão ativa
+    # 3. Se a URL já tiver ID
     # ------------------------------------------------
 
-    video_id = encontrar_live(channel_id)
+    id_url = extrair_video_id(
+        url
+    )
 
-    if video_id:
+    if id_url:
 
-        canal["videoId"] = video_id
-        canal["online"] = True
+        canal["videoId"] = id_url
 
-        print("CANAL ONLINE!")
+        if verificar_video(
+            id_url
+        ):
 
-    else:
+            canal["online"] = True
 
-        canal["videoId"] = ""
-        canal["online"] = False
+        else:
 
-        print("CANAL OFFLINE.")
+            canal["online"] = False
+
+        return
+
+    # ------------------------------------------------
+    # 4. Não existe ID conhecido
+    # ------------------------------------------------
+
+    canal["videoId"] = ""
+    canal["online"] = False
+
+    print(
+        "Nenhum ID disponível."
+    )
 
 
 # ====================================================
@@ -281,6 +380,7 @@ def processar_canal(canal):
 # ====================================================
 
 if not API_KEY:
+
     raise Exception(
         "YOUTUBE_API_KEY não encontrada."
     )
@@ -294,7 +394,9 @@ with open(
     encoding="utf-8"
 ) as arquivo:
 
-    dados = json.load(arquivo)
+    dados = json.load(
+        arquivo
+    )
 
 
 # Processar categorias
@@ -311,10 +413,12 @@ for categoria in dados.get(
 
     for canal in canais:
 
-        processar_canal(canal)
+        processar_canal(
+            canal
+        )
 
 
-# Salvar JSON
+# Salvar
 
 with open(
     JSON_FILE,
@@ -332,5 +436,5 @@ with open(
 
 print("")
 print("================================")
-print("ATUALIZAÇÃO CONCLUÍDA")
+print("ATUALIZAÇÃO FINALIZADA")
 print("================================")
