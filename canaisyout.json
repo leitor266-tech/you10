@@ -18,20 +18,20 @@
         {
           "nome": "Jovem Pan News",
           "url": "https://www.youtube.com/@jovempannews/live",
-          "videoId": "lIjGZyZV4zE",
-          "online": false
+          "videoId": "21dTH27XDXY",
+          "online": true
         },
         {
           "nome": "CNN Brasil",
           "url": "https://www.youtube.com/@CNNbrasil/live",
-          "videoId": "WZjaWitv36I",
-          "online": false
+          "videoId": "HMsbKZr7J8E",
+          "online": true
         },
         {
           "nome": "SBT News",
           "url": "https://www.youtube.com/@SBTNews/live",
-          "videoId": "U-91PIuJgqk",
-          "online": false
+          "videoId": "29L6YR55Wh8",
+          "online": true
         },
         {
           "nome": "Food Network Brasil",
@@ -48,7 +48,7 @@
         {
           "nome": "Nat Geo Animals",
           "url": "https://www.youtube.com/@NatGeoAnimals/live",
-          "videoId": "J4IYwyEUwrI",
+          "videoId": "MiQe9ob9aDc",
           "online": true
         },
         {
@@ -85,7 +85,7 @@
           "nome": "The Good Doctor em Português",
           "url": "https://www.youtube.com/@thegooddoctoremportugues/live",
           "videoId": "MIGKJ7x8hD4",
-          "online": true
+          "online": false
         }
       ]
     },
@@ -167,7 +167,7 @@
         {
           "nome": "Boxing Mates",
           "url": "https://www.youtube.com/@BoxingMates1/live",
-          "videoId": "Yz05zU_0Rbc",
+          "videoId": "BBUFSZ0ORUc",
           "online": true
         },
         {
@@ -184,8 +184,8 @@
         {
           "nome": "Igreja Presbiteriana de Pinheiros",
           "url": "https://www.youtube.com/@ippinheiros/live",
-          "videoId": "HlcBFMXTzQ4",
-          "online": false
+          "videoId": "0lHP7-dsT58",
+          "online": true
         },
         {
           "nome": "Planetshakers",
@@ -213,13 +213,13 @@
         {
           "nome": "FVF Drone",
           "url": "https://www.youtube.com/@fvfdrone/live",
-          "videoId": "8quWDK9i-v0",
+          "videoId": "cwVcWVperXg",
           "online": true
         },
         {
           "nome": "Mario negocio",
           "url": "https://www.youtube.com/@fvfdrone/live",
-          "videoId": "nVlgbW-WrpI",
+          "videoId": "cwVcWVperXg",
           "online": true
         },
         {
@@ -272,8 +272,8 @@
         {
           "nome": "TV Tropical RN",
           "url": "https://www.youtube.com/@TVTropicalRN/live",
-          "videoId": "01_VvDgb5z0",
-          "online": false
+          "videoId": "ztnASRtsdn4",
+          "online": true
         },
         {
           "nome": "G1 Globo",
@@ -284,8 +284,8 @@
         {
           "nome": "96 FM Natal RN",
           "url": "https://www.youtube.com/@96fmnatalrn/live",
-          "videoId": "_9a7ifpjwaI",
-          "online": false
+          "videoId": "_17f5p_r5bU",
+          "online": true
         },
         {
           "nome": "Gazeta do Povo",
