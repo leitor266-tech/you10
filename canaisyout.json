@@ -12,7 +12,7 @@
         {
           "nome": "STF Oficial",
           "url": "https://www.youtube.com/@STF_oficial/live",
-          "videoId": "kCyGQEcQv6c",
+          "videoId": "XfwDB9udBLw",
           "online": true
         },
         {
@@ -24,19 +24,19 @@
         {
           "nome": "Jovem Pan News",
           "url": "https://www.youtube.com/@jovempannews/live",
-          "videoId": "eBavauRg9_A",
+          "videoId": "f_UHjZh551I",
           "online": true
         },
         {
           "nome": "CNN Brasil",
           "url": "https://www.youtube.com/@CNNbrasil/live",
-          "videoId": "NMse93XvkyQ",
+          "videoId": "EKbmkmwuogU",
           "online": true
         },
         {
           "nome": "SBT News",
           "url": "https://www.youtube.com/@SBTNews/live",
-          "videoId": "C6vVJn2MpWU",
+          "videoId": "WEkbGns-z_4",
           "online": true
         },
         {
@@ -49,7 +49,7 @@
           "nome": "Band Jornalismo",
           "url": "https://www.youtube.com/@bandjornalismo/live",
           "videoId": "KMaZUgc_DJ4",
-          "online": true
+          "online": false
         },
         {
           "nome": "Nat Geo Animals",
@@ -79,7 +79,7 @@
           "nome": "Batalha da Aldeia",
           "url": "https://www.youtube.com/@BatalhaDaAldeia/live",
           "videoId": "4P08F7rQc40",
-          "online": true
+          "online": false
         },
         {
           "nome": "Animal Planet Brasil",
@@ -91,7 +91,7 @@
           "nome": "History",
           "url": "https://www.youtube.com/@CanalHistory/live",
           "videoId": "sYsto3-3tnA",
-          "online": true
+          "online": false
         }
       ]
     },
@@ -102,19 +102,19 @@
           "nome": "GE TV",
           "url": "https://www.youtube.com/@getv/live",
           "videoId": "dILd1qB6Lkw",
-          "online": true
+          "online": false
         },
         {
           "nome": "SportyNet Brasil",
           "url": "https://www.youtube.com/@SportyNetBrasil/live",
           "videoId": "pu62ZZJBhQg",
-          "online": true
+          "online": false
         },
         {
           "nome": "ESPN Brasil",
           "url": "https://www.youtube.com/@espnbrasil/live",
           "videoId": "QbWdGGKQWwA",
-          "online": true
+          "online": false
         },
         {
           "nome": "CazéTV",
@@ -126,13 +126,13 @@
           "nome": "CONMEBOL",
           "url": "https://www.youtube.com/@conmebol/live",
           "videoId": "mNB86F3y9pg",
-          "online": true
+          "online": false
         },
         {
           "nome": "Vasco da Gama",
           "url": "https://www.youtube.com/@vascodagama2108/live",
           "videoId": "9mISC_SJKfg",
-          "online": true
+          "online": false
         },
         {
           "nome": "Ninja Warrior AU",
@@ -144,7 +144,7 @@
           "nome": "Palmeiras",
           "url": "https://www.youtube.com/@Palmeiras/live",
           "videoId": "sxGsS2256SE",
-          "online": true
+          "online": false
         },
         {
           "nome": "X Sports Brasil",
@@ -156,13 +156,13 @@
           "nome": "Canal GOAT",
           "url": "https://www.youtube.com/@canalgoatbr/live",
           "videoId": "08KGIKiujSI",
-          "online": true
+          "online": false
         },
         {
           "nome": "TNT Sports Brasil",
           "url": "https://www.youtube.com/@TNTSportsBR/live",
           "videoId": "V6gwDh60pS0",
-          "online": true
+          "online": false
         },
         {
           "nome": "Bellator MMA",
@@ -190,7 +190,7 @@
         {
           "nome": "Igreja Presbiteriana de Pinheiros",
           "url": "https://www.youtube.com/@ippinheiros/live",
-          "videoId": "cOoNRnfYIGU",
+          "videoId": "0lHP7-dsT58",
           "online": true
         },
         {
@@ -216,7 +216,7 @@
           "videoId": "xS2KkLY5OrE",
           "online": true
         },
-         {
+        {
           "nome": "FVF Drone Alto",
           "url": "https://www.youtube.com/watch?v=8quWDK9i-v0/live",
           "videoId": "8quWDK9i-v0",
@@ -273,19 +273,19 @@
           "nome": "Domingo Espetacular",
           "url": "https://www.youtube.com/@domingoespetacular/live",
           "videoId": "eGc-IAVAjuY",
-          "online": false
+          "online": true
         },
         {
           "nome": "TV Ponta Negra RN",
           "url": "https://www.youtube.com/@tvpontanegrarn/live",
           "videoId": "GQVW9RIeSFQ",
-          "online": true
+          "online": false
         },
         {
           "nome": "TV Tropical RN",
           "url": "https://www.youtube.com/@TVTropicalRN/live",
           "videoId": "M3VbeB52pJI",
-          "online": false
+          "online": true
         },
         {
           "nome": "G1 Globo",
