@@ -24,8 +24,8 @@
         {
           "nome": "CNN Brasil",
           "url": "https://www.youtube.com/@CNNbrasil/live",
-          "videoId": "VMzBIA6WEZM",
-          "online": false
+          "videoId": "WZjaWitv36I",
+          "online": true
         },
         {
           "nome": "SBT News",
@@ -120,7 +120,7 @@
           "nome": "CONMEBOL",
           "url": "https://www.youtube.com/@conmebol/live",
           "videoId": "V6kM_jpRAt0",
-          "online": true
+          "online": false
         },
         {
           "nome": "Vasco da Gama",
@@ -167,7 +167,7 @@
         {
           "nome": "Boxing Mates",
           "url": "https://www.youtube.com/@BoxingMates1/live",
-          "videoId": "BBUFSZ0ORUc",
+          "videoId": "Yz05zU_0Rbc",
           "online": true
         },
         {
@@ -185,7 +185,7 @@
           "nome": "Igreja Presbiteriana de Pinheiros",
           "url": "https://www.youtube.com/@ippinheiros/live",
           "videoId": "HlcBFMXTzQ4",
-          "online": true
+          "online": false
         },
         {
           "nome": "Planetshakers",
@@ -279,7 +279,7 @@
           "nome": "96 FM Natal RN",
           "url": "https://www.youtube.com/@96fmnatalrn/live",
           "videoId": "_9a7ifpjwaI",
-          "online": true
+          "online": false
         },
         {
           "nome": "Gazeta do Povo",
