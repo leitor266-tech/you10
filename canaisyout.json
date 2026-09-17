@@ -25,19 +25,19 @@
           "nome": "Jovem Pan News",
           "url": "https://www.youtube.com/@jovempannews/live",
           "videoId": "f_UHjZh551I",
-          "online": true
+          "online": false
         },
         {
           "nome": "CNN Brasil",
           "url": "https://www.youtube.com/@CNNbrasil/live",
           "videoId": "EKbmkmwuogU",
-          "online": true
+          "online": false
         },
         {
           "nome": "SBT News",
           "url": "https://www.youtube.com/@SBTNews/live",
           "videoId": "WEkbGns-z_4",
-          "online": true
+          "online": false
         },
         {
           "nome": "Food Network Brasil",
@@ -73,7 +73,7 @@
           "nome": "Discovery Home & Health Brasil",
           "url": "https://www.youtube.com/@DiscoveryHHBR/live",
           "videoId": "VFWc9xS0SVg",
-          "online": true
+          "online": false
         },
         {
           "nome": "Batalha da Aldeia",
@@ -108,7 +108,7 @@
           "nome": "SportyNet Brasil",
           "url": "https://www.youtube.com/@SportyNetBrasil/live",
           "videoId": "pu62ZZJBhQg",
-          "online": false
+          "online": true
         },
         {
           "nome": "ESPN Brasil",
@@ -285,7 +285,7 @@
           "nome": "TV Tropical RN",
           "url": "https://www.youtube.com/@TVTropicalRN/live",
           "videoId": "M3VbeB52pJI",
-          "online": true
+          "online": false
         },
         {
           "nome": "G1 Globo",
