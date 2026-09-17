@@ -19,19 +19,19 @@
           "nome": "Jovem Pan News",
           "url": "https://www.youtube.com/@jovempannews/live",
           "videoId": "lIjGZyZV4zE",
-          "online": true
+          "online": false
         },
         {
           "nome": "CNN Brasil",
           "url": "https://www.youtube.com/@CNNbrasil/live",
           "videoId": "WZjaWitv36I",
-          "online": true
+          "online": false
         },
         {
           "nome": "SBT News",
           "url": "https://www.youtube.com/@SBTNews/live",
           "videoId": "U-91PIuJgqk",
-          "online": true
+          "online": false
         },
         {
           "nome": "Food Network Brasil",
@@ -96,7 +96,7 @@
           "nome": "GE TV",
           "url": "https://www.youtube.com/@getv/live",
           "videoId": "NiqY3agWAQM",
-          "online": true
+          "online": false
         },
         {
           "nome": "SportyNet Brasil",
@@ -108,13 +108,13 @@
           "nome": "ESPN Brasil",
           "url": "https://www.youtube.com/@espnbrasil/live",
           "videoId": "9Mhv_1QvXlo",
-          "online": true
+          "online": false
         },
         {
           "nome": "CazéTV",
           "url": "https://www.youtube.com/@CazeTV/live",
           "videoId": "1QMyDw_DwkQ",
-          "online": true
+          "online": false
         },
         {
           "nome": "CONMEBOL",
@@ -138,25 +138,25 @@
           "nome": "Palmeiras",
           "url": "https://www.youtube.com/@Palmeiras/live",
           "videoId": "fPBW6tRZ6OU",
-          "online": true
+          "online": false
         },
         {
           "nome": "X Sports Brasil",
           "url": "https://www.youtube.com/@xsports.brasil/live",
           "videoId": "ewxHgHGx2mw",
-          "online": true
+          "online": false
         },
         {
           "nome": "Canal GOAT",
           "url": "https://www.youtube.com/@canalgoatbr/live",
           "videoId": "LLReGu-HqAc",
-          "online": true
+          "online": false
         },
         {
           "nome": "TNT Sports Brasil",
           "url": "https://www.youtube.com/@TNTSportsBR/live",
           "videoId": "FPDElsShLkI",
-          "online": true
+          "online": false
         },
         {
           "nome": "Bellator MMA",
@@ -219,7 +219,7 @@
         {
           "nome": "Mario negocio",
           "url": "https://www.youtube.com/@fvfdrone/live",
-          "videoId": "nVlgbW-WrpI", 
+          "videoId": "nVlgbW-WrpI",
           "online": true
         },
         {
@@ -261,7 +261,7 @@
           "nome": "Domingo Espetacular",
           "url": "https://www.youtube.com/@domingoespetacular/live",
           "videoId": "X9SSuA-Bopg",
-          "online": true
+          "online": false
         },
         {
           "nome": "TV Ponta Negra RN",
@@ -279,7 +279,7 @@
           "nome": "G1 Globo",
           "url": "https://www.youtube.com/@g1globo/live",
           "videoId": "NiqY3agWAQM",
-          "online": true
+          "online": false
         },
         {
           "nome": "96 FM Natal RN",
@@ -304,11 +304,11 @@
           "videoId": "djqc19GQ83I",
           "online": true
         },
-         {
+        {
           "nome": "Meu novo brinquedo",
           "url": "https://www.youtube.com/watch?v=2fn4vTndUq4",
           "videoId": "2fn4vTndUq4",
-          "online": true
+          "online": false
         },
         {
           "nome": "Romance Channel Brasil",
