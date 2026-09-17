@@ -7,7 +7,7 @@
 
 <meta
   name="viewport"
-  content="width=device-width,initial-scale=1.0">
+  content="width=device-width, initial-scale=1.0">
 
 <meta
   name="theme-color"
@@ -17,29 +17,40 @@
 
 <style>
 
+/* =====================================================
+   BASE
+===================================================== */
+
 *{
-  box-sizing:border-box
+  box-sizing:border-box;
 }
 
 html,
 body{
   margin:0;
+  padding:0;
+  width:100%;
+  min-height:100%;
   background:#080808;
   color:#fff;
-  font-family:Arial,sans-serif
+  font-family:Arial,sans-serif;
 }
 
 body{
-  overflow-x:hidden
+  overflow-x:hidden;
 }
+
+/* =====================================================
+   CABEÇALHO
+===================================================== */
 
 header{
   position:sticky;
   top:0;
   z-index:20;
   background:#0b0b0b;
-  border-bottom:1px solid #222;
-  padding:12px 14px
+  border-bottom:1px solid #252525;
+  padding:10px 14px;
 }
 
 .top{
@@ -47,97 +58,160 @@ header{
   align-items:center;
   gap:10px;
   max-width:1400px;
-  margin:auto
+  margin:auto;
 }
 
 .logo{
   font-size:20px;
-  font-weight:800;
-  white-space:nowrap
+  font-weight:bold;
+  white-space:nowrap;
 }
 
 .logo b{
-  color:#f22
+  color:#e50914;
 }
 
 .search{
   flex:1;
+  min-width:100px;
   background:#171717;
-  border:1px solid #303030;
+  border:2px solid #303030;
   color:#fff;
   border-radius:22px;
-  padding:11px 16px;
-  outline:0
+  padding:10px 15px;
+  outline:none;
+  font-size:14px;
 }
 
 .search:focus{
-  border-color:#777
+  border-color:#e50914;
 }
 
 .btn{
-  border:0;
+  border:2px solid transparent;
   background:#202020;
   color:#fff;
   border-radius:20px;
-  padding:10px 14px;
-  cursor:pointer
+  padding:9px 14px;
+  cursor:pointer;
+  font-weight:bold;
+  white-space:nowrap;
 }
 
-.btn:hover{
-  background:#303030
+.btn:hover,
+.btn:focus{
+  background:#333;
+  border-color:#e50914;
+  outline:none;
 }
+
+/* =====================================================
+   CONTEÚDO
+===================================================== */
 
 main{
   max-width:1400px;
   margin:auto;
-  padding:18px 14px 60px
+  padding:14px 14px 60px;
 }
 
 .hero{
-  background:
-    linear-gradient(
-      135deg,
-      #161616,
-      #0d0d0d
-    );
-
-  border:1px solid #252525;
-  border-radius:16px;
-  padding:18px;
-  margin-bottom:24px
+  background:#121212;
+  border:1px solid #282828;
+  border-radius:12px;
+  padding:16px;
+  margin-bottom:16px;
 }
 
 .hero h1{
   margin:0 0 5px;
-  font-size:25px
+  font-size:23px;
 }
 
 .hero p{
   margin:0;
-  color:#aaa;
-  font-size:14px
+  color:#999;
+  font-size:13px;
 }
 
+/* =====================================================
+   CATEGORIAS
+===================================================== */
+
+.categoriesBox{
+  margin-bottom:20px;
+}
+
+.categoriesTitle{
+  font-size:17px;
+  font-weight:bold;
+  margin-bottom:9px;
+}
+
+.categories{
+  display:flex;
+  gap:8px;
+  overflow-x:auto;
+  overflow-y:hidden;
+  padding:3px 2px 10px;
+  -webkit-overflow-scrolling:touch;
+}
+
+.categoryBtn{
+  flex:0 0 auto;
+  border:2px solid #292929;
+  background:#181818;
+  color:#ddd;
+  border-radius:20px;
+  padding:9px 15px;
+  font-size:13px;
+  font-weight:bold;
+  cursor:pointer;
+  white-space:nowrap;
+}
+
+.categoryBtn:hover,
+.categoryBtn:focus{
+  outline:none;
+  border-color:#777;
+  background:#292929;
+  color:#fff;
+}
+
+.categoryBtn.active{
+  background:#e50914;
+  border-color:#e50914;
+  color:#fff;
+}
+
+/* =====================================================
+   SEÇÕES
+===================================================== */
+
 .section{
-  margin:25px 0 34px
+  margin:20px 0 28px;
 }
 
 .section-title{
   display:flex;
   align-items:center;
   gap:10px;
-  margin-bottom:12px
+  margin-bottom:10px;
 }
 
 .section-title h2{
-  font-size:19px;
-  margin:0
+  font-size:18px;
+  margin:0;
 }
 
 .count{
   color:#888;
-  font-size:12px
+  font-size:12px;
 }
+
+/* =====================================================
+   GRID
+===================================================== */
 
 .grid{
   display:grid;
@@ -146,36 +220,53 @@ main{
       auto-fill,
       minmax(180px,1fr)
     );
-  gap:14px
+  gap:12px;
 }
+
+/* =====================================================
+   CARD
+===================================================== */
 
 .card{
   position:relative;
   background:#121212;
-  border:1px solid #242424;
-  border-radius:12px;
+  border:2px solid #242424;
+  border-radius:10px;
   overflow:hidden;
   cursor:pointer;
-  transition:.2s
+  outline:none;
 }
 
 .card:hover{
   border-color:#555;
-  transform:translateY(-2px)
 }
+
+.card:focus{
+  border-color:#e50914;
+  background:#191919;
+  outline:none;
+}
+
+.card.selected{
+  border-color:#e50914;
+}
+
+/* =====================================================
+   CAPA
+===================================================== */
 
 .cover{
   position:relative;
   aspect-ratio:16/9;
-  background:#1c1c1c;
-  overflow:hidden
+  background:#1b1b1b;
+  overflow:hidden;
 }
 
 .cover img{
   width:100%;
   height:100%;
   object-fit:cover;
-  display:block
+  display:block;
 }
 
 .placeholder{
@@ -184,33 +275,32 @@ main{
   display:flex;
   align-items:center;
   justify-content:center;
-  font-size:42px;
-  color:#555
+  font-size:40px;
+  color:#555;
 }
 
 .live{
   position:absolute;
-  top:8px;
-  left:8px;
+  top:7px;
+  left:7px;
   background:#e50914;
   color:#fff;
   font-weight:bold;
-  font-size:11px;
+  font-size:10px;
   padding:5px 7px;
-  border-radius:5px;
-  box-shadow:0 0 10px #000
+  border-radius:4px;
 }
 
 .offline{
   position:absolute;
-  top:8px;
-  left:8px;
+  top:7px;
+  left:7px;
   background:#444;
   color:#ddd;
   font-weight:bold;
-  font-size:11px;
+  font-size:10px;
   padding:5px 7px;
-  border-radius:5px
+  border-radius:4px;
 }
 
 .live-dot{
@@ -219,30 +309,38 @@ main{
   height:6px;
   border-radius:50%;
   background:#fff;
-  margin-right:4px
+  margin-right:4px;
 }
 
 .star{
   position:absolute;
-  right:7px;
-  top:7px;
-  width:31px;
-  height:31px;
+  right:6px;
+  top:6px;
+  width:34px;
+  height:34px;
   border:0;
   border-radius:50%;
   background:#000b;
   color:#aaa;
-  font-size:18px;
+  font-size:20px;
   cursor:pointer;
-  z-index:3
+  z-index:3;
+}
+
+.star:focus{
+  outline:2px solid #fff;
 }
 
 .star.on{
-  color:#ffd21c
+  color:#ffd21c;
 }
 
+/* =====================================================
+   INFORMAÇÕES
+===================================================== */
+
 .info{
-  padding:10px
+  padding:9px;
 }
 
 .name{
@@ -250,42 +348,47 @@ main{
   font-size:14px;
   white-space:nowrap;
   overflow:hidden;
-  text-overflow:ellipsis
+  text-overflow:ellipsis;
 }
 
 .handle{
-  font-size:11px;
+  font-size:10px;
   color:#777;
   margin-top:4px;
   white-space:nowrap;
   overflow:hidden;
-  text-overflow:ellipsis
+  text-overflow:ellipsis;
 }
 
 .status{
   font-size:10px;
   color:#777;
-  margin-top:7px
+  margin-top:6px;
 }
 
 .status.online{
-  color:#e50914
+  color:#e50914;
 }
+
+/* =====================================================
+   ESTADOS
+===================================================== */
 
 .empty{
   padding:35px;
   text-align:center;
-  color:#777
+  color:#777;
 }
 
 .loading{
   padding:40px;
   text-align:center;
-  color:#888
+  color:#888;
 }
 
-
-/* PLAYER */
+/* =====================================================
+   PLAYER
+===================================================== */
 
 #playerScreen{
   display:none;
@@ -293,7 +396,7 @@ main{
   inset:0;
   background:#000;
   z-index:100;
-  overflow:auto
+  overflow:auto;
 }
 
 .playerTop{
@@ -302,62 +405,71 @@ main{
   align-items:center;
   gap:10px;
   padding:8px 12px;
-  background:#101010
+  background:#101010;
+  border-bottom:1px solid #252525;
 }
 
 .back{
   background:#222;
   color:#fff;
-  border:0;
+  border:2px solid transparent;
   border-radius:18px;
-  padding:9px 14px;
-  cursor:pointer
+  padding:8px 14px;
+  cursor:pointer;
+  font-weight:bold;
+}
+
+.back:hover,
+.back:focus{
+  background:#333;
+  border-color:#e50914;
+  outline:none;
 }
 
 .playerTitle{
   font-weight:bold;
   overflow:hidden;
   text-overflow:ellipsis;
-  white-space:nowrap
+  white-space:nowrap;
 }
 
 .playerWrap{
   max-width:1200px;
-  margin:0 auto
+  margin:0 auto;
 }
 
 .video{
   width:100%;
   aspect-ratio:16/9;
-  background:#000
+  background:#000;
 }
 
 .video iframe{
   width:100%;
   height:100%;
-  border:0
+  border:0;
 }
 
 .playerInfo{
-  padding:14px
+  padding:14px;
 }
 
 .playerLive{
   display:inline-block;
   background:#e50914;
   padding:5px 8px;
-  border-radius:5px;
-  font-size:12px;
-  font-weight:bold
+  border-radius:4px;
+  font-size:11px;
+  font-weight:bold;
 }
 
 .playerInfo h2{
-  margin:10px 0 5px
+  margin:10px 0 5px;
 }
 
 .playerInfo p{
   color:#999;
-  margin:0
+  margin:0;
 }
 
 .notice{
@@ -365,59 +477,97 @@ main{
   padding:12px;
   border:1px solid #343434;
   background:#151515;
-  border-radius:9px;
+  border-radius:8px;
   color:#bbb;
-  font-size:13px
+  font-size:13px;
 }
 
 .playerButton{
   display:inline-block;
-  border:0;
+  border:2px solid transparent;
   background:#e50914;
   color:#fff;
   border-radius:20px;
-  padding:11px 17px;
+  padding:10px 17px;
   cursor:pointer;
-  margin-top:12px
+  margin-top:12px;
+  font-weight:bold;
 }
 
+.playerButton:focus{
+  outline:none;
+  border-color:#fff;
+}
 
-/* MOBILE */
+/* =====================================================
+   AJUSTES PARA TV
+===================================================== */
+
+@media(max-width:900px){
+
+  .logo{
+    font-size:17px;
+  }
+
+  .grid{
+    grid-template-columns:
+      repeat(4,minmax(0,1fr));
+  }
+
+}
 
 @media(max-width:650px){
 
+  header{
+    padding:8px;
+  }
+
+  .top{
+    flex-wrap:wrap;
+  }
+
   .logo{
-    font-size:17px
+    width:100%;
+    font-size:17px;
+  }
+
+  .search{
+    width:100%;
+    order:2;
+  }
+
+  .btn{
+    order:3;
+  }
+
+  main{
+    padding:10px 8px 40px;
+  }
+
+  .hero{
+    padding:13px;
+  }
+
+  .hero h1{
+    font-size:19px;
   }
 
   .grid{
     grid-template-columns:
       repeat(2,minmax(0,1fr));
-    gap:9px
+    gap:8px;
   }
 
   .card{
-    border-radius:9px
+    border-radius:8px;
   }
 
   .info{
-    padding:8px
+    padding:7px;
   }
 
   .name{
-    font-size:13px
-  }
-
-  .hero{
-    padding:14px
-  }
-
-  .hero h1{
-    font-size:20px
-  }
-
-  .btn{
-    padding:9px 11px
+    font-size:12px;
   }
 
 }
@@ -426,7 +576,7 @@ main{
 
   .grid{
     grid-template-columns:
-      repeat(6,minmax(0,1fr))
+      repeat(6,minmax(0,1fr));
   }
 
 }
@@ -437,6 +587,10 @@ main{
 
 <body>
 
+
+<!-- =====================================================
+     CABEÇALHO
+===================================================== -->
 
 <header>
 
@@ -454,7 +608,8 @@ main{
 
 <button
   class="btn"
-  id="favBtn">
+  id="favBtn"
+  type="button">
 ⭐ Favoritos
 </button>
 
@@ -462,6 +617,10 @@ main{
 
 </header>
 
+
+<!-- =====================================================
+     PRINCIPAL
+===================================================== -->
 
 <main>
 
@@ -472,11 +631,43 @@ main{
 </h1>
 
 <p>
-Escolha um canal para assistir dentro do próprio site.
+Use as setas do controle e pressione OK para assistir.
 </p>
 
 </div>
 
+
+<!-- =====================================================
+     CATEGORIAS
+===================================================== -->
+
+<div class="categoriesBox">
+
+<div class="categoriesTitle">
+Categorias
+</div>
+
+<div
+  id="categories"
+  class="categories">
+
+  <button
+    class="categoryBtn active"
+    data-category="TODOS"
+    type="button">
+
+    📺 Todos
+
+  </button>
+
+</div>
+
+</div>
+
+
+<!-- =====================================================
+     CONTEÚDO
+===================================================== -->
 
 <div id="conteudo">
 
@@ -489,7 +680,9 @@ Carregando canais...
 </main>
 
 
-<!-- PLAYER -->
+<!-- =====================================================
+     PLAYER
+===================================================== -->
 
 <div id="playerScreen">
 
@@ -497,7 +690,8 @@ Carregando canais...
 
 <button
   class="back"
-  onclick="fecharPlayer()">
+  id="backButton"
+  type="button">
 
 ← Voltar
 
@@ -545,179 +739,117 @@ Carregando canais...
 
 <script>
 
+/* =====================================================
+   CONFIGURAÇÃO
+===================================================== */
 
-// =====================================================
-// CONFIGURAÇÃO
-// =====================================================
-
-const JSON_URL =
+var JSON_URL =
 "https://raw.githubusercontent.com/leitor266-tech/you10/main/canaisyout.json";
 
-
-const API_URL =
+var API_URL =
 "api.php";
 
-
-const REFRESH_LIVE =
+var REFRESH_LIVE =
 60000;
 
 
-// =====================================================
-// ESTADO
-// =====================================================
+/* =====================================================
+   ESTADO
+===================================================== */
 
-let dados = null;
+var dados = null;
 
-let canais = [];
+var canais = [];
 
-let somenteFavoritos = false;
+var categoriaAtual = "TODOS";
 
-let favoritos =
-JSON.parse(
-  localStorage.getItem(
-    "meusFavoritosYT"
-  ) || "[]"
-);
+var somenteFavoritos = false;
+
+var favoritos = [];
+
+var ultimoCanalId = "";
+
+var focoCategoria = true;
 
 
-// =====================================================
-// HELPERS
-// =====================================================
+/* =====================================================
+   FAVORITOS
+===================================================== */
 
-const $ =
-id =>
-document.getElementById(id);
+try{
+
+  favoritos =
+    JSON.parse(
+      localStorage.getItem(
+        "meusFavoritosYT"
+      ) || "[]"
+    );
+
+}
+catch(e){
+
+  favoritos = [];
+
+}
+
+
+/* =====================================================
+   HELPERS
+===================================================== */
+
+function $(id){
+
+  return document.getElementById(id);
+
+}
 
 
 function esc(valor){
 
   return String(
-    valor ?? ""
+    valor == null ? "" : valor
   ).replace(
     /[&<>"']/g,
-    m => ({
-      "&":"&amp;",
-      "<":"&lt;",
-      ">":"&gt;",
-      '"':"&quot;",
-      "'":"&#39;"
-    }[m])
+    function(m){
+
+      return {
+        "&":"&amp;",
+        "<":"&lt;",
+        ">":"&gt;",
+        '"':"&quot;",
+        "'":"&#39;"
+
+      }[m];
+
+    }
   );
 
 }
 
 
-// =====================================================
-// CARREGA JSON
-// =====================================================
+function isFav(id){
 
-async function carregar(){
-
-  try{
-
-    const r =
-    await fetch(
-      JSON_URL +
-      "?v=" +
-      Date.now(),
-      {
-        cache:"no-store"
-      }
-    );
-
-
-    if(!r.ok){
-
-      throw new Error(
-        "JSON não carregou: " +
-        r.status
-      );
-
-    }
-
-
-    dados =
-    await r.json();
-
-
-    canais = [];
-
-
-    if(
-      Array.isArray(
-        dados.categorias
-      )
-    ){
-
-      dados.categorias
-      .forEach(cat => {
-
-        (cat.canais || [])
-        .forEach(c => {
-
-          canais.push({
-
-            ...normalizar(c),
-
-            categoria:
-              cat.nome ||
-              "Canais"
-
-          });
-
-        });
-
-      });
-
-    }
-
-
-    if(!canais.length){
-
-      throw new Error(
-        "Nenhum canal encontrado."
-      );
-
-    }
-
-
-    renderizar();
-
-  }
-  catch(e){
-
-    console.error(e);
-
-    $("conteudo").innerHTML =
-
-      `<div class="empty">
-        Não foi possível carregar os canais.
-        <br><br>
-        <small>
-          ${esc(e.message)}
-        </small>
-      </div>`;
-
-  }
+  return favoritos.indexOf(
+    String(id)
+  ) !== -1;
 
 }
 
 
-// =====================================================
-// NORMALIZA
-// =====================================================
+/* =====================================================
+   NORMALIZA
+===================================================== */
 
 function normalizar(c){
 
   return {
 
-    ...c,
-
     id:
       String(
         c.id ||
         c.nome ||
-        c.url
+        c.url ||
+        ""
       ),
 
     nome:
@@ -737,51 +869,305 @@ function normalizar(c){
       c.videoId ||
       "",
 
-    online:
-      null,
+    online:null,
 
-    resolved:
-      false,
+    resolved:false,
 
-    videoTitle:
-      "",
+    videoTitle:"",
 
-    thumbnail:
-      ""
+    thumbnail:""
 
   };
 
 }
 
 
-// =====================================================
-// FAVORITOS
-// =====================================================
+/* =====================================================
+   CARREGAR JSON
+===================================================== */
 
-function isFav(id){
+function carregar(){
 
-  return favoritos.includes(id);
+  fetch(
+    JSON_URL +
+    "?v=" +
+    new Date().getTime(),
+    {
+      cache:"no-store"
+    }
+  )
+  .then(
+    function(r){
+
+      if(!r.ok){
+
+        throw new Error(
+          "JSON não carregou: " +
+          r.status
+        );
+
+      }
+
+      return r.json();
+
+    }
+  )
+  .then(
+    function(json){
+
+      dados = json;
+
+      canais = [];
+
+      if(
+        Array.isArray(
+          dados.categorias
+        )
+      ){
+
+        dados.categorias.forEach(
+          function(cat){
+
+            var lista =
+              cat.canais || [];
+
+            lista.forEach(
+              function(c){
+
+                var canal =
+                  normalizar(c);
+
+                canal.categoria =
+                  cat.nome ||
+                  "Canais";
+
+                canais.push(canal);
+
+              }
+            );
+
+          }
+        );
+
+      }
+
+      if(!canais.length){
+
+        throw new Error(
+          "Nenhum canal encontrado."
+        );
+
+      }
+
+      criarCategorias();
+
+      renderizar();
+
+    }
+  )
+  .catch(
+    function(e){
+
+      console.log(e);
+
+      $("conteudo").innerHTML =
+
+        '<div class="empty">' +
+        'Não foi possível carregar os canais.' +
+        '<br><br>' +
+        '<small>' +
+        esc(e.message) +
+        '</small>' +
+        '</div>';
+
+    }
+  );
 
 }
 
+
+/* =====================================================
+   CATEGORIAS
+===================================================== */
+
+function criarCategorias(){
+
+  var box =
+    $("categories");
+
+  box.innerHTML = "";
+
+  adicionarBotaoCategoria(
+    "TODOS",
+    "📺 Todos"
+  );
+
+  adicionarBotaoCategoria(
+    "FAVORITOS",
+    "⭐ Favoritos"
+  );
+
+  var nomes = [];
+
+  canais.forEach(
+    function(c){
+
+      if(
+        nomes.indexOf(
+          c.categoria
+        ) === -1
+      ){
+
+        nomes.push(
+          c.categoria
+        );
+
+      }
+
+    }
+  );
+
+  nomes.forEach(
+    function(nome){
+
+      adicionarBotaoCategoria(
+        nome,
+        nome
+      );
+
+    }
+  );
+
+}
+
+
+function adicionarBotaoCategoria(
+  valor,
+  texto
+){
+
+  var btn =
+    document.createElement(
+      "button"
+    );
+
+  btn.className =
+    "categoryBtn";
+
+  if(
+    valor === categoriaAtual
+  ){
+
+    btn.className +=
+      " active";
+
+  }
+
+  btn.setAttribute(
+    "data-category",
+    valor
+  );
+
+  btn.setAttribute(
+    "type",
+    "button"
+  );
+
+  btn.innerHTML =
+    esc(texto);
+
+  btn.onclick =
+    function(){
+
+      selecionarCategoria(
+        valor
+      );
+
+    };
+
+  $("categories")
+    .appendChild(btn);
+
+}
+
+
+function selecionarCategoria(
+  categoria
+){
+
+  categoriaAtual =
+    categoria;
+
+  somenteFavoritos =
+    categoria === "FAVORITOS";
+
+  var botoes =
+    $("categories")
+    .getElementsByTagName(
+      "button"
+    );
+
+  var i;
+
+  for(
+    i=0;
+    i<botoes.length;
+    i++
+  ){
+
+    if(
+      botoes[i]
+        .getAttribute(
+          "data-category"
+        ) === categoria
+    ){
+
+      botoes[i]
+        .className =
+        "categoryBtn active";
+
+    }
+    else{
+
+      botoes[i]
+        .className =
+        "categoryBtn";
+
+    }
+
+  }
+
+  renderizar();
+
+}
+
+
+/* =====================================================
+   FAVORITO
+===================================================== */
 
 function alternarFav(
   id,
   ev
 ){
 
-  if(ev)
+  if(ev){
+
     ev.stopPropagation();
 
+  }
 
-  if(
-    isFav(id)
-  ){
+  id = String(id);
 
-    favoritos =
-      favoritos.filter(
-        x => x !== id
-      );
+  var pos =
+    favoritos.indexOf(id);
+
+  if(pos !== -1){
+
+    favoritos.splice(
+      pos,
+      1
+    );
 
   }
   else{
@@ -790,39 +1176,39 @@ function alternarFav(
 
   }
 
+  try{
 
-  localStorage.setItem(
-    "meusFavoritosYT",
-    JSON.stringify(
-      favoritos
-    )
-  );
+    localStorage.setItem(
+      "meusFavoritosYT",
+      JSON.stringify(
+        favoritos
+      )
+    );
 
+  }
+  catch(e){}
 
   renderizar();
 
 }
 
 
-// =====================================================
-// DETECTA ID DIRETO
-// =====================================================
+/* =====================================================
+   EXTRAI VIDEO ID
+===================================================== */
 
 function extrairVideoId(url){
 
   if(!url)
     return "";
 
-
   try{
 
-    const u =
+    var u =
       new URL(url);
 
-
-    const v =
+    var v =
       u.searchParams.get("v");
-
 
     if(
       v &&
@@ -833,14 +1219,13 @@ function extrairVideoId(url){
 
     }
 
-
     if(
-      u.hostname.includes(
+      u.hostname.indexOf(
         "youtu.be"
-      )
+      ) !== -1
     ){
 
-      const id =
+      var id =
         u.pathname
         .replace(
           /^\//,
@@ -864,25 +1249,22 @@ function extrairVideoId(url){
   }
   catch(e){}
 
-
   return "";
 
 }
 
 
-// =====================================================
-// CARD
-// =====================================================
+/* =====================================================
+   CARD
+===================================================== */
 
 function card(c){
 
-  const fav =
+  var fav =
     isFav(c.id);
 
-
-  let imagem =
+  var imagem =
     c.thumbnail;
-
 
   if(
     !imagem &&
@@ -896,338 +1278,296 @@ function card(c){
 
   }
 
-
-  let status = "";
-
+  var status = "";
 
   if(
     c.online === true
   ){
 
-    status = `
-      <div class="live">
-        <span class="live-dot"></span>
-        AO VIVO
-      </div>
-    `;
+    status =
+      '<div class="live">' +
+      '<span class="live-dot"></span>' +
+      'AO VIVO' +
+      '</div>';
 
   }
   else if(
     c.online === false
   ){
 
-    status = `
-      <div class="offline">
-        OFFLINE
-      </div>
-    `;
+    status =
+      '<div class="offline">' +
+      'OFFLINE' +
+      '</div>';
 
   }
   else{
 
-    status = `
-      <div class="live">
-        <span class="live-dot"></span>
-        AO VIVO
-      </div>
-    `;
+    status =
+      '<div class="live">' +
+      '<span class="live-dot"></span>' +
+      'AO VIVO' +
+      '</div>';
 
   }
 
+  var imagemHtml =
+    imagem
 
-  return `
+    ?
 
-  <div
-    class="card"
-    onclick="abrirCanal('${esc(c.id)}')">
+    '<img src="' +
+    esc(imagem) +
+    '" loading="lazy" ' +
+    'onerror="this.style.display=\'none\'">'
 
-    <div class="cover">
+    :
 
-      ${
-        imagem
+    '<div class="placeholder">📺</div>';
 
-        ?
+  return (
 
-        `<img
-          src="${esc(imagem)}"
-          loading="lazy"
-          onerror="this.style.display='none'">`
+    '<div ' +
 
-        :
+      'class="card" ' +
 
-        `<div class="placeholder">
-          📺
-        </div>`
-      }
+      'tabindex="0" ' +
 
+      'data-channel-id="' +
+      esc(c.id) +
+      '" ' +
 
-      ${status}
+      'onclick="abrirCanal(\'' +
+      esc(c.id) +
+      '\')" ' +
 
+      'onkeydown="teclaCard(event,\'' +
+      esc(c.id) +
+      '\')">' +
 
-      <button
-        class="star ${fav ? "on" : ""}"
-        onclick="
-          alternarFav(
-            '${esc(c.id)}',
-            event
-          )
-        ">
+      '<div class="cover">' +
 
-        ${fav ? "★" : "☆"}
+        imagemHtml +
 
-      </button>
+        status +
 
-    </div>
+        '<button ' +
+          'class="star ' +
+          (fav ? "on" : "") +
+          '" ' +
+          'type="button" ' +
+          'onclick="alternarFav(\'' +
+          esc(c.id) +
+          '\',event)">' +
 
+          (fav ? "★" : "☆") +
 
-    <div class="info">
+        '</button>' +
 
-      <div class="name">
+      '</div>' +
 
-        ${esc(c.nome)}
+      '<div class="info">' +
 
-      </div>
+        '<div class="name">' +
+          esc(c.nome) +
+        '</div>' +
 
+        '<div class="handle">' +
+          esc(c.url) +
+        '</div>' +
 
-      <div class="handle">
+        '<div class="status ' +
+          (
+            c.online === true
+            ? "online"
+            : ""
+          ) +
+        '">' +
 
-        ${esc(
-          c.url
-        )}
+          (
+            c.online === true
+            ? "Transmissão disponível"
+            : c.online === false
+            ? "Nenhuma live no momento"
+            : "Verificando transmissão..."
+          ) +
 
-      </div>
+        '</div>' +
 
+      '</div>' +
 
-      <div
-        class="status ${
-          c.online === true
-          ? "online"
-          : ""
-        }">
+    '</div>'
 
-        ${
-          c.online === true
-          ? "Transmissão disponível"
-          : c.online === false
-          ? "Nenhuma live no momento"
-          : "Verificando transmissão..."
-        }
-
-      </div>
-
-    </div>
-
-  </div>
-
-  `;
+  );
 
 }
 
 
-// =====================================================
-// RENDERIZA
-// =====================================================
+/* =====================================================
+   RENDERIZAR
+===================================================== */
 
 function renderizar(){
 
-  const q =
+  var q =
     $("search")
-    .value
-    .trim()
-    .toLowerCase();
+      .value
+      .trim()
+      .toLowerCase();
 
+  var lista = [];
 
-  if(
-    somenteFavoritos
-  ){
+  canais.forEach(
+    function(c){
 
-    const fav =
-      canais.filter(c => {
+      var pertence = false;
 
-        const texto =
-          (
-            c.nome +
-            " " +
-            c.url
-          ).toLowerCase();
+      if(
+        categoriaAtual === "TODOS"
+      ){
 
+        pertence = true;
 
-        return (
-          isFav(c.id) &&
-          (
-            !q ||
-            texto.includes(q)
-          )
-        );
+      }
+      else if(
+        categoriaAtual === "FAVORITOS"
+      ){
 
-      });
+        pertence =
+          isFav(c.id);
 
+      }
+      else{
+
+        pertence =
+          c.categoria ===
+          categoriaAtual;
+
+      }
+
+      if(!pertence)
+        return;
+
+      var texto =
+        (
+          c.nome +
+          " " +
+          c.url +
+          " " +
+          c.categoria
+        ).toLowerCase();
+
+      if(
+        q &&
+        texto.indexOf(q) === -1
+      ){
+
+        return;
+
+      }
+
+      lista.push(c);
+
+    }
+  );
+
+  if(!lista.length){
 
     $("conteudo").innerHTML =
-
-      fav.length
-
-      ?
-
-      `
-      <div class="section">
-
-        <div class="section-title">
-
-          <h2>
-            ⭐ FAVORITOS
-          </h2>
-
-          <span class="count">
-            ${fav.length}
-          </span>
-
-        </div>
-
-        <div class="grid">
-
-          ${fav.map(card).join("")}
-
-        </div>
-
-      </div>
-      `
-
-      :
-
-      `
-      <div class="empty">
-        Nenhum favorito encontrado.
-      </div>
-      `;
-
+      '<div class="empty">' +
+      'Nenhum canal encontrado.' +
+      '</div>';
 
     return;
 
   }
 
+  var titulo =
+    categoriaAtual === "TODOS"
+    ? "📺 TODOS OS CANAIS"
+    : categoriaAtual === "FAVORITOS"
+    ? "⭐ FAVORITOS"
+    : categoriaAtual;
 
-  let html = "";
+  var html =
 
+    '<section class="section">' +
 
-  const cats =
-    Array.isArray(
-      dados.categorias
-    )
+      '<div class="section-title">' +
 
-    ? dados.categorias
+        '<h2>' +
+          esc(titulo) +
+        '</h2>' +
 
-    : [];
+        '<span class="count">' +
+          lista.length +
+          ' canais' +
+        '</span>' +
 
+      '</div>' +
 
-  cats.forEach(
-    cat => {
+      '<div class="grid">' +
 
-      const lista =
-        canais.filter(c => {
+        lista.map(
+          card
+        ).join("") +
 
-          if(
-            c.categoria !==
-            cat.nome
-          )
-            return false;
+      '</div>' +
 
+    '</section>';
 
-          const texto =
-            (
-              c.nome +
-              " " +
-              c.url +
-              " " +
-              cat.nome
-            ).toLowerCase();
-
-
-          return (
-            !q ||
-            texto.includes(q)
-          );
-
-        });
-
-
-      if(
-        !lista.length
-      )
-        return;
-
-
-      html += `
-
-      <section
-        class="section">
-
-        <div
-          class="section-title">
-
-          <h2>
-            ${esc(cat.nome)}
-          </h2>
-
-          <span class="count">
-            ${lista.length} canais
-          </span>
-
-        </div>
-
-
-        <div class="grid">
-
-          ${lista.map(card).join("")}
-
-        </div>
-
-      </section>
-
-      `;
-
-    }
-  );
-
-
-  $("conteudo").innerHTML =
-
-    html ||
-
-    `
-    <div class="empty">
-      Nenhum canal encontrado.
-    </div>
-    `;
+  $("conteudo")
+    .innerHTML =
+    html;
 
 }
 
 
-// =====================================================
-// RESOLVE LIVE
-// =====================================================
+/* =====================================================
+   TECLADO DO CARD
+===================================================== */
 
-async function resolverCanal(c){
+function teclaCard(
+  event,
+  id
+){
+
+  var key =
+    event.key;
 
   if(
-    c.resolved
+    key === "Enter" ||
+    key === " "
   ){
 
-    return c;
+    event.preventDefault();
+
+    abrirCanal(id);
+
+    return;
 
   }
 
+}
 
-  // ---------------------------------------------------
-  // SE JÁ FOR VIDEO ID
-  // ---------------------------------------------------
 
-  const idDireto =
+/* =====================================================
+   RESOLVE CANAL
+===================================================== */
+
+function resolverCanal(c){
+
+  if(c.resolved){
+
+    return Promise.resolve(c);
+
+  }
+
+  var idDireto =
     c.videoId ||
     extrairVideoId(
       c.url
     );
-
 
   if(idDireto){
 
@@ -1243,374 +1583,448 @@ async function resolverCanal(c){
       idDireto +
       "/hqdefault.jpg";
 
-    return c;
+    return Promise.resolve(c);
 
   }
 
-
-  // ---------------------------------------------------
-  // @HANDLE/LIVE
-  // ---------------------------------------------------
-
-  try{
-
-    const r =
-      await fetch(
-        API_URL +
-        "?url=" +
-        encodeURIComponent(
-          c.url
-        ) +
-        "&t=" +
-        Date.now(),
-        {
-          cache:"no-store"
-        }
-      );
-
-
-    if(!r.ok){
-
-      throw new Error(
-        "Erro HTTP " +
-        r.status
-      );
-
+  return fetch(
+    API_URL +
+    "?url=" +
+    encodeURIComponent(
+      c.url
+    ) +
+    "&t=" +
+    new Date().getTime(),
+    {
+      cache:"no-store"
     }
+  )
+  .then(
+    function(r){
 
+      if(!r.ok){
 
-    const data =
-      await r.json();
-
-
-    if(
-      data.ok &&
-      data.online &&
-      data.videoId
-    ){
-
-      c.videoId =
-        data.videoId;
-
-      c.online =
-        true;
-
-      c.videoTitle =
-        data.title ||
-        "";
-
-      c.thumbnail =
-        data.thumbnail ||
-        (
-          "https://img.youtube.com/vi/" +
-          data.videoId +
-          "/hqdefault.jpg"
+        throw new Error(
+          "Erro HTTP " +
+          r.status
         );
 
+      }
+
+      return r.json();
+
     }
-    else{
+  )
+  .then(
+    function(data){
+
+      if(
+        data.ok &&
+        data.online &&
+        data.videoId
+      ){
+
+        c.videoId =
+          data.videoId;
+
+        c.online =
+          true;
+
+        c.videoTitle =
+          data.title ||
+          "";
+
+        c.thumbnail =
+          data.thumbnail ||
+          (
+            "https://img.youtube.com/vi/" +
+            data.videoId +
+            "/hqdefault.jpg"
+          );
+
+      }
+      else{
+
+        c.online =
+          false;
+
+      }
+
+      c.resolved =
+        true;
+
+      return c;
+
+    }
+  )
+  .catch(
+    function(e){
+
+      console.log(
+        c.nome,
+        e
+      );
 
       c.online =
         false;
 
+      c.resolved =
+        true;
+
+      return c;
+
     }
-
-
-    c.resolved =
-      true;
-
-
-  }
-  catch(e){
-
-    console.error(
-      c.nome,
-      e
-    );
-
-    c.online =
-      false;
-
-    c.resolved =
-      true;
-
-  }
-
-
-  return c;
+  );
 
 }
 
 
-// =====================================================
-// ABRIR CANAL
-// =====================================================
+/* =====================================================
+   ABRIR CANAL
+===================================================== */
 
-async function abrirCanal(id){
+function abrirCanal(id){
 
-  const c =
+  var c =
     canais.find(
-      x =>
-        String(x.id) ===
-        String(id)
-    );
+      function(x){
 
+        return String(x.id) ===
+          String(id);
+
+      }
+    );
 
   if(!c)
     return;
 
+  ultimoCanalId =
+    c.id;
 
   $("playerScreen")
-    .style
-    .display =
+    .style.display =
     "block";
-
 
   document.body.style.overflow =
     "hidden";
-
 
   $("playerTitle")
     .textContent =
     c.nome;
 
-
   $("playerName")
     .textContent =
     c.nome;
-
 
   $("playerHandle")
     .textContent =
     c.url;
 
+  $("videoBox").innerHTML =
 
-  $("videoBox").innerHTML = `
+    '<div style="' +
+      'height:100%;' +
+      'display:flex;' +
+      'align-items:center;' +
+      'justify-content:center;' +
+      'background:#101010;' +
+      'color:#888;' +
+      'font-size:16px;' +
+    '">' +
 
-    <div
-      style="
-        height:100%;
-        display:flex;
-        align-items:center;
-        justify-content:center;
-        background:#101010;
-        color:#888;
-      ">
+      '🔎 Procurando transmissão...' +
 
-      🔎 Procurando transmissão...
-
-    </div>
-
-  `;
-
+    '</div>';
 
   $("playerNotice")
     .textContent =
     "Verificando a transmissão atual...";
 
+  resolverCanal(c)
+    .then(
+      function(){
 
-  // ---------------------------------------------------
-  // DESCOBRE O VIDEO ID
-  // ---------------------------------------------------
+        renderizar();
 
-  await resolverCanal(c);
+        if(
+          c.online === true &&
+          c.videoId
+        ){
 
+          $("videoBox").innerHTML =
 
-  // Atualiza cards
-  renderizar();
+            '<iframe ' +
 
+              'src="https://www.youtube.com/embed/' +
+              encodeURIComponent(
+                c.videoId
+              ) +
+              '?autoplay=1&rel=0" ' +
 
-  // ---------------------------------------------------
-  // TEM LIVE
-  // ---------------------------------------------------
+              'title="' +
+              esc(c.nome) +
+              '" ' +
 
-  if(
-    c.online === true &&
-    c.videoId
-  ){
+              'allow="autoplay; encrypted-media; picture-in-picture; fullscreen" ' +
 
-    $("videoBox").innerHTML = `
+              'allowfullscreen>' +
 
-      <iframe
+            '</iframe>';
 
-        src="
-          https://www.youtube.com/embed/${
-            encodeURIComponent(
-              c.videoId
-            )
-          }?autoplay=1&rel=0
+          $("playerNotice")
+            .textContent =
+            "Transmissão ao vivo carregada.";
 
-        "
+          return;
 
-        title="${esc(c.nome)}"
+        }
 
-        allow="
-          autoplay;
-          encrypted-media;
-          picture-in-picture;
-          fullscreen
-        "
+        $("videoBox").innerHTML =
 
-        allowfullscreen>
+          '<div style="' +
+            'height:100%;' +
+            'display:flex;' +
+            'align-items:center;' +
+            'justify-content:center;' +
+            'flex-direction:column;' +
+            'gap:12px;' +
+            'background:#101010;' +
+            'text-align:center;' +
+            'padding:20px;' +
+          '">' +
 
-      </iframe>
+            '<div style="font-size:50px">📺</div>' +
 
-    `;
+            '<strong>' +
+              esc(c.nome) +
+            '</strong>' +
 
+            '<span style="color:#888;font-size:13px">' +
+              'Este canal não está transmitindo ao vivo neste momento.' +
+            '</span>' +
 
-    $("playerNotice")
-      .textContent =
-      "Transmissão ao vivo carregada automaticamente.";
+            '<button ' +
+              'class="playerButton" ' +
+              'id="youtubeButton" ' +
+              'type="button">' +
 
-    return;
+              'Abrir canal no YouTube' +
 
-  }
+            '</button>' +
 
+          '</div>';
 
-  // ---------------------------------------------------
-  // OFFLINE
-  // ---------------------------------------------------
+        $("youtubeButton").onclick =
+          function(){
 
-  $("videoBox").innerHTML = `
+            window.open(
+              c.url,
+              "_blank"
+            );
 
-    <div
-      style="
-        height:100%;
-        display:flex;
-        align-items:center;
-        justify-content:center;
-        flex-direction:column;
-        gap:12px;
-        background:#101010;
-        text-align:center;
-        padding:20px;
-      ">
+          };
 
-      <div
-        style="font-size:50px">
+        $("playerNotice")
+          .textContent =
+          "Nenhuma transmissão ao vivo ativa foi encontrada.";
 
-        📺
-
-      </div>
-
-      <strong>
-
-        ${esc(c.nome)}
-
-      </strong>
-
-      <span
-        style="
-          color:#888;
-          font-size:13px
-        ">
-
-        Este canal não está transmitindo
-        ao vivo neste momento.
-
-      </span>
-
-      <button
-        class="playerButton"
-        onclick="
-          window.open(
-            '${esc(c.url)}',
-            '_blank'
-          )
-        ">
-
-        Abrir canal no YouTube
-
-      </button>
-
-    </div>
-
-  `;
-
-
-  $("playerNotice")
-    .textContent =
-    "Nenhuma transmissão ao vivo ativa foi encontrada.";
+      }
+    );
 
 }
 
 
-// =====================================================
-// FECHAR PLAYER
-// =====================================================
+/* =====================================================
+   FECHAR PLAYER
+===================================================== */
 
 function fecharPlayer(){
 
   $("videoBox")
     .innerHTML = "";
 
-
   $("playerScreen")
-    .style
-    .display =
+    .style.display =
     "none";
-
 
   document.body.style.overflow =
     "";
 
+  setTimeout(
+    function(){
+
+      focarUltimoCanal();
+
+    },
+    100
+  );
+
 }
 
 
-// =====================================================
-// PESQUISA
-// =====================================================
+/* =====================================================
+   FOCO NO ÚLTIMO CANAL
+===================================================== */
 
-$("search")
-.addEventListener(
-  "input",
-  renderizar
-);
+function focarUltimoCanal(){
 
+  if(!ultimoCanalId)
+    return;
 
-// =====================================================
-// FAVORITOS
-// =====================================================
+  var cards =
+    document.getElementsByClassName(
+      "card"
+    );
 
-$("favBtn")
-.addEventListener(
-  "click",
-  () => {
+  var i;
 
-    somenteFavoritos =
-      !somenteFavoritos;
+  for(
+    i=0;
+    i<cards.length;
+    i++
+  ){
 
+    if(
+      String(
+        cards[i]
+          .getAttribute(
+            "data-channel-id"
+          )
+      ) ===
+      String(ultimoCanalId)
+    ){
 
-    $("favBtn")
-      .textContent =
+      cards[i].focus();
 
-      somenteFavoritos
+      return;
 
-      ? "📺 Todos"
-
-      : "⭐ Favoritos";
-
-
-    renderizar();
+    }
 
   }
-);
+
+}
 
 
-// =====================================================
-// ESC
-// =====================================================
+/* =====================================================
+   BUSCA
+===================================================== */
+
+$("search")
+  .addEventListener(
+    "input",
+    function(){
+
+      renderizar();
+
+    }
+  );
+
+
+/* =====================================================
+   CONTROLE REMOTO
+===================================================== */
 
 document.addEventListener(
   "keydown",
-  e => {
+  function(e){
+
+    var key =
+      e.key ||
+      e.keyCode;
+
+    /*
+      Teclas mais comuns:
+
+      37 = esquerda
+      38 = cima
+      39 = direita
+      40 = baixo
+      13 = OK/Enter
+      27 = voltar/Escape
+      8  = Backspace
+    */
 
     if(
-      e.key ===
-      "Escape"
+      key === 27 ||
+      key === 8 ||
+      key === "Escape"
     ){
 
-      fecharPlayer();
+      if(
+        $("playerScreen")
+          .style.display ===
+          "block"
+      ){
+
+        e.preventDefault();
+
+        fecharPlayer();
+
+        return;
+
+      }
+
+    }
+
+    /*
+      BACK em algumas Smart TVs
+      envia BrowserBack.
+    */
+
+    if(
+      key === "BrowserBack" ||
+      key === "GoBack"
+    ){
+
+      if(
+        $("playerScreen")
+          .style.display ===
+          "block"
+      ){
+
+        e.preventDefault();
+
+        fecharPlayer();
+
+      }
+
+      return;
+
+    }
+
+    /*
+      HOME
+    */
+
+    if(
+      key === "Home" ||
+      key === 36
+    ){
+
+      if(
+        $("playerScreen")
+          .style.display ===
+          "block"
+      ){
+
+        e.preventDefault();
+
+        fecharPlayer();
+
+      }
+      else{
+
+        window.scrollTo(
+          0,
+          0
+        );
+
+        $("categories")
+          .scrollLeft = 0;
+
+      }
+
+      return;
 
     }
 
@@ -1618,22 +2032,519 @@ document.addEventListener(
 );
 
 
-// =====================================================
-// INICIALIZA
-// =====================================================
+/* =====================================================
+   SETAS — NAVEGAÇÃO
+===================================================== */
+
+document.addEventListener(
+  "keydown",
+  function(e){
+
+    if(
+      $("playerScreen")
+        .style.display ===
+        "block"
+    ){
+
+      return;
+
+    }
+
+    var key =
+      e.key ||
+      e.keyCode;
+
+    /*
+      Se estiver pesquisando,
+      não interferimos nas setas.
+    */
+
+    if(
+      document.activeElement ===
+      $("search")
+    ){
+
+      if(
+        key === "ArrowDown" ||
+        key === 40
+      ){
+
+        e.preventDefault();
+
+        focarPrimeiroCard();
+
+      }
+
+      return;
+
+    }
+
+    var elemento =
+      document.activeElement;
+
+    /*
+      CATEGORIAS
+    */
+
+    if(
+      elemento &&
+      elemento.className &&
+      String(
+        elemento.className
+      ).indexOf(
+        "categoryBtn"
+      ) !== -1
+    ){
+
+      navegarCategorias(
+        e
+      );
+
+      return;
+
+    }
+
+    /*
+      CARDS
+    */
+
+    if(
+      elemento &&
+      elemento.className &&
+      String(
+        elemento.className
+      ).indexOf(
+        "card"
+      ) !== -1
+    ){
+
+      navegarCards(
+        e
+      );
+
+      return;
+
+    }
+
+  }
+);
+
+
+/* =====================================================
+   NAVEGAR CATEGORIAS
+===================================================== */
+
+function navegarCategorias(e){
+
+  var key =
+    e.key ||
+    e.keyCode;
+
+  var botoes =
+    $("categories")
+      .getElementsByTagName(
+        "button"
+      );
+
+  var atual =
+    document.activeElement;
+
+  var index = -1;
+
+  var i;
+
+  for(
+    i=0;
+    i<botoes.length;
+    i++
+  ){
+
+    if(
+      botoes[i] === atual
+    ){
+
+      index = i;
+
+      break;
+
+    }
+
+  }
+
+  if(
+    key === "ArrowRight" ||
+    key === 39
+  ){
+
+    e.preventDefault();
+
+    if(
+      index <
+      botoes.length - 1
+    ){
+
+      botoes[index + 1]
+        .focus();
+
+      botoes[index + 1]
+        .scrollIntoView({
+          block:"nearest",
+          inline:"center"
+        });
+
+    }
+
+    return;
+
+  }
+
+  if(
+    key === "ArrowLeft" ||
+    key === 37
+  ){
+
+    e.preventDefault();
+
+    if(index > 0){
+
+      botoes[index - 1]
+        .focus();
+
+      botoes[index - 1]
+        .scrollIntoView({
+          block:"nearest",
+          inline:"center"
+        });
+
+    }
+
+    return;
+
+  }
+
+  if(
+    key === "ArrowDown" ||
+    key === 40
+  ){
+
+    e.preventDefault();
+
+    focarPrimeiroCard();
+
+    return;
+
+  }
+
+  if(
+    key === "Enter" ||
+    key === 13
+  ){
+
+    e.preventDefault();
+
+    atual.click();
+
+    return;
+
+  }
+
+}
+
+
+/* =====================================================
+   NAVEGAR CARDS
+===================================================== */
+
+function navegarCards(e){
+
+  var key =
+    e.key ||
+    e.keyCode;
+
+  var cards =
+    $("conteudo")
+      .getElementsByClassName(
+        "card"
+      );
+
+  if(!cards.length)
+    return;
+
+  var atual =
+    document.activeElement;
+
+  var index = -1;
+
+  var i;
+
+  for(
+    i=0;
+    i<cards.length;
+    i++
+  ){
+
+    if(
+      cards[i] === atual
+    ){
+
+      index = i;
+
+      break;
+
+    }
+
+  }
+
+  /*
+    Número aproximado de colunas.
+    Usa a posição real dos cards para
+    funcionar melhor em diferentes TVs.
+  */
+
+  var colunas =
+    descobrirColunas(
+      cards
+    );
+
+  var novo = index;
+
+  if(
+    key === "ArrowRight" ||
+    key === 39
+  ){
+
+    novo =
+      index + 1;
+
+  }
+  else if(
+    key === "ArrowLeft" ||
+    key === 37
+  ){
+
+    novo =
+      index - 1;
+
+  }
+  else if(
+    key === "ArrowDown" ||
+    key === 40
+  ){
+
+    novo =
+      index + colunas;
+
+  }
+  else if(
+    key === "ArrowUp" ||
+    key === 38
+  ){
+
+    novo =
+      index - colunas;
+
+  }
+  else if(
+    key === "Enter" ||
+    key === 13
+  ){
+
+    e.preventDefault();
+
+    if(atual){
+
+      atual.click();
+
+    }
+
+    return;
+
+  }
+  else{
+
+    return;
+
+  }
+
+  e.preventDefault();
+
+  if(
+    novo >= 0 &&
+    novo < cards.length
+  ){
+
+    cards[novo].focus();
+
+    cards[novo].scrollIntoView({
+      block:"nearest",
+      inline:"nearest"
+    });
+
+  }
+  else if(
+    key === "ArrowUp" ||
+    key === 38
+  ){
+
+    focarUltimaCategoria();
+
+  }
+
+}
+
+
+/* =====================================================
+   DESCOBRIR COLUNAS
+===================================================== */
+
+function descobrirColunas(
+  cards
+){
+
+  if(cards.length < 2)
+    return 1;
+
+  var primeiraLinhaY =
+    cards[0]
+      .getBoundingClientRect()
+      .top;
+
+  var count = 0;
+
+  var i;
+
+  for(
+    i=0;
+    i<cards.length;
+    i++
+  ){
+
+    var y =
+      cards[i]
+        .getBoundingClientRect()
+        .top;
+
+    if(
+      Math.abs(
+        y -
+        primeiraLinhaY
+      ) < 10
+    ){
+
+      count++;
+
+    }
+    else{
+
+      break;
+
+    }
+
+  }
+
+  return count || 1;
+
+}
+
+
+/* =====================================================
+   PRIMEIRO CARD
+===================================================== */
+
+function focarPrimeiroCard(){
+
+  var cards =
+    $("conteudo")
+      .getElementsByClassName(
+        "card"
+      );
+
+  if(cards.length){
+
+    cards[0].focus();
+
+    cards[0].scrollIntoView({
+      block:"nearest"
+    });
+
+  }
+
+}
+
+
+/* =====================================================
+   ÚLTIMA CATEGORIA
+===================================================== */
+
+function focarUltimaCategoria(){
+
+  var botoes =
+    $("categories")
+      .getElementsByTagName(
+        "button"
+      );
+
+  if(
+    botoes.length
+  ){
+
+    botoes[
+      botoes.length - 1
+    ].focus();
+
+  }
+
+}
+
+
+/* =====================================================
+   FOCO INICIAL
+===================================================== */
+
+function iniciarControle(){
+
+  setTimeout(
+    function(){
+
+      var botoes =
+        $("categories")
+          .getElementsByTagName(
+            "button"
+          );
+
+      if(
+        botoes.length
+      ){
+
+        botoes[0].focus();
+
+      }
+
+    },
+    500
+  );
+
+}
+
+
+/* =====================================================
+   INICIALIZA
+===================================================== */
 
 carregar();
 
+iniciarControle();
 
-// =====================================================
-// ATUALIZAÇÃO AUTOMÁTICA
-// =====================================================
+
+/* =====================================================
+   ATUALIZAÇÃO AUTOMÁTICA
+===================================================== */
 
 setInterval(
-  () => {
+  function(){
 
     canais.forEach(
-      c => {
+      function(c){
 
         c.resolved =
           false;
@@ -1641,17 +2552,11 @@ setInterval(
       }
     );
 
-
-    // Só atualiza a interface.
-    // A nova live será descoberta quando o
-    // usuário abrir o canal novamente.
-
     renderizar();
 
   },
   REFRESH_LIVE
 );
-
 
 </script>
 
