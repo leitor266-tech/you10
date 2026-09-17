@@ -67,7 +67,7 @@
           "nome": "Discovery Brasil",
           "url": "https://www.youtube.com/@DiscoveryBR/live",
           "videoId": "M485qpGpFwc",
-          "online": true
+          "online": false
         },
         {
           "nome": "Discovery Home & Health Brasil",
@@ -108,7 +108,7 @@
           "nome": "SportyNet Brasil",
           "url": "https://www.youtube.com/@SportyNetBrasil/live",
           "videoId": "pu62ZZJBhQg",
-          "online": true
+          "online": false
         },
         {
           "nome": "ESPN Brasil",
@@ -120,7 +120,7 @@
           "nome": "CazéTV",
           "url": "https://www.youtube.com/watch?v=mJRl1XVq4Fo",
           "videoId": "B-HPksUoZYI",
-          "online": true
+          "online": false
         },
         {
           "nome": "CONMEBOL",
