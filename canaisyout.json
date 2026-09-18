@@ -24,20 +24,20 @@
         {
           "nome": "Jovem Pan News",
           "url": "https://www.youtube.com/@jovempannews/live",
-          "videoId": "f_UHjZh551I",
-          "online": false
+          "videoId": "Iov2ujcvCn4",
+          "online": true
         },
         {
           "nome": "CNN Brasil",
           "url": "https://www.youtube.com/@CNNbrasil/live",
-          "videoId": "EKbmkmwuogU",
-          "online": false
+          "videoId": "vu_Ifkyc2oc",
+          "online": true
         },
         {
           "nome": "SBT News",
           "url": "https://www.youtube.com/@SBTNews/live",
-          "videoId": "WEkbGns-z_4",
-          "online": false
+          "videoId": "fvvmKR2qIK8",
+          "online": true
         },
         {
           "nome": "Food Network Brasil",
@@ -125,8 +125,8 @@
         {
           "nome": "CONMEBOL",
           "url": "https://www.youtube.com/@conmebol/live",
-          "videoId": "mNB86F3y9pg",
-          "online": false
+          "videoId": "E-Tt6DFdWPY",
+          "online": true
         },
         {
           "nome": "Vasco da Gama",
@@ -213,7 +213,7 @@
         {
           "nome": "FVF Drone",
           "url": "https://www.youtube.com/@fvfdrone/live",
-          "videoId": "xS2KkLY5OrE",
+          "videoId": "cwVcWVperXg",
           "online": true
         },
         {
@@ -225,7 +225,7 @@
         {
           "nome": "FVF Drone",
           "url": "https://www.youtube.com/@fvfdrone/live",
-          "videoId": "cwVcWVperXg",
+          "videoId": "xS2KkLY5OrE",
           "online": true
         },
         {
@@ -278,14 +278,14 @@
         {
           "nome": "TV Ponta Negra RN",
           "url": "https://www.youtube.com/@tvpontanegrarn/live",
-          "videoId": "GQVW9RIeSFQ",
-          "online": false
+          "videoId": "7ujxsbI0IvA",
+          "online": true
         },
         {
           "nome": "TV Tropical RN",
           "url": "https://www.youtube.com/@TVTropicalRN/live",
-          "videoId": "M3VbeB52pJI",
-          "online": false
+          "videoId": "Pr5BqzTRdLA",
+          "online": true
         },
         {
           "nome": "G1 Globo",
@@ -296,14 +296,14 @@
         {
           "nome": "96 FM Natal RN",
           "url": "https://www.youtube.com/@96fmnatalrn/live",
-          "videoId": "https://youtu.be/gobbn4sLnzI",
-          "online": false
+          "videoId": "h4lbIOwNRCk",
+          "online": true
         },
         {
           "nome": "Gazeta do Povo",
           "url": "https://www.youtube.com/@gazetadopovo/live",
-          "videoId": "uqslJNzCcvo",
-          "online": false
+          "videoId": "1ijeYj9Fwj0",
+          "online": true
         }
       ]
     },
@@ -314,7 +314,7 @@
           "nome": "NetMovies",
           "url": "https://www.youtube.com/@netmovies/live",
           "videoId": "djqc19GQ83I",
-          "online": true
+          "online": false
         },
         {
           "nome": "Meu novo brinquedo",
@@ -360,7 +360,7 @@
         {
           "nome": "Três Espiãs Demais em Português",
           "url": "https://www.youtube.com/@TresEspiasDemaisPortugues/live",
-          "videoId": "VikYJ5l3XsM",
+          "videoId": "nfs5DPFMrcc",
           "online": true
         },
         {
