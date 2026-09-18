@@ -25,19 +25,19 @@
           "nome": "Jovem Pan News",
           "url": "https://www.youtube.com/@jovempannews/live",
           "videoId": "rK7EEa8AJVY",
-          "online": true
+          "online": false
         },
         {
           "nome": "CNN Brasil",
           "url": "https://www.youtube.com/@CNNbrasil/live",
           "videoId": "WjJmGB6rkWI",
-          "online": true
+          "online": false
         },
         {
           "nome": "SBT News",
           "url": "https://www.youtube.com/@SBTNews/live",
           "videoId": "GcdKADrH3FM",
-          "online": true
+          "online": false
         },
         {
           "nome": "Food Network Brasil",
@@ -120,7 +120,7 @@
           "nome": "CazéTV",
           "url": "https://www.youtube.com/@CazeTV/live",
           "videoId": "DxSeX9bM9S0",
-          "online": true
+          "online": false
         },
         {
           "nome": "CONMEBOL",
@@ -285,7 +285,7 @@
           "nome": "TV Tropical RN",
           "url": "https://www.youtube.com/@TVTropicalRN/live",
           "videoId": "6Is6-aPo-tI",
-          "online": true
+          "online": false
         },
         {
           "nome": "G1 Globo",
