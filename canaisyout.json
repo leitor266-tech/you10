@@ -180,7 +180,7 @@
           "nome": "Canal Combate",
           "url": "https://www.youtube.com/@CanalCombate/live",
           "videoId": "8n2cpYm6UF4",
-          "online": true
+          "online": false
         }
       ]
     },
@@ -273,7 +273,7 @@
           "nome": "Domingo Espetacular",
           "url": "https://www.youtube.com/@domingoespetacular/live",
           "videoId": "eGc-IAVAjuY",
-          "online": true
+          "online": false
         },
         {
           "nome": "TV Ponta Negra RN",
