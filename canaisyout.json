@@ -24,19 +24,19 @@
         {
           "nome": "Jovem Pan News",
           "url": "https://www.youtube.com/@jovempannews/live",
-          "videoId": "8LJ-EtnnK_4",
+          "videoId": "rK7EEa8AJVY",
           "online": true
         },
         {
           "nome": "CNN Brasil",
           "url": "https://www.youtube.com/@CNNbrasil/live",
-          "videoId": "pTsFs0CWrKw",
+          "videoId": "WjJmGB6rkWI",
           "online": true
         },
         {
           "nome": "SBT News",
           "url": "https://www.youtube.com/@SBTNews/live",
-          "videoId": "c4HCmlILlsM",
+          "videoId": "GcdKADrH3FM",
           "online": true
         },
         {
@@ -114,19 +114,19 @@
           "nome": "ESPN Brasil",
           "url": "https://www.youtube.com/@espnbrasil/live",
           "videoId": "8cTJijUv0_w",
-          "online": true
+          "online": false
         },
         {
           "nome": "CazéTV",
           "url": "https://www.youtube.com/@CazeTV/live",
           "videoId": "DxSeX9bM9S0",
-          "online": false
+          "online": true
         },
         {
           "nome": "CONMEBOL",
           "url": "https://www.youtube.com/@conmebol/live",
           "videoId": "XpuL--uzUrc",
-          "online": true
+          "online": false
         },
         {
           "nome": "Vasco da Gama",
@@ -279,7 +279,7 @@
           "nome": "TV Ponta Negra RN",
           "url": "https://www.youtube.com/@tvpontanegrarn/live",
           "videoId": "cBlH6yHK7GM",
-          "online": true
+          "online": false
         },
         {
           "nome": "TV Tropical RN",
@@ -297,7 +297,7 @@
           "nome": "96 FM Natal RN",
           "url": "https://www.youtube.com/@96fmnatalrn/live",
           "videoId": "hGVZTgKDckk",
-          "online": true
+          "online": false
         },
         {
           "nome": "Gazeta do Povo",
