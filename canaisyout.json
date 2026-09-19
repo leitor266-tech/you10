@@ -25,13 +25,13 @@
           "nome": "Jovem Pan News",
           "url": "https://www.youtube.com/@jovempannews/live",
           "videoId": "bm5RRHUyI_U",
-          "online": true
+          "online": false
         },
         {
           "nome": "CNN Brasil",
           "url": "https://www.youtube.com/@CNNbrasil/live",
           "videoId": "-TybT75yNt0",
-          "online": true
+          "online": false
         },
         {
           "nome": "SBT News",
