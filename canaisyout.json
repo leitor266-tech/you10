@@ -24,20 +24,20 @@
         {
           "nome": "Jovem Pan News",
           "url": "https://www.youtube.com/@jovempannews/live",
-          "videoId": "bm5RRHUyI_U",
-          "online": false
+          "videoId": "5arYVQsby5Q",
+          "online": true
         },
         {
           "nome": "CNN Brasil",
           "url": "https://www.youtube.com/@CNNbrasil/live",
-          "videoId": "-TybT75yNt0",
-          "online": false
+          "videoId": "OsMDS3fTO8Q",
+          "online": true
         },
         {
           "nome": "SBT News",
           "url": "https://www.youtube.com/@SBTNews/live",
-          "videoId": "DjbWcUYSRyc",
-          "online": false
+          "videoId": "gK9esEN98co",
+          "online": true
         },
         {
           "nome": "Food Network Brasil",
@@ -125,8 +125,8 @@
         {
           "nome": "CONMEBOL",
           "url": "https://www.youtube.com/@conmebol/live",
-          "videoId": "gSfooIYp3gs",
-          "online": false
+          "videoId": "PlNnRLvVu3o",
+          "online": true
         },
         {
           "nome": "Vasco da Gama",
@@ -173,7 +173,7 @@
         {
           "nome": "Boxing Mates",
           "url": "https://www.youtube.com/@BoxingMates1/live",
-          "videoId": "Yz05zU_0Rbc",
+          "videoId": "BBUFSZ0ORUc",
           "online": true
         },
         {
@@ -190,13 +190,13 @@
         {
           "nome": "Igreja Presbiteriana de Pinheiros",
           "url": "https://www.youtube.com/@ippinheiros/live",
-          "videoId": "0lHP7-dsT58",
+          "videoId": "NizolhOKEfw",
           "online": true
         },
         {
           "nome": "Planetshakers",
           "url": "https://www.youtube.com/@planetshakerstv/live",
-          "videoId": "eJuGnXR3Bik",
+          "videoId": "zkcl7tBXhio",
           "online": true
         }
       ]
@@ -354,7 +354,7 @@
         {
           "nome": "Boomerang UK",
           "url": "https://www.youtube.com/@BoomerangUK/live",
-          "videoId": "90kaC8Kbw0k",
+          "videoId": "WMBR_vDkd94",
           "online": true
         },
         {
