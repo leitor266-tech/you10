@@ -12,7 +12,7 @@
         {
           "nome": "STF Oficial",
           "url": "https://www.youtube.com/@STF_oficial/live",
-          "videoId": "kCyGQEcQv6c",
+          "videoId": "XfwDB9udBLw",
           "online": true
         },
         {
@@ -24,14 +24,14 @@
         {
           "nome": "Jovem Pan News",
           "url": "https://www.youtube.com/@jovempannews/live",
-          "videoId": "1U8rycEWSzE",
+          "videoId": "3Uh6NugMZ4E",
           "online": true
         },
         {
           "nome": "CNN Brasil",
           "url": "https://www.youtube.com/@CNNbrasil/live",
           "videoId": "f9tRsS0LzUc",
-          "online": true
+          "online": false
         },
         {
           "nome": "SBT News",
@@ -126,13 +126,13 @@
           "nome": "CONMEBOL",
           "url": "https://www.youtube.com/@conmebol/live",
           "videoId": "MF_oB1Qb_3w",
-          "online": true
+          "online": false
         },
         {
           "nome": "Vasco da Gama",
           "url": "https://www.youtube.com/@vascodagama2108/live",
           "videoId": "jQOYqHTxcGI",
-          "online": true
+          "online": false
         },
         {
           "nome": "Ninja Warrior AU",
@@ -144,7 +144,7 @@
           "nome": "Palmeiras",
           "url": "https://www.youtube.com/@Palmeiras/live",
           "videoId": "sxGsS2256SE",
-          "online": true
+          "online": false
         },
         {
           "nome": "X Sports Brasil",
