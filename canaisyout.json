@@ -25,7 +25,7 @@
           "nome": "Jovem Pan News",
           "url": "https://www.youtube.com/@jovempannews/live",
           "videoId": "3Uh6NugMZ4E",
-          "online": true
+          "online": false
         },
         {
           "nome": "CNN Brasil",
@@ -37,7 +37,7 @@
           "nome": "SBT News",
           "url": "https://www.youtube.com/@SBTNews/live",
           "videoId": "gK9esEN98co",
-          "online": true
+          "online": false
         },
         {
           "nome": "Food Network Brasil",
