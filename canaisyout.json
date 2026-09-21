@@ -24,20 +24,20 @@
         {
           "nome": "Jovem Pan News",
           "url": "https://www.youtube.com/@jovempannews/live",
-          "videoId": "3Uh6NugMZ4E",
-          "online": false
+          "videoId": "g9x8XeUEh-8",
+          "online": true
         },
         {
           "nome": "CNN Brasil",
           "url": "https://www.youtube.com/@CNNbrasil/live",
-          "videoId": "f9tRsS0LzUc",
-          "online": false
+          "videoId": "KRKi62vQRiE",
+          "online": true
         },
         {
           "nome": "SBT News",
           "url": "https://www.youtube.com/@SBTNews/live",
-          "videoId": "gK9esEN98co",
-          "online": false
+          "videoId": "41VmjKIGR-s",
+          "online": true
         },
         {
           "nome": "Food Network Brasil",
@@ -161,8 +161,8 @@
         {
           "nome": "TNT Sports Brasil",
           "url": "https://www.youtube.com/@TNTSportsBR/live",
-          "videoId": "V6gwDh60pS0",
-          "online": false
+          "videoId": "IEjrIL4UQhA",
+          "online": true
         },
         {
           "nome": "Bellator MMA",
@@ -302,8 +302,8 @@
         {
           "nome": "Gazeta do Povo",
           "url": "https://www.youtube.com/@gazetadopovo/live",
-          "videoId": "1ijeYj9Fwj0",
-          "online": false
+          "videoId": "WCXI7JX74jk",
+          "online": true
         }
       ]
     },
@@ -366,8 +366,8 @@
         {
           "nome": "SWAT em Português",
           "url": "https://www.youtube.com/@SWATEmPortugues/live",
-          "videoId": "NG4MnsHgJ0E",
-          "online": false
+          "videoId": "kKN7NU3AeU4",
+          "online": true
         }
       ]
     }
