@@ -12,7 +12,7 @@
         {
           "nome": "STF Oficial",
           "url": "https://www.youtube.com/@STF_oficial/live",
-          "videoId": "XfwDB9udBLw",
+          "videoId": "kCyGQEcQv6c",
           "online": true
         },
         {
@@ -24,26 +24,26 @@
         {
           "nome": "Jovem Pan News",
           "url": "https://www.youtube.com/@jovempannews/live",
-          "videoId": "yKReavxT-Ww",
+          "videoId": "We5NUg6jWx8",
           "online": true
         },
         {
           "nome": "CNN Brasil",
           "url": "https://www.youtube.com/@CNNbrasil/live",
           "videoId": "y-QJzAwkjjk",
-          "online": true
+          "online": false
         },
         {
           "nome": "SBT News",
           "url": "https://www.youtube.com/@SBTNews/live",
           "videoId": "JgtvZknL21s",
-          "online": true
+          "online": false
         },
         {
           "nome": "Food Network Brasil",
           "url": "https://www.youtube.com/@FoodNetworkBR/live",
           "videoId": "mutjY3W9h9w",
-          "online": true
+          "online": false
         },
         {
           "nome": "Band Jornalismo",
@@ -85,7 +85,7 @@
           "nome": "Animal Planet Brasil",
           "url": "https://www.youtube.com/@AnimalPlanetBR/live",
           "videoId": "jf6Uqo-liEc",
-          "online": true
+          "online": false
         },
         {
           "nome": "History",
@@ -284,8 +284,8 @@
         {
           "nome": "TV Tropical RN",
           "url": "https://www.youtube.com/@TVTropicalRN/live",
-          "videoId": "6Is6-aPo-tI",
-          "online": false
+          "videoId": "w30qI2hfU00",
+          "online": true
         },
         {
           "nome": "G1 Globo",
@@ -296,8 +296,8 @@
         {
           "nome": "96 FM Natal RN",
           "url": "https://www.youtube.com/@96fmnatalrn/live",
-          "videoId": "hGVZTgKDckk",
-          "online": false
+          "videoId": "wwck6S0vr-E",
+          "online": true
         },
         {
           "nome": "Gazeta do Povo",
