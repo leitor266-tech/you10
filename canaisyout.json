@@ -24,19 +24,19 @@
         {
           "nome": "Jovem Pan News",
           "url": "https://www.youtube.com/@jovempannews/live",
-          "videoId": "g9x8XeUEh-8",
+          "videoId": "yKReavxT-Ww",
           "online": true
         },
         {
           "nome": "CNN Brasil",
           "url": "https://www.youtube.com/@CNNbrasil/live",
-          "videoId": "KRKi62vQRiE",
+          "videoId": "y-QJzAwkjjk",
           "online": true
         },
         {
           "nome": "SBT News",
           "url": "https://www.youtube.com/@SBTNews/live",
-          "videoId": "41VmjKIGR-s",
+          "videoId": "JgtvZknL21s",
           "online": true
         },
         {
@@ -162,7 +162,7 @@
           "nome": "TNT Sports Brasil",
           "url": "https://www.youtube.com/@TNTSportsBR/live",
           "videoId": "IEjrIL4UQhA",
-          "online": true
+          "online": false
         },
         {
           "nome": "Bellator MMA",
@@ -272,8 +272,8 @@
         {
           "nome": "Domingo Espetacular",
           "url": "https://www.youtube.com/@domingoespetacular/live",
-          "videoId": "oey8j6aCUns",
-          "online": false
+          "videoId": "eKIgELSrtkQ",
+          "online": true
         },
         {
           "nome": "TV Ponta Negra RN",
@@ -303,7 +303,7 @@
           "nome": "Gazeta do Povo",
           "url": "https://www.youtube.com/@gazetadopovo/live",
           "videoId": "WCXI7JX74jk",
-          "online": true
+          "online": false
         }
       ]
     },
