@@ -6,37 +6,37 @@
         {
           "nome": "STF Oficial",
           "url": "https://www.youtube.com/@STF_oficial/live",
-          "videoId": "n2uHkkHbWjU",
+          "videoId": "XfwDB9udBLw",
           "online": true
         },
         {
           "nome": "STF Oficial",
           "url": "https://www.youtube.com/@STF_oficial/live",
-          "videoId": "n2uHkkHbWjU",
+          "videoId": "XfwDB9udBLw",
           "online": true
         },
         {
           "nome": "Brasil Paralelo",
           "url": "https://www.youtube.com/@brasilparalelo/live",
           "videoId": "o8kTtwUXoTg",
-          "online": true
+          "online": false
         },
         {
           "nome": "Jovem Pan News",
           "url": "https://www.youtube.com/@jovempannews/live",
           "videoId": "sXMyQdnxxc8",
-          "online": true
+          "online": false
         },
         {
           "nome": "CNN Brasil",
           "url": "https://www.youtube.com/@CNNbrasil/live",
-          "videoId": "s96UxqJmWPA",
+          "videoId": "vvrOd_Yc-YA",
           "online": true
         },
         {
           "nome": "SBT News",
           "url": "https://www.youtube.com/@SBTNews/live",
-          "videoId": "Zrk0rmyeA14",
+          "videoId": "ndh0tgn4BoU",
           "online": true
         },
         {
@@ -102,7 +102,7 @@
           "nome": "GE TV",
           "url": "https://www.youtube.com/@getv/live",
           "videoId": "X6dq_E1lNMk",
-          "online": true
+          "online": false
         },
         {
           "nome": "SportyNet Brasil",
@@ -114,7 +114,7 @@
           "nome": "ESPN Brasil",
           "url": "https://www.youtube.com/@espnbrasil/live",
           "videoId": "3V8OTa8DUSs",
-          "online": true
+          "online": false
         },
         {
           "nome": "CazéTV",
@@ -279,13 +279,13 @@
           "nome": "TV Ponta Negra RN",
           "url": "https://www.youtube.com/@tvpontanegrarn/live",
           "videoId": "--w3TdVuyZo",
-          "online": true
+          "online": false
         },
         {
           "nome": "TV Tropical RN",
           "url": "https://www.youtube.com/@TVTropicalRN/live",
           "videoId": "cSU7W7X_OgI",
-          "online": true
+          "online": false
         },
         {
           "nome": "G1 Globo",
@@ -297,13 +297,13 @@
           "nome": "96 FM Natal RN",
           "url": "https://www.youtube.com/@96fmnatalrn/live",
           "videoId": "_NGzOrNT3Z4",
-          "online": true
+          "online": false
         },
         {
           "nome": "Gazeta do Povo",
           "url": "https://www.youtube.com/@gazetadopovo/live",
           "videoId": "2qLJ1sgARNQ",
-          "online": true
+          "online": false
         }
       ]
     },
