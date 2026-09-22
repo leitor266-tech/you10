@@ -6,37 +6,37 @@
         {
           "nome": "STF Oficial",
           "url": "https://www.youtube.com/@STF_oficial/live",
-          "videoId": "XfwDB9udBLw",
+          "videoId": "n2uHkkHbWjU",
           "online": true
         },
         {
           "nome": "STF Oficial",
           "url": "https://www.youtube.com/@STF_oficial/live",
-          "videoId": "XfwDB9udBLw",
+          "videoId": "n2uHkkHbWjU",
           "online": true
         },
         {
           "nome": "Brasil Paralelo",
           "url": "https://www.youtube.com/@brasilparalelo/live",
-          "videoId": "HEsjhg5qthM",
-          "online": false
+          "videoId": "o8kTtwUXoTg",
+          "online": true
         },
         {
           "nome": "Jovem Pan News",
           "url": "https://www.youtube.com/@jovempannews/live",
-          "videoId": "usE9ObbeOrQ",
+          "videoId": "sXMyQdnxxc8",
           "online": true
         },
         {
           "nome": "CNN Brasil",
           "url": "https://www.youtube.com/@CNNbrasil/live",
-          "videoId": "_P2R3HEf1xk",
+          "videoId": "s96UxqJmWPA",
           "online": true
         },
         {
           "nome": "SBT News",
           "url": "https://www.youtube.com/@SBTNews/live",
-          "videoId": "yd_Qz25ByXM",
+          "videoId": "Zrk0rmyeA14",
           "online": true
         },
         {
@@ -101,8 +101,8 @@
         {
           "nome": "GE TV",
           "url": "https://www.youtube.com/@getv/live",
-          "videoId": "ztGmnkkCUls",
-          "online": false
+          "videoId": "X6dq_E1lNMk",
+          "online": true
         },
         {
           "nome": "SportyNet Brasil",
@@ -113,8 +113,8 @@
         {
           "nome": "ESPN Brasil",
           "url": "https://www.youtube.com/@espnbrasil/live",
-          "videoId": "8cTJijUv0_w",
-          "online": false
+          "videoId": "3V8OTa8DUSs",
+          "online": true
         },
         {
           "nome": "CazéTV",
@@ -272,19 +272,19 @@
         {
           "nome": "Domingo Espetacular",
           "url": "https://www.youtube.com/@domingoespetacular/live",
-          "videoId": "eKIgELSrtkQ",
-          "online": false
+          "videoId": "djEV0OVKT9Q",
+          "online": true
         },
         {
           "nome": "TV Ponta Negra RN",
           "url": "https://www.youtube.com/@tvpontanegrarn/live",
-          "videoId": "d9NoDMdfRv8",
+          "videoId": "--w3TdVuyZo",
           "online": true
         },
         {
           "nome": "TV Tropical RN",
           "url": "https://www.youtube.com/@TVTropicalRN/live",
-          "videoId": "S1HeMaKDJdc",
+          "videoId": "cSU7W7X_OgI",
           "online": true
         },
         {
@@ -296,13 +296,13 @@
         {
           "nome": "96 FM Natal RN",
           "url": "https://www.youtube.com/@96fmnatalrn/live",
-          "videoId": "5TLC0qLEArQ",
+          "videoId": "_NGzOrNT3Z4",
           "online": true
         },
         {
           "nome": "Gazeta do Povo",
           "url": "https://www.youtube.com/@gazetadopovo/live",
-          "videoId": "0--9t0HXWuc",
+          "videoId": "2qLJ1sgARNQ",
           "online": true
         }
       ]
