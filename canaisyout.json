@@ -12,7 +12,7 @@
         {
           "nome": "STF Oficial",
           "url": "https://www.youtube.com/@STF_oficial/live",
-          "videoId": "kCyGQEcQv6c",
+          "videoId": "XfwDB9udBLw",
           "online": true
         },
         {
@@ -24,7 +24,7 @@
         {
           "nome": "Jovem Pan News",
           "url": "https://www.youtube.com/@jovempannews/live",
-          "videoId": "We5NUg6jWx8",
+          "videoId": "l-hjEYJ_LEA",
           "online": true
         },
         {
@@ -36,8 +36,8 @@
         {
           "nome": "SBT News",
           "url": "https://www.youtube.com/@SBTNews/live",
-          "videoId": "JgtvZknL21s",
-          "online": false
+          "videoId": "GaPaMqXdmlE",
+          "online": true
         },
         {
           "nome": "Food Network Brasil",
@@ -285,7 +285,7 @@
           "nome": "TV Tropical RN",
           "url": "https://www.youtube.com/@TVTropicalRN/live",
           "videoId": "w30qI2hfU00",
-          "online": true
+          "online": false
         },
         {
           "nome": "G1 Globo",
@@ -297,7 +297,7 @@
           "nome": "96 FM Natal RN",
           "url": "https://www.youtube.com/@96fmnatalrn/live",
           "videoId": "wwck6S0vr-E",
-          "online": true
+          "online": false
         },
         {
           "nome": "Gazeta do Povo",
