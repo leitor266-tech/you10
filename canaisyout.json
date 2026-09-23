@@ -24,19 +24,19 @@
         {
           "nome": "Jovem Pan News",
           "url": "https://www.youtube.com/@jovempannews/live",
-          "videoId": "eTz4XgOQaAE",
+          "videoId": "0Mbud-bjU-Q",
           "online": true
         },
         {
           "nome": "CNN Brasil",
           "url": "https://www.youtube.com/@CNNbrasil/live",
-          "videoId": "QHd8hSoZSj8",
+          "videoId": "mWzvmc1JiC0",
           "online": true
         },
         {
           "nome": "SBT News",
           "url": "https://www.youtube.com/@SBTNews/live",
-          "videoId": "ib9TeARqoaI",
+          "videoId": "5pXA4VVXk1Q",
           "online": true
         },
         {
@@ -54,7 +54,7 @@
         {
           "nome": "Nat Geo Animals",
           "url": "https://www.youtube.com/@NatGeoAnimals/live",
-          "videoId": "J4IYwyEUwrI",
+          "videoId": "MiQe9ob9aDc",
           "online": true
         },
         {
@@ -161,8 +161,8 @@
         {
           "nome": "TNT Sports Brasil",
           "url": "https://www.youtube.com/@TNTSportsBR/live",
-          "videoId": "IEjrIL4UQhA",
-          "online": false
+          "videoId": "4Yh1iThS6jw",
+          "online": true
         },
         {
           "nome": "Bellator MMA",
@@ -207,7 +207,7 @@
         {
           "nome": "Live Cam Natal",
           "url": "https://www.youtube.com/@LiveCamNatal/live",
-          "videoId": "pY75jOvfcIc",
+          "videoId": "lsucquMrJoY",
           "online": true
         },
         {
