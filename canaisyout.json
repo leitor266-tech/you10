@@ -6,13 +6,13 @@
         {
           "nome": "STF Oficial",
           "url": "https://www.youtube.com/@STF_oficial/live",
-          "videoId": "XfwDB9udBLw",
+          "videoId": "56KXUU1Oe-w",
           "online": true
         },
         {
           "nome": "STF Oficial",
           "url": "https://www.youtube.com/@STF_oficial/live",
-          "videoId": "XfwDB9udBLw",
+          "videoId": "56KXUU1Oe-w",
           "online": true
         },
         {
@@ -24,19 +24,19 @@
         {
           "nome": "Jovem Pan News",
           "url": "https://www.youtube.com/@jovempannews/live",
-          "videoId": "0Mbud-bjU-Q",
+          "videoId": "Nmxb_FpqGZg",
           "online": true
         },
         {
           "nome": "CNN Brasil",
           "url": "https://www.youtube.com/@CNNbrasil/live",
-          "videoId": "mWzvmc1JiC0",
+          "videoId": "QDsxqlTiBwU",
           "online": true
         },
         {
           "nome": "SBT News",
           "url": "https://www.youtube.com/@SBTNews/live",
-          "videoId": "5pXA4VVXk1Q",
+          "videoId": "qQbxMl9Zuho",
           "online": true
         },
         {
@@ -162,7 +162,7 @@
           "nome": "TNT Sports Brasil",
           "url": "https://www.youtube.com/@TNTSportsBR/live",
           "videoId": "4Yh1iThS6jw",
-          "online": true
+          "online": false
         },
         {
           "nome": "Bellator MMA",
@@ -213,7 +213,7 @@
         {
           "nome": "FVF Drone",
           "url": "https://www.youtube.com/@fvfdrone/live",
-          "videoId": "cwVcWVperXg",
+          "videoId": "O00YZItaim8",
           "online": true
         },
         {
@@ -302,8 +302,8 @@
         {
           "nome": "Gazeta do Povo",
           "url": "https://www.youtube.com/@gazetadopovo/live",
-          "videoId": "2qLJ1sgARNQ",
-          "online": false
+          "videoId": "0PcESkH85Rw",
+          "online": true
         }
       ]
     },
@@ -367,7 +367,7 @@
           "nome": "SWAT em Português",
           "url": "https://www.youtube.com/@SWATEmPortugues/live",
           "videoId": "kKN7NU3AeU4",
-          "online": true
+          "online": false
         }
       ]
     }
