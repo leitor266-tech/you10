@@ -12,8 +12,8 @@
         {
           "nome": "STF Oficial",
           "url": "https://www.youtube.com/@STF_oficial/live",
-          "videoId": "56KXUU1Oe-w",
-          "online": false
+          "videoId": "XfwDB9udBLw",
+          "online": true
         },
         {
           "nome": "Brasil Paralelo",
@@ -24,20 +24,20 @@
         {
           "nome": "Jovem Pan News",
           "url": "https://www.youtube.com/@jovempannews/live",
-          "videoId": "Nmxb_FpqGZg",
-          "online": false
+          "videoId": "wyJtfY5Mt70",
+          "online": true
         },
         {
           "nome": "CNN Brasil",
           "url": "https://www.youtube.com/@CNNbrasil/live",
-          "videoId": "QDsxqlTiBwU",
-          "online": false
+          "videoId": "uI93S3OGF3g",
+          "online": true
         },
         {
           "nome": "SBT News",
           "url": "https://www.youtube.com/@SBTNews/live",
-          "videoId": "qQbxMl9Zuho",
-          "online": false
+          "videoId": "jhJLwpi-ZRc",
+          "online": true
         },
         {
           "nome": "Food Network Brasil",
@@ -161,8 +161,8 @@
         {
           "nome": "TNT Sports Brasil",
           "url": "https://www.youtube.com/@TNTSportsBR/live",
-          "videoId": "4Yh1iThS6jw",
-          "online": false
+          "videoId": "m7o8L-VAr24",
+          "online": true
         },
         {
           "nome": "Bellator MMA",
@@ -207,7 +207,7 @@
         {
           "nome": "Live Cam Natal",
           "url": "https://www.youtube.com/@LiveCamNatal/live",
-          "videoId": "lsucquMrJoY",
+          "videoId": "pY75jOvfcIc",
           "online": true
         },
         {
@@ -302,8 +302,8 @@
         {
           "nome": "Gazeta do Povo",
           "url": "https://www.youtube.com/@gazetadopovo/live",
-          "videoId": "0PcESkH85Rw",
-          "online": false
+          "videoId": "UFAqcULv8WI",
+          "online": true
         }
       ]
     },
@@ -354,7 +354,7 @@
         {
           "nome": "Boomerang UK",
           "url": "https://www.youtube.com/@BoomerangUK/live",
-          "videoId": "WMBR_vDkd94",
+          "videoId": "90kaC8Kbw0k",
           "online": true
         },
         {
