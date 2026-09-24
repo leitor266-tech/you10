@@ -6,7 +6,7 @@
         {
           "nome": "STF Oficial",
           "url": "https://www.youtube.com/@STF_oficial/live",
-          "videoId": "XfwDB9udBLw",
+          "videoId": "kCyGQEcQv6c",
           "online": true
         },
         {
@@ -24,19 +24,19 @@
         {
           "nome": "Jovem Pan News",
           "url": "https://www.youtube.com/@jovempannews/live",
-          "videoId": "wyJtfY5Mt70",
+          "videoId": "ZFw17tXeyg8",
           "online": true
         },
         {
           "nome": "CNN Brasil",
           "url": "https://www.youtube.com/@CNNbrasil/live",
-          "videoId": "uI93S3OGF3g",
+          "videoId": "qVd6DSVOcpo",
           "online": true
         },
         {
           "nome": "SBT News",
           "url": "https://www.youtube.com/@SBTNews/live",
-          "videoId": "jhJLwpi-ZRc",
+          "videoId": "yvWOm4zqm4g",
           "online": true
         },
         {
@@ -162,7 +162,7 @@
           "nome": "TNT Sports Brasil",
           "url": "https://www.youtube.com/@TNTSportsBR/live",
           "videoId": "m7o8L-VAr24",
-          "online": true
+          "online": false
         },
         {
           "nome": "Bellator MMA",
@@ -272,8 +272,8 @@
         {
           "nome": "Domingo Espetacular",
           "url": "https://www.youtube.com/@domingoespetacular/live",
-          "videoId": "djEV0OVKT9Q",
-          "online": false
+          "videoId": "vBwsDCu2bXM",
+          "online": true
         },
         {
           "nome": "TV Ponta Negra RN",
@@ -284,8 +284,8 @@
         {
           "nome": "TV Tropical RN",
           "url": "https://www.youtube.com/@TVTropicalRN/live",
-          "videoId": "cSU7W7X_OgI",
-          "online": false
+          "videoId": "EQkbROcuBvI",
+          "online": true
         },
         {
           "nome": "G1 Globo",
@@ -303,7 +303,7 @@
           "nome": "Gazeta do Povo",
           "url": "https://www.youtube.com/@gazetadopovo/live",
           "videoId": "UFAqcULv8WI",
-          "online": true
+          "online": false
         }
       ]
     },
