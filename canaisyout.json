@@ -6,14 +6,14 @@
         {
           "nome": "STF Oficial",
           "url": "https://www.youtube.com/@STF_oficial/live",
-          "videoId": "QY4T9D78z1I",
+          "videoId": "kCyGQEcQv6c",
           "online": true
         },
         {
           "nome": "STF Oficial",
           "url": "https://www.youtube.com/@STF_oficial/live",
           "videoId": "QY4T9D78z1I",
-          "online": true
+          "online": false
         },
         {
           "nome": "Brasil Paralelo",
@@ -24,20 +24,20 @@
         {
           "nome": "Jovem Pan News",
           "url": "https://www.youtube.com/@jovempannews/live",
-          "videoId": "PZs1932aljc",
+          "videoId": "AJqP_ihswgc",
           "online": true
         },
         {
           "nome": "CNN Brasil",
           "url": "https://www.youtube.com/@CNNbrasil/live",
           "videoId": "zOKDsqrs768",
-          "online": true
+          "online": false
         },
         {
           "nome": "SBT News",
           "url": "https://www.youtube.com/@SBTNews/live",
           "videoId": "3Kg4HYm44lI",
-          "online": true
+          "online": false
         },
         {
           "nome": "Food Network Brasil",
@@ -279,7 +279,7 @@
           "nome": "TV Ponta Negra RN",
           "url": "https://www.youtube.com/@tvpontanegrarn/live",
           "videoId": "IExuiZP3SCc",
-          "online": true
+          "online": false
         },
         {
           "nome": "TV Tropical RN",
