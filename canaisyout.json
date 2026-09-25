@@ -6,14 +6,14 @@
         {
           "nome": "STF Oficial",
           "url": "https://www.youtube.com/@STF_oficial/live",
-          "videoId": "kCyGQEcQv6c",
+          "videoId": "XfwDB9udBLw",
           "online": true
         },
         {
           "nome": "STF Oficial",
           "url": "https://www.youtube.com/@STF_oficial/live",
-          "videoId": "QY4T9D78z1I",
-          "online": false
+          "videoId": "kCyGQEcQv6c",
+          "online": true
         },
         {
           "nome": "Brasil Paralelo",
@@ -24,20 +24,20 @@
         {
           "nome": "Jovem Pan News",
           "url": "https://www.youtube.com/@jovempannews/live",
-          "videoId": "AJqP_ihswgc",
-          "online": false
+          "videoId": "Ana9pE7JDsI",
+          "online": true
         },
         {
           "nome": "CNN Brasil",
           "url": "https://www.youtube.com/@CNNbrasil/live",
-          "videoId": "zOKDsqrs768",
-          "online": false
+          "videoId": "KE9Kd3XhP6A",
+          "online": true
         },
         {
           "nome": "SBT News",
           "url": "https://www.youtube.com/@SBTNews/live",
-          "videoId": "3Kg4HYm44lI",
-          "online": false
+          "videoId": "xnfX8Ou9BUY",
+          "online": true
         },
         {
           "nome": "Food Network Brasil",
@@ -60,7 +60,7 @@
         {
           "nome": "Nature Time Brasil",
           "url": "https://www.youtube.com/@NatureTimeBrasil/live",
-          "videoId": "7SxLbOowyHY",
+          "videoId": "xfYw3vKOToQ",
           "online": true
         },
         {
@@ -161,8 +161,8 @@
         {
           "nome": "TNT Sports Brasil",
           "url": "https://www.youtube.com/@TNTSportsBR/live",
-          "videoId": "m7o8L-VAr24",
-          "online": false
+          "videoId": "Z6e5eatHiaU",
+          "online": true
         },
         {
           "nome": "Bellator MMA",
@@ -302,8 +302,8 @@
         {
           "nome": "Gazeta do Povo",
           "url": "https://www.youtube.com/@gazetadopovo/live",
-          "videoId": "UFAqcULv8WI",
-          "online": false
+          "videoId": "e9I4VeXWsXc",
+          "online": true
         }
       ]
     },
@@ -354,7 +354,7 @@
         {
           "nome": "Boomerang UK",
           "url": "https://www.youtube.com/@BoomerangUK/live",
-          "videoId": "90kaC8Kbw0k",
+          "videoId": "WMBR_vDkd94",
           "online": true
         },
         {
