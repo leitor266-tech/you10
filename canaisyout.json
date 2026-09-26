@@ -30,7 +30,7 @@
         {
           "nome": "CNN Brasil",
           "url": "https://www.youtube.com/@CNNbrasil/live",
-          "videoId": "9LFolynaaBY",
+          "videoId": "YNjWjY9HS5E",
           "online": true
         },
         {
@@ -54,7 +54,7 @@
         {
           "nome": "Nat Geo Animals",
           "url": "https://www.youtube.com/@NatGeoAnimals/live",
-          "videoId": "MiQe9ob9aDc",
+          "videoId": "J4IYwyEUwrI",
           "online": true
         },
         {
@@ -102,7 +102,7 @@
           "nome": "GE TV",
           "url": "https://www.youtube.com/@getv/live",
           "videoId": "kFLyuc33gn0",
-          "online": true
+          "online": false
         },
         {
           "nome": "SportyNet Brasil",
@@ -113,8 +113,8 @@
         {
           "nome": "ESPN Brasil",
           "url": "https://www.youtube.com/@espnbrasil/live",
-          "videoId": "3V8OTa8DUSs",
-          "online": false
+          "videoId": "ddP6YWh-fQA",
+          "online": true
         },
         {
           "nome": "CazéTV",
@@ -126,7 +126,7 @@
           "nome": "CONMEBOL",
           "url": "https://www.youtube.com/@conmebol/live",
           "videoId": "CmPYqu0noQ0",
-          "online": true
+          "online": false
         },
         {
           "nome": "Vasco da Gama",
@@ -144,7 +144,7 @@
           "nome": "Palmeiras",
           "url": "https://www.youtube.com/@Palmeiras/live",
           "videoId": "WMCIrp79xLo",
-          "online": true
+          "online": false
         },
         {
           "nome": "X Sports Brasil",
@@ -173,7 +173,7 @@
         {
           "nome": "Boxing Mates",
           "url": "https://www.youtube.com/@BoxingMates1/live",
-          "videoId": "Yz05zU_0Rbc",
+          "videoId": "BBUFSZ0ORUc",
           "online": true
         },
         {
@@ -285,7 +285,7 @@
           "nome": "TV Tropical RN",
           "url": "https://www.youtube.com/@TVTropicalRN/live",
           "videoId": "sY9ayjEOe-Q",
-          "online": true
+          "online": false
         },
         {
           "nome": "G1 Globo",
@@ -349,7 +349,7 @@
           "nome": "PJ Masks em Português",
           "url": "https://www.youtube.com/@PJMasksemPortugues/live",
           "videoId": "aKtUWVDW10E",
-          "online": true
+          "online": false
         },
         {
           "nome": "Boomerang UK",
