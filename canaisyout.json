@@ -6,13 +6,13 @@
         {
           "nome": "STF Oficial",
           "url": "https://www.youtube.com/@STF_oficial/live",
-          "videoId": "kCyGQEcQv6c",
+          "videoId": "XfwDB9udBLw",
           "online": true
         },
         {
           "nome": "STF Oficial",
           "url": "https://www.youtube.com/@STF_oficial/live",
-          "videoId": "kCyGQEcQv6c",
+          "videoId": "XfwDB9udBLw",
           "online": true
         },
         {
@@ -24,19 +24,19 @@
         {
           "nome": "Jovem Pan News",
           "url": "https://www.youtube.com/@jovempannews/live",
-          "videoId": "OtYbh_1voJ0",
+          "videoId": "eTz4XgOQaAE",
           "online": true
         },
         {
           "nome": "CNN Brasil",
           "url": "https://www.youtube.com/@CNNbrasil/live",
-          "videoId": "XwuWam5AXnA",
+          "videoId": "9LFolynaaBY",
           "online": true
         },
         {
           "nome": "SBT News",
           "url": "https://www.youtube.com/@SBTNews/live",
-          "videoId": "N_V4WTjxZuA",
+          "videoId": "HmptK1FU9UI",
           "online": true
         },
         {
@@ -101,8 +101,8 @@
         {
           "nome": "GE TV",
           "url": "https://www.youtube.com/@getv/live",
-          "videoId": "X6dq_E1lNMk",
-          "online": false
+          "videoId": "kFLyuc33gn0",
+          "online": true
         },
         {
           "nome": "SportyNet Brasil",
@@ -125,8 +125,8 @@
         {
           "nome": "CONMEBOL",
           "url": "https://www.youtube.com/@conmebol/live",
-          "videoId": "MF_oB1Qb_3w",
-          "online": false
+          "videoId": "CmPYqu0noQ0",
+          "online": true
         },
         {
           "nome": "Vasco da Gama",
@@ -143,8 +143,8 @@
         {
           "nome": "Palmeiras",
           "url": "https://www.youtube.com/@Palmeiras/live",
-          "videoId": "sxGsS2256SE",
-          "online": false
+          "videoId": "WMCIrp79xLo",
+          "online": true
         },
         {
           "nome": "X Sports Brasil",
@@ -173,7 +173,7 @@
         {
           "nome": "Boxing Mates",
           "url": "https://www.youtube.com/@BoxingMates1/live",
-          "videoId": "BBUFSZ0ORUc",
+          "videoId": "Yz05zU_0Rbc",
           "online": true
         },
         {
@@ -207,7 +207,7 @@
         {
           "nome": "Live Cam Natal",
           "url": "https://www.youtube.com/@LiveCamNatal/live",
-          "videoId": "lsucquMrJoY",
+          "videoId": "pY75jOvfcIc",
           "online": true
         },
         {
@@ -272,20 +272,20 @@
         {
           "nome": "Domingo Espetacular",
           "url": "https://www.youtube.com/@domingoespetacular/live",
-          "videoId": "WEvweUjBUw0",
-          "online": false
+          "videoId": "b2BUjFXCZd4",
+          "online": true
         },
         {
           "nome": "TV Ponta Negra RN",
           "url": "https://www.youtube.com/@tvpontanegrarn/live",
           "videoId": "zbhsjGQhpb8",
-          "online": true
+          "online": false
         },
         {
           "nome": "TV Tropical RN",
           "url": "https://www.youtube.com/@TVTropicalRN/live",
-          "videoId": "j4QYYu-wkN8",
-          "online": false
+          "videoId": "sY9ayjEOe-Q",
+          "online": true
         },
         {
           "nome": "G1 Globo",
