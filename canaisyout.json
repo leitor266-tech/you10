@@ -31,12 +31,12 @@
           "nome": "CNN Brasil",
           "url": "https://www.youtube.com/@CNNbrasil/live",
           "videoId": "YNjWjY9HS5E",
-          "online": true
+          "online": false
         },
         {
           "nome": "SBT News",
           "url": "https://www.youtube.com/@SBTNews/live",
-          "videoId": "HmptK1FU9UI",
+          "videoId": "JLjP3FVCEVc",
           "online": true
         },
         {
@@ -114,7 +114,7 @@
           "nome": "ESPN Brasil",
           "url": "https://www.youtube.com/@espnbrasil/live",
           "videoId": "ddP6YWh-fQA",
-          "online": true
+          "online": false
         },
         {
           "nome": "CazéTV",
