@@ -30,14 +30,14 @@
         {
           "nome": "CNN Brasil",
           "url": "https://www.youtube.com/@CNNbrasil/live",
-          "videoId": "YNjWjY9HS5E",
-          "online": false
+          "videoId": "Yf_Leb1xZd0",
+          "online": true
         },
         {
           "nome": "SBT News",
           "url": "https://www.youtube.com/@SBTNews/live",
-          "videoId": "JLjP3FVCEVc",
-          "online": false
+          "videoId": "V9ewG3j_oPg",
+          "online": true
         },
         {
           "nome": "Food Network Brasil",
@@ -54,7 +54,7 @@
         {
           "nome": "Nat Geo Animals",
           "url": "https://www.youtube.com/@NatGeoAnimals/live",
-          "videoId": "J4IYwyEUwrI",
+          "videoId": "MiQe9ob9aDc",
           "online": true
         },
         {
@@ -173,7 +173,7 @@
         {
           "nome": "Boxing Mates",
           "url": "https://www.youtube.com/@BoxingMates1/live",
-          "videoId": "BBUFSZ0ORUc",
+          "videoId": "Yz05zU_0Rbc",
           "online": true
         },
         {
@@ -196,7 +196,7 @@
         {
           "nome": "Planetshakers",
           "url": "https://www.youtube.com/@planetshakerstv/live",
-          "videoId": "zkcl7tBXhio",
+          "videoId": "qYM4TDOMwKI",
           "online": true
         }
       ]
@@ -273,7 +273,7 @@
           "nome": "Domingo Espetacular",
           "url": "https://www.youtube.com/@domingoespetacular/live",
           "videoId": "b2BUjFXCZd4",
-          "online": true
+          "online": false
         },
         {
           "nome": "TV Ponta Negra RN",
@@ -348,8 +348,8 @@
         {
           "nome": "PJ Masks em Português",
           "url": "https://www.youtube.com/@PJMasksemPortugues/live",
-          "videoId": "aKtUWVDW10E",
-          "online": false
+          "videoId": "u2M8S7vegBM",
+          "online": true
         },
         {
           "nome": "Boomerang UK",
@@ -360,7 +360,7 @@
         {
           "nome": "Três Espiãs Demais em Português",
           "url": "https://www.youtube.com/@TresEspiasDemaisPortugues/live",
-          "videoId": "VikYJ5l3XsM",
+          "videoId": "nfs5DPFMrcc",
           "online": true
         },
         {
