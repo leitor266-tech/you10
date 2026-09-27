@@ -31,13 +31,13 @@
           "nome": "CNN Brasil",
           "url": "https://www.youtube.com/@CNNbrasil/live",
           "videoId": "9Djb43lQjWw",
-          "online": true
+          "online": false
         },
         {
           "nome": "SBT News",
           "url": "https://www.youtube.com/@SBTNews/live",
           "videoId": "V9ewG3j_oPg",
-          "online": true
+          "online": false
         },
         {
           "nome": "Food Network Brasil",
@@ -162,7 +162,7 @@
           "nome": "TNT Sports Brasil",
           "url": "https://www.youtube.com/@TNTSportsBR/live",
           "videoId": "8m5lf6JmXL0",
-          "online": true
+          "online": false
         },
         {
           "nome": "Bellator MMA",
