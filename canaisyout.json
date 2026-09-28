@@ -24,20 +24,20 @@
         {
           "nome": "Jovem Pan News",
           "url": "https://www.youtube.com/@jovempannews/live",
-          "videoId": "SoDlGCsCJ8I",
-          "online": false
+          "videoId": "ydkCWMdJyPk",
+          "online": true
         },
         {
           "nome": "CNN Brasil",
           "url": "https://www.youtube.com/@CNNbrasil/live",
-          "videoId": "9Djb43lQjWw",
-          "online": false
+          "videoId": "IKPi55fa1AU",
+          "online": true
         },
         {
           "nome": "SBT News",
           "url": "https://www.youtube.com/@SBTNews/live",
-          "videoId": "V9ewG3j_oPg",
-          "online": false
+          "videoId": "m4Zk5JUyFBs",
+          "online": true
         },
         {
           "nome": "Food Network Brasil",
@@ -190,8 +190,8 @@
         {
           "nome": "Igreja Presbiteriana de Pinheiros",
           "url": "https://www.youtube.com/@ippinheiros/live",
-          "videoId": "nWSDTkYNCy4",
-          "online": false
+          "videoId": "0lHP7-dsT58",
+          "online": true
         },
         {
           "nome": "Planetshakers",
@@ -296,8 +296,8 @@
         {
           "nome": "96 FM Natal RN",
           "url": "https://www.youtube.com/@96fmnatalrn/live",
-          "videoId": "_NGzOrNT3Z4",
-          "online": false
+          "videoId": "PDs-XEdl3OE",
+          "online": true
         },
         {
           "nome": "Gazeta do Povo",
@@ -348,8 +348,8 @@
         {
           "nome": "PJ Masks em Português",
           "url": "https://www.youtube.com/@PJMasksemPortugues/live",
-          "videoId": "u2M8S7vegBM",
-          "online": false
+          "videoId": "iEAocNvTNoA",
+          "online": true
         },
         {
           "nome": "Boomerang UK",
@@ -360,14 +360,14 @@
         {
           "nome": "Três Espiãs Demais em Português",
           "url": "https://www.youtube.com/@TresEspiasDemaisPortugues/live",
-          "videoId": "VikYJ5l3XsM",
+          "videoId": "nfs5DPFMrcc",
           "online": true
         },
         {
           "nome": "SWAT em Português",
           "url": "https://www.youtube.com/@SWATEmPortugues/live",
-          "videoId": "kKN7NU3AeU4",
-          "online": false
+          "videoId": "RcKqh2JPL2A",
+          "online": true
         }
       ]
     }
