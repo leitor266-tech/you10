@@ -24,19 +24,19 @@
         {
           "nome": "Jovem Pan News",
           "url": "https://www.youtube.com/@jovempannews/live",
-          "videoId": "eaJo3u4P12o",
+          "videoId": "HHxs4skvGuk",
           "online": true
         },
         {
           "nome": "CNN Brasil",
           "url": "https://www.youtube.com/@CNNbrasil/live",
-          "videoId": "UNMWELrDoJE",
+          "videoId": "n8vdRrb-WRw",
           "online": true
         },
         {
           "nome": "SBT News",
           "url": "https://www.youtube.com/@SBTNews/live",
-          "videoId": "9JKDTyRU9kc",
+          "videoId": "AoTIYRJFHoI",
           "online": true
         },
         {
@@ -114,7 +114,7 @@
           "nome": "ESPN Brasil",
           "url": "https://www.youtube.com/@espnbrasil/live",
           "videoId": "y91qWTN6mtw",
-          "online": true
+          "online": false
         },
         {
           "nome": "CazéTV",
@@ -279,13 +279,13 @@
           "nome": "TV Ponta Negra RN",
           "url": "https://www.youtube.com/@tvpontanegrarn/live",
           "videoId": "6AtwXJG__Jo",
-          "online": true
+          "online": false
         },
         {
           "nome": "TV Tropical RN",
           "url": "https://www.youtube.com/@TVTropicalRN/live",
           "videoId": "OzwaEP0QEJc",
-          "online": true
+          "online": false
         },
         {
           "nome": "G1 Globo",
@@ -303,7 +303,7 @@
           "nome": "Gazeta do Povo",
           "url": "https://www.youtube.com/@gazetadopovo/live",
           "videoId": "Grzh_3wZZBY",
-          "online": true
+          "online": false
         }
       ]
     },
