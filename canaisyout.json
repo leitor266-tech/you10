@@ -6,7 +6,7 @@
         {
           "nome": "STF Oficial",
           "url": "https://www.youtube.com/@STF_oficial/live",
-          "videoId": "XfwDB9udBLw",
+          "videoId": "kCyGQEcQv6c",
           "online": true
         },
         {
@@ -24,19 +24,19 @@
         {
           "nome": "Jovem Pan News",
           "url": "https://www.youtube.com/@jovempannews/live",
-          "videoId": "HHxs4skvGuk",
-          "online": false
+          "videoId": "SM6ZlnhzLIw",
+          "online": true
         },
         {
           "nome": "CNN Brasil",
           "url": "https://www.youtube.com/@CNNbrasil/live",
-          "videoId": "n8vdRrb-WRw",
-          "online": false
+          "videoId": "jRawYzYjpZs",
+          "online": true
         },
         {
           "nome": "SBT News",
           "url": "https://www.youtube.com/@SBTNews/live",
-          "videoId": "h2ewrdmkgkM",
+          "videoId": "vTH4Udi_5N8",
           "online": true
         },
         {
@@ -273,7 +273,7 @@
           "nome": "Domingo Espetacular",
           "url": "https://www.youtube.com/@domingoespetacular/live",
           "videoId": "3P3RgGn07pE",
-          "online": true
+          "online": false
         },
         {
           "nome": "TV Ponta Negra RN",
@@ -296,8 +296,8 @@
         {
           "nome": "96 FM Natal RN",
           "url": "https://www.youtube.com/@96fmnatalrn/live",
-          "videoId": "PDs-XEdl3OE",
-          "online": false
+          "videoId": "iX_st3DMsjE",
+          "online": true
         },
         {
           "nome": "Gazeta do Povo",
@@ -354,7 +354,7 @@
         {
           "nome": "Boomerang UK",
           "url": "https://www.youtube.com/@BoomerangUK/live",
-          "videoId": "WMBR_vDkd94",
+          "videoId": "90kaC8Kbw0k",
           "online": true
         },
         {
