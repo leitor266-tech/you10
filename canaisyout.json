@@ -24,20 +24,20 @@
         {
           "nome": "Jovem Pan News",
           "url": "https://www.youtube.com/@jovempannews/live",
-          "videoId": "z-ijjOuNJ8k",
+          "videoId": "5M_0QfMfLAY",
           "online": true
         },
         {
           "nome": "CNN Brasil",
           "url": "https://www.youtube.com/@CNNbrasil/live",
-          "videoId": "fuV2hsHcQbk",
+          "videoId": "rCPtl4P5_bI",
           "online": true
         },
         {
           "nome": "SBT News",
           "url": "https://www.youtube.com/@SBTNews/live",
           "videoId": "CXgVf50z_7w",
-          "online": true
+          "online": false
         },
         {
           "nome": "Food Network Brasil",
@@ -78,8 +78,8 @@
         {
           "nome": "Batalha da Aldeia",
           "url": "https://www.youtube.com/@BatalhaDaAldeia/live",
-          "videoId": "4P08F7rQc40",
-          "online": false
+          "videoId": "sx2T6WFJGGI",
+          "online": true
         },
         {
           "nome": "Animal Planet Brasil",
@@ -162,7 +162,7 @@
           "nome": "TNT Sports Brasil",
           "url": "https://www.youtube.com/@TNTSportsBR/live",
           "videoId": "K2VePqZjay4",
-          "online": true
+          "online": false
         },
         {
           "nome": "Bellator MMA",
@@ -191,7 +191,7 @@
           "nome": "Igreja Presbiteriana de Pinheiros",
           "url": "https://www.youtube.com/@ippinheiros/live",
           "videoId": "yTR2OQ910_o",
-          "online": true
+          "online": false
         },
         {
           "nome": "Planetshakers",
@@ -285,7 +285,7 @@
           "nome": "TV Tropical RN",
           "url": "https://www.youtube.com/@TVTropicalRN/live",
           "videoId": "12K4Uyomwzc",
-          "online": true
+          "online": false
         },
         {
           "nome": "G1 Globo",
@@ -303,7 +303,7 @@
           "nome": "Gazeta do Povo",
           "url": "https://www.youtube.com/@gazetadopovo/live",
           "videoId": "yXXoE4ekS5E",
-          "online": true
+          "online": false
         }
       ]
     },
