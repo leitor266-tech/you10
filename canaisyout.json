@@ -7,13 +7,13 @@
           "nome": "STF Oficial",
           "url": "https://www.youtube.com/@STF_oficial/live",
           "videoId": "tW4rDPMS3U0",
-          "online": true
+          "online": false
         },
         {
           "nome": "STF Oficial",
           "url": "https://www.youtube.com/@STF_oficial/live",
           "videoId": "tW4rDPMS3U0",
-          "online": true
+          "online": false
         },
         {
           "nome": "Brasil Paralelo",
@@ -31,7 +31,7 @@
           "nome": "CNN Brasil",
           "url": "https://www.youtube.com/@CNNbrasil/live",
           "videoId": "Wk3uv0fV7Hk",
-          "online": true
+          "online": false
         },
         {
           "nome": "SBT News",
