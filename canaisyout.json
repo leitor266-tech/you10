@@ -25,13 +25,13 @@
           "nome": "Jovem Pan News",
           "url": "https://www.youtube.com/@jovempannews/live",
           "videoId": "5M_0QfMfLAY",
-          "online": true
+          "online": false
         },
         {
           "nome": "CNN Brasil",
           "url": "https://www.youtube.com/@CNNbrasil/live",
           "videoId": "rCPtl4P5_bI",
-          "online": true
+          "online": false
         },
         {
           "nome": "SBT News",
@@ -79,7 +79,7 @@
           "nome": "Batalha da Aldeia",
           "url": "https://www.youtube.com/@BatalhaDaAldeia/live",
           "videoId": "sx2T6WFJGGI",
-          "online": true
+          "online": false
         },
         {
           "nome": "Animal Planet Brasil",
@@ -173,7 +173,7 @@
         {
           "nome": "Boxing Mates",
           "url": "https://www.youtube.com/@BoxingMates1/live",
-          "videoId": "CeI_65aLq-8",
+          "videoId": "BBUFSZ0ORUc",
           "online": true
         },
         {
