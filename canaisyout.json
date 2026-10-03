@@ -24,7 +24,7 @@
         {
           "nome": "Jovem Pan News",
           "url": "https://www.youtube.com/@jovempannews/live",
-          "videoId": "BgOlcNqZxII",
+          "videoId": "R197-wXjh5w",
           "online": true
         },
         {
@@ -149,8 +149,8 @@
         {
           "nome": "X Sports Brasil",
           "url": "https://www.youtube.com/@xsports.brasil/live",
-          "videoId": "4T_hi4b0tgs",
-          "online": false
+          "videoId": "WHvEaWKvIrw",
+          "online": true
         },
         {
           "nome": "Canal GOAT",
@@ -162,7 +162,7 @@
           "nome": "TNT Sports Brasil",
           "url": "https://www.youtube.com/@TNTSportsBR/live",
           "videoId": "ZLnoTQ5Cijw",
-          "online": true
+          "online": false
         },
         {
           "nome": "Bellator MMA",
@@ -285,7 +285,7 @@
           "nome": "TV Tropical RN",
           "url": "https://www.youtube.com/@TVTropicalRN/live",
           "videoId": "FBd0vGVbNAQ",
-          "online": true
+          "online": false
         },
         {
           "nome": "G1 Globo",
@@ -349,7 +349,7 @@
           "nome": "PJ Masks em Português",
           "url": "https://www.youtube.com/@PJMasksemPortugues/live",
           "videoId": "tiM8m5NzT7w",
-          "online": true
+          "online": false
         },
         {
           "nome": "Boomerang UK",
