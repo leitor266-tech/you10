@@ -31,7 +31,7 @@
           "nome": "CNN Brasil",
           "url": "https://www.youtube.com/@CNNbrasil/live",
           "videoId": "lcWCEMgtrA4",
-          "online": true
+          "online": false
         },
         {
           "nome": "SBT News",
@@ -273,7 +273,7 @@
           "nome": "Domingo Espetacular",
           "url": "https://www.youtube.com/@domingoespetacular/live",
           "videoId": "zCzD-_nhBec",
-          "online": true
+          "online": false
         },
         {
           "nome": "TV Ponta Negra RN",
