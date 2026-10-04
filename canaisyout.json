@@ -18,19 +18,19 @@
         {
           "nome": "Brasil Paralelo",
           "url": "https://www.youtube.com/@brasilparalelo/live",
-          "videoId": "o8kTtwUXoTg",
-          "online": false
+          "videoId": "kvV0ZrqlqF4",
+          "online": true
         },
         {
           "nome": "Jovem Pan News",
           "url": "https://www.youtube.com/@jovempannews/live",
-          "videoId": "PgNobpSV4vY",
+          "videoId": "HsHZQdHhzZk",
           "online": true
         },
         {
           "nome": "CNN Brasil",
           "url": "https://www.youtube.com/@CNNbrasil/live",
-          "videoId": "2epu-LQemw8",
+          "videoId": "YbEPhB5KJGw",
           "online": true
         },
         {
@@ -48,8 +48,8 @@
         {
           "nome": "Band Jornalismo",
           "url": "https://www.youtube.com/@bandjornalismo/live",
-          "videoId": "KMaZUgc_DJ4",
-          "online": false
+          "videoId": "QBdwfXvaQuQ",
+          "online": true
         },
         {
           "nome": "Nat Geo Animals",
@@ -161,8 +161,8 @@
         {
           "nome": "TNT Sports Brasil",
           "url": "https://www.youtube.com/@TNTSportsBR/live",
-          "videoId": "ZLnoTQ5Cijw",
-          "online": false
+          "videoId": "6I8o8DK9GGI",
+          "online": true
         },
         {
           "nome": "Bellator MMA",
