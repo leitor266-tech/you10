@@ -31,7 +31,7 @@
           "nome": "CNN Brasil",
           "url": "https://www.youtube.com/@CNNbrasil/live",
           "videoId": "YbEPhB5KJGw",
-          "online": true
+          "online": false
         },
         {
           "nome": "SBT News",
@@ -49,7 +49,7 @@
           "nome": "Band Jornalismo",
           "url": "https://www.youtube.com/@bandjornalismo/live",
           "videoId": "QBdwfXvaQuQ",
-          "online": true
+          "online": false
         },
         {
           "nome": "Nat Geo Animals",
@@ -297,7 +297,7 @@
           "nome": "96 FM Natal RN",
           "url": "https://www.youtube.com/@96fmnatalrn/live",
           "videoId": "-d4OYrW9dho",
-          "online": true
+          "online": false
         },
         {
           "nome": "Gazeta do Povo",
