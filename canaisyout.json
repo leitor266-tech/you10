@@ -19,25 +19,25 @@
           "nome": "Brasil Paralelo",
           "url": "https://www.youtube.com/@brasilparalelo/live",
           "videoId": "kvV0ZrqlqF4",
-          "online": true
+          "online": false
         },
         {
           "nome": "Jovem Pan News",
           "url": "https://www.youtube.com/@jovempannews/live",
-          "videoId": "HsHZQdHhzZk",
+          "videoId": "zVD_kWdF4Mw",
           "online": true
         },
         {
           "nome": "CNN Brasil",
           "url": "https://www.youtube.com/@CNNbrasil/live",
-          "videoId": "YbEPhB5KJGw",
-          "online": false
+          "videoId": "c2cTXr3IyQs",
+          "online": true
         },
         {
           "nome": "SBT News",
           "url": "https://www.youtube.com/@SBTNews/live",
-          "videoId": "yPgVMxExndM",
-          "online": false
+          "videoId": "v3U95QhOd1I",
+          "online": true
         },
         {
           "nome": "Food Network Brasil",
@@ -231,7 +231,7 @@
         {
           "nome": "Mario negocio",
           "url": "https://www.youtube.com/@fvfdrone/live",
-          "videoId": "vDVjzYxEUok",
+          "videoId": "FrWoQUVQqew",
           "online": true
         },
         {
@@ -366,8 +366,8 @@
         {
           "nome": "SWAT em Português",
           "url": "https://www.youtube.com/@SWATEmPortugues/live",
-          "videoId": "RcKqh2JPL2A",
-          "online": false
+          "videoId": "DSJeJq-mfqQ",
+          "online": true
         }
       ]
     }
