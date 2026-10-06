@@ -24,19 +24,19 @@
         {
           "nome": "Jovem Pan News",
           "url": "https://www.youtube.com/@jovempannews/live",
-          "videoId": "cR2h4oUIU2A",
+          "videoId": "PRiXo07dUdY",
           "online": true
         },
         {
           "nome": "CNN Brasil",
           "url": "https://www.youtube.com/@CNNbrasil/live",
-          "videoId": "zR-zPXFjhxY",
+          "videoId": "T1rNYqAlnZk",
           "online": true
         },
         {
           "nome": "SBT News",
           "url": "https://www.youtube.com/@SBTNews/live",
-          "videoId": "SVMrWU_Evdc",
+          "videoId": "nAEMOpPdLVE",
           "online": true
         },
         {
@@ -54,7 +54,7 @@
         {
           "nome": "Nat Geo Animals",
           "url": "https://www.youtube.com/@NatGeoAnimals/live",
-          "videoId": "Qp2BQr6BaPk",
+          "videoId": "MiQe9ob9aDc",
           "online": true
         },
         {
@@ -113,8 +113,8 @@
         {
           "nome": "ESPN Brasil",
           "url": "https://www.youtube.com/@espnbrasil/live",
-          "videoId": "P2Q0Zjkxa68",
-          "online": false
+          "videoId": "8jIrvEoQhlE",
+          "online": true
         },
         {
           "nome": "CazéTV",
@@ -190,8 +190,8 @@
         {
           "nome": "Igreja Presbiteriana de Pinheiros",
           "url": "https://www.youtube.com/@ippinheiros/live",
-          "videoId": "7Amyb9GrZxY",
-          "online": false
+          "videoId": "m6PawB_KQcA",
+          "online": true
         },
         {
           "nome": "Planetshakers",
@@ -267,7 +267,7 @@
           "nome": "SBT",
           "url": "https://www.youtube.com/@sbt/live",
           "videoId": "lHXt6D_tO8E",
-          "online": true
+          "online": false
         },
         {
           "nome": "Domingo Espetacular",
@@ -284,8 +284,8 @@
         {
           "nome": "TV Tropical RN",
           "url": "https://www.youtube.com/@TVTropicalRN/live",
-          "videoId": "dPqR6xxDawc",
-          "online": false
+          "videoId": "CQAopTCRTEg",
+          "online": true
         },
         {
           "nome": "G1 Globo",
