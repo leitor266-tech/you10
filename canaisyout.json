@@ -31,13 +31,13 @@
           "nome": "CNN Brasil",
           "url": "https://www.youtube.com/@CNNbrasil/live",
           "videoId": "7mwVMIcJmdA",
-          "online": true
+          "online": false
         },
         {
           "nome": "SBT News",
           "url": "https://www.youtube.com/@SBTNews/live",
           "videoId": "4nz5aT5EgKc",
-          "online": true
+          "online": false
         },
         {
           "nome": "Food Network Brasil",
@@ -297,13 +297,13 @@
           "nome": "96 FM Natal RN",
           "url": "https://www.youtube.com/@96fmnatalrn/live",
           "videoId": "Abqif4kIVjg",
-          "online": true
+          "online": false
         },
         {
           "nome": "Gazeta do Povo",
           "url": "https://www.youtube.com/@gazetadopovo/live",
           "videoId": "c-DVNEZCBxE",
-          "online": true
+          "online": false
         }
       ]
     },
