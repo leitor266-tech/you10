@@ -18,26 +18,26 @@
         {
           "nome": "Brasil Paralelo",
           "url": "https://www.youtube.com/@brasilparalelo/live",
-          "videoId": "kvV0ZrqlqF4",
-          "online": false
+          "videoId": "zEoK3PjRgJM",
+          "online": true
         },
         {
           "nome": "Jovem Pan News",
           "url": "https://www.youtube.com/@jovempannews/live",
-          "videoId": "PRiXo07dUdY",
+          "videoId": "G2L9FeEC3Bg",
           "online": true
         },
         {
           "nome": "CNN Brasil",
           "url": "https://www.youtube.com/@CNNbrasil/live",
-          "videoId": "T1rNYqAlnZk",
+          "videoId": "3vwRgq1SgL0",
           "online": true
         },
         {
           "nome": "SBT News",
           "url": "https://www.youtube.com/@SBTNews/live",
           "videoId": "nAEMOpPdLVE",
-          "online": true
+          "online": false
         },
         {
           "nome": "Food Network Brasil",
@@ -114,7 +114,7 @@
           "nome": "ESPN Brasil",
           "url": "https://www.youtube.com/@espnbrasil/live",
           "videoId": "8jIrvEoQhlE",
-          "online": true
+          "online": false
         },
         {
           "nome": "CazéTV",
@@ -191,7 +191,7 @@
           "nome": "Igreja Presbiteriana de Pinheiros",
           "url": "https://www.youtube.com/@ippinheiros/live",
           "videoId": "m6PawB_KQcA",
-          "online": true
+          "online": false
         },
         {
           "nome": "Planetshakers",
@@ -285,7 +285,7 @@
           "nome": "TV Tropical RN",
           "url": "https://www.youtube.com/@TVTropicalRN/live",
           "videoId": "CQAopTCRTEg",
-          "online": true
+          "online": false
         },
         {
           "nome": "G1 Globo",
