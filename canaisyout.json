@@ -24,20 +24,20 @@
         {
           "nome": "Jovem Pan News",
           "url": "https://www.youtube.com/@jovempannews/live",
-          "videoId": "G2L9FeEC3Bg",
-          "online": false
+          "videoId": "H7WjtECGj3g",
+          "online": true
         },
         {
           "nome": "CNN Brasil",
           "url": "https://www.youtube.com/@CNNbrasil/live",
-          "videoId": "3vwRgq1SgL0",
-          "online": false
+          "videoId": "Ae-L4ajQwUg",
+          "online": true
         },
         {
           "nome": "SBT News",
           "url": "https://www.youtube.com/@SBTNews/live",
-          "videoId": "nAEMOpPdLVE",
-          "online": false
+          "videoId": "LcyHuy8MHyQ",
+          "online": true
         },
         {
           "nome": "Food Network Brasil",
@@ -161,8 +161,8 @@
         {
           "nome": "TNT Sports Brasil",
           "url": "https://www.youtube.com/@TNTSportsBR/live",
-          "videoId": "6I8o8DK9GGI",
-          "online": false
+          "videoId": "Kjwu3BJDvHU",
+          "online": true
         },
         {
           "nome": "Bellator MMA",
@@ -213,7 +213,7 @@
         {
           "nome": "FVF Drone",
           "url": "https://www.youtube.com/@fvfdrone/live",
-          "videoId": "FrWoQUVQqew",
+          "videoId": "7LwQshduLhI",
           "online": true
         },
         {
@@ -225,13 +225,13 @@
         {
           "nome": "FVF Drone",
           "url": "https://www.youtube.com/@fvfdrone/live",
-          "videoId": "FrWoQUVQqew",
+          "videoId": "7LwQshduLhI",
           "online": true
         },
         {
           "nome": "Mario negocio",
           "url": "https://www.youtube.com/@fvfdrone/live",
-          "videoId": "FrWoQUVQqew",
+          "videoId": "7LwQshduLhI",
           "online": true
         },
         {
@@ -302,8 +302,8 @@
         {
           "nome": "Gazeta do Povo",
           "url": "https://www.youtube.com/@gazetadopovo/live",
-          "videoId": "c-DVNEZCBxE",
-          "online": false
+          "videoId": "iO0-gRhXtGc",
+          "online": true
         }
       ]
     },
@@ -313,8 +313,8 @@
         {
           "nome": "NetMovies",
           "url": "https://www.youtube.com/@netmovies/live",
-          "videoId": "djqc19GQ83I",
-          "online": false
+          "videoId": "j631-E3GVMQ",
+          "online": true
         },
         {
           "nome": "Meu novo brinquedo",
@@ -360,7 +360,7 @@
         {
           "nome": "Três Espiãs Demais em Português",
           "url": "https://www.youtube.com/@TresEspiasDemaisPortugues/live",
-          "videoId": "nfs5DPFMrcc",
+          "videoId": "QdS8a_zUuk0",
           "online": true
         },
         {
