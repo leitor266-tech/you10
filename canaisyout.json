@@ -19,19 +19,19 @@
           "nome": "Brasil Paralelo",
           "url": "https://www.youtube.com/@brasilparalelo/live",
           "videoId": "zEoK3PjRgJM",
-          "online": true
+          "online": false
         },
         {
           "nome": "Jovem Pan News",
           "url": "https://www.youtube.com/@jovempannews/live",
           "videoId": "G2L9FeEC3Bg",
-          "online": true
+          "online": false
         },
         {
           "nome": "CNN Brasil",
           "url": "https://www.youtube.com/@CNNbrasil/live",
           "videoId": "3vwRgq1SgL0",
-          "online": true
+          "online": false
         },
         {
           "nome": "SBT News",
