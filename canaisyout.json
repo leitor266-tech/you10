@@ -25,19 +25,19 @@
           "nome": "Jovem Pan News",
           "url": "https://www.youtube.com/@jovempannews/live",
           "videoId": "EljELJ2Fgo8",
-          "online": true
+          "online": false
         },
         {
           "nome": "CNN Brasil",
           "url": "https://www.youtube.com/@CNNbrasil/live",
           "videoId": "3tAFIFv7JFU",
-          "online": true
+          "online": false
         },
         {
           "nome": "SBT News",
           "url": "https://www.youtube.com/@SBTNews/live",
           "videoId": "pHfkILSUTm4",
-          "online": true
+          "online": false
         },
         {
           "nome": "Food Network Brasil",
@@ -114,7 +114,7 @@
           "nome": "ESPN Brasil",
           "url": "https://www.youtube.com/@espnbrasil/live",
           "videoId": "xtUA4k6xaUM",
-          "online": true
+          "online": false
         },
         {
           "nome": "CazéTV",
@@ -191,7 +191,7 @@
           "nome": "Igreja Presbiteriana de Pinheiros",
           "url": "https://www.youtube.com/@ippinheiros/live",
           "videoId": "HzX4UXPsxKc",
-          "online": true
+          "online": false
         },
         {
           "nome": "Planetshakers",
@@ -208,13 +208,13 @@
           "nome": "Live Cam Natal",
           "url": "https://www.youtube.com/@LiveCamNatal/live",
           "videoId": "HWM474nUTbs",
-          "online": true
+          "online": false
         },
         {
           "nome": "FVF Drone",
           "url": "https://www.youtube.com/@fvfdrone/live",
           "videoId": "7LwQshduLhI",
-          "online": true
+          "online": false
         },
         {
           "nome": "FVF Drone Alto",
@@ -226,13 +226,13 @@
           "nome": "FVF Drone",
           "url": "https://www.youtube.com/@fvfdrone/live",
           "videoId": "7LwQshduLhI",
-          "online": true
+          "online": false
         },
         {
           "nome": "Mario negocio",
           "url": "https://www.youtube.com/@fvfdrone/live",
           "videoId": "7LwQshduLhI",
-          "online": true
+          "online": false
         },
         {
           "nome": "Câmera 01",
@@ -279,13 +279,13 @@
           "nome": "TV Ponta Negra RN",
           "url": "https://www.youtube.com/@tvpontanegrarn/live",
           "videoId": "o8afMYHm8ys",
-          "online": true
+          "online": false
         },
         {
           "nome": "TV Tropical RN",
           "url": "https://www.youtube.com/@TVTropicalRN/live",
           "videoId": "ncf9FNsOrlA",
-          "online": true
+          "online": false
         },
         {
           "nome": "G1 Globo",
@@ -303,7 +303,7 @@
           "nome": "Gazeta do Povo",
           "url": "https://www.youtube.com/@gazetadopovo/live",
           "videoId": "uVe_4MR8AmQ",
-          "online": true
+          "online": false
         }
       ]
     },
