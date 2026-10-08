@@ -24,20 +24,20 @@
         {
           "nome": "Jovem Pan News",
           "url": "https://www.youtube.com/@jovempannews/live",
-          "videoId": "7Tb6ygtx79Q",
+          "videoId": "F8R-HpAU4MA",
           "online": true
         },
         {
           "nome": "CNN Brasil",
           "url": "https://www.youtube.com/@CNNbrasil/live",
-          "videoId": "i8cXtAvbLBo",
-          "online": false
+          "videoId": "aSmWYA0LEiE",
+          "online": true
         },
         {
           "nome": "SBT News",
           "url": "https://www.youtube.com/@SBTNews/live",
-          "videoId": "m7wQBZRh3CQ",
-          "online": false
+          "videoId": "MByGO5OrK30",
+          "online": true
         },
         {
           "nome": "Food Network Brasil",
@@ -54,7 +54,7 @@
         {
           "nome": "Nat Geo Animals",
           "url": "https://www.youtube.com/@NatGeoAnimals/live",
-          "videoId": "MiQe9ob9aDc",
+          "videoId": "Qp2BQr6BaPk",
           "online": true
         },
         {
@@ -273,7 +273,7 @@
           "nome": "Domingo Espetacular",
           "url": "https://www.youtube.com/@domingoespetacular/live",
           "videoId": "wTWG5GYDuJM",
-          "online": true
+          "online": false
         },
         {
           "nome": "TV Ponta Negra RN",
@@ -284,8 +284,8 @@
         {
           "nome": "TV Tropical RN",
           "url": "https://www.youtube.com/@TVTropicalRN/live",
-          "videoId": "CQAopTCRTEg",
-          "online": false
+          "videoId": "6tKi2dYM9yQ",
+          "online": true
         },
         {
           "nome": "G1 Globo",
@@ -296,8 +296,8 @@
         {
           "nome": "96 FM Natal RN",
           "url": "https://www.youtube.com/@96fmnatalrn/live",
-          "videoId": "Abqif4kIVjg",
-          "online": false
+          "videoId": "-2x6KB6YDPw",
+          "online": true
         },
         {
           "nome": "Gazeta do Povo",
