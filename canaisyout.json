@@ -24,20 +24,20 @@
         {
           "nome": "Jovem Pan News",
           "url": "https://www.youtube.com/@jovempannews/live",
-          "videoId": "EljELJ2Fgo8",
-          "online": false
+          "videoId": "eTz4XgOQaAE",
+          "online": true
         },
         {
           "nome": "CNN Brasil",
           "url": "https://www.youtube.com/@CNNbrasil/live",
-          "videoId": "3tAFIFv7JFU",
-          "online": false
+          "videoId": "Y5DLBBCl2EM",
+          "online": true
         },
         {
           "nome": "SBT News",
           "url": "https://www.youtube.com/@SBTNews/live",
-          "videoId": "pHfkILSUTm4",
-          "online": false
+          "videoId": "4en8wJ8aZHI",
+          "online": true
         },
         {
           "nome": "Food Network Brasil",
@@ -119,8 +119,8 @@
         {
           "nome": "CazéTV",
           "url": "https://www.youtube.com/@CazeTV/live",
-          "videoId": "DxSeX9bM9S0",
-          "online": false
+          "videoId": "MiI-unCfvEw",
+          "online": true
         },
         {
           "nome": "CONMEBOL",
@@ -207,14 +207,14 @@
         {
           "nome": "Live Cam Natal",
           "url": "https://www.youtube.com/@LiveCamNatal/live",
-          "videoId": "HWM474nUTbs",
-          "online": false
+          "videoId": "bqXXPeqMvbw",
+          "online": true
         },
         {
           "nome": "FVF Drone",
           "url": "https://www.youtube.com/@fvfdrone/live",
-          "videoId": "7LwQshduLhI",
-          "online": false
+          "videoId": "FrWoQUVQqew",
+          "online": true
         },
         {
           "nome": "FVF Drone Alto",
@@ -225,14 +225,14 @@
         {
           "nome": "FVF Drone",
           "url": "https://www.youtube.com/@fvfdrone/live",
-          "videoId": "7LwQshduLhI",
-          "online": false
+          "videoId": "FrWoQUVQqew",
+          "online": true
         },
         {
           "nome": "Mario negocio",
           "url": "https://www.youtube.com/@fvfdrone/live",
-          "videoId": "7LwQshduLhI",
-          "online": false
+          "videoId": "FrWoQUVQqew",
+          "online": true
         },
         {
           "nome": "Câmera 01",
@@ -273,7 +273,7 @@
           "nome": "Domingo Espetacular",
           "url": "https://www.youtube.com/@domingoespetacular/live",
           "videoId": "-NO2kuW3N_o",
-          "online": true
+          "online": false
         },
         {
           "nome": "TV Ponta Negra RN",
