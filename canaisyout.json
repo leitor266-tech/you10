@@ -24,19 +24,19 @@
         {
           "nome": "Jovem Pan News",
           "url": "https://www.youtube.com/@jovempannews/live",
-          "videoId": "ueSif0cKczc",
+          "videoId": "ox5ID8GLpuE",
           "online": true
         },
         {
           "nome": "CNN Brasil",
           "url": "https://www.youtube.com/@CNNbrasil/live",
           "videoId": "fF5R_CbtEXs",
-          "online": true
+          "online": false
         },
         {
           "nome": "SBT News",
           "url": "https://www.youtube.com/@SBTNews/live",
-          "videoId": "ZdW5iphR2As",
+          "videoId": "3PDloBSX0R0",
           "online": true
         },
         {
@@ -114,7 +114,7 @@
           "nome": "ESPN Brasil",
           "url": "https://www.youtube.com/@espnbrasil/live",
           "videoId": "zqPd0cQt7s8",
-          "online": true
+          "online": false
         },
         {
           "nome": "CazéTV",
@@ -279,13 +279,13 @@
           "nome": "TV Ponta Negra RN",
           "url": "https://www.youtube.com/@tvpontanegrarn/live",
           "videoId": "22eqOI_adso",
-          "online": true
+          "online": false
         },
         {
           "nome": "TV Tropical RN",
           "url": "https://www.youtube.com/@TVTropicalRN/live",
           "videoId": "wHJJ-shccHc",
-          "online": true
+          "online": false
         },
         {
           "nome": "G1 Globo",
@@ -349,7 +349,7 @@
           "nome": "PJ Masks em Português",
           "url": "https://www.youtube.com/@PJMasksemPortugues/live",
           "videoId": "b1o5gtIU088",
-          "online": true
+          "online": false
         },
         {
           "nome": "Boomerang UK",
