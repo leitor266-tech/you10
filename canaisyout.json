@@ -24,20 +24,20 @@
         {
           "nome": "Jovem Pan News",
           "url": "https://www.youtube.com/@jovempannews/live",
-          "videoId": "ox5ID8GLpuE",
-          "online": false
+          "videoId": "oHIX50XqYOA",
+          "online": true
         },
         {
           "nome": "CNN Brasil",
           "url": "https://www.youtube.com/@CNNbrasil/live",
-          "videoId": "fF5R_CbtEXs",
-          "online": false
+          "videoId": "firbB48pW2s",
+          "online": true
         },
         {
           "nome": "SBT News",
           "url": "https://www.youtube.com/@SBTNews/live",
-          "videoId": "3PDloBSX0R0",
-          "online": false
+          "videoId": "baVeGZbPkuY",
+          "online": true
         },
         {
           "nome": "Food Network Brasil",
@@ -54,7 +54,7 @@
         {
           "nome": "Nat Geo Animals",
           "url": "https://www.youtube.com/@NatGeoAnimals/live",
-          "videoId": "MiQe9ob9aDc",
+          "videoId": "Qp2BQr6BaPk",
           "online": true
         },
         {
@@ -348,8 +348,8 @@
         {
           "nome": "PJ Masks em Português",
           "url": "https://www.youtube.com/@PJMasksemPortugues/live",
-          "videoId": "b1o5gtIU088",
-          "online": false
+          "videoId": "UsdxYZogaKE",
+          "online": true
         },
         {
           "nome": "Boomerang UK",
