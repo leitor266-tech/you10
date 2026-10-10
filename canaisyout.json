@@ -24,20 +24,20 @@
         {
           "nome": "Jovem Pan News",
           "url": "https://www.youtube.com/@jovempannews/live",
-          "videoId": "oHIX50XqYOA",
-          "online": false
+          "videoId": "J02t80uOYFs",
+          "online": true
         },
         {
           "nome": "CNN Brasil",
           "url": "https://www.youtube.com/@CNNbrasil/live",
-          "videoId": "9pXbIvCpP2A",
+          "videoId": "Dao2MFztdBo",
           "online": true
         },
         {
           "nome": "SBT News",
           "url": "https://www.youtube.com/@SBTNews/live",
           "videoId": "QeFf7kzbutQ",
-          "online": true
+          "online": false
         },
         {
           "nome": "Food Network Brasil",
@@ -144,7 +144,7 @@
           "nome": "Palmeiras",
           "url": "https://www.youtube.com/@Palmeiras/live",
           "videoId": "sWCEwJjyppU",
-          "online": true
+          "online": false
         },
         {
           "nome": "X Sports Brasil",
@@ -285,7 +285,7 @@
           "nome": "TV Tropical RN",
           "url": "https://www.youtube.com/@TVTropicalRN/live",
           "videoId": "gzzPcuJuKeg",
-          "online": true
+          "online": false
         },
         {
           "nome": "G1 Globo",
