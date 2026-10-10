@@ -24,14 +24,14 @@
         {
           "nome": "Jovem Pan News",
           "url": "https://www.youtube.com/@jovempannews/live",
-          "videoId": "J02t80uOYFs",
+          "videoId": "I1QnNuYgpE0",
           "online": true
         },
         {
           "nome": "CNN Brasil",
           "url": "https://www.youtube.com/@CNNbrasil/live",
           "videoId": "Dao2MFztdBo",
-          "online": true
+          "online": false
         },
         {
           "nome": "SBT News",
@@ -348,8 +348,8 @@
         {
           "nome": "PJ Masks em Português",
           "url": "https://www.youtube.com/@PJMasksemPortugues/live",
-          "videoId": "UsdxYZogaKE",
-          "online": false
+          "videoId": "SaNP77CQl_E",
+          "online": true
         },
         {
           "nome": "Boomerang UK",
