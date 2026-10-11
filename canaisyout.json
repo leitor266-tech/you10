@@ -24,13 +24,13 @@
         {
           "nome": "Jovem Pan News",
           "url": "https://www.youtube.com/@jovempannews/live",
-          "videoId": "I1QnNuYgpE0",
-          "online": false
+          "videoId": "7B62YCYxKDY",
+          "online": true
         },
         {
           "nome": "CNN Brasil",
           "url": "https://www.youtube.com/@CNNbrasil/live",
-          "videoId": "o81K4BFGlbs",
+          "videoId": "EHM6a0wamZM",
           "online": true
         },
         {
@@ -131,8 +131,8 @@
         {
           "nome": "Vasco da Gama",
           "url": "https://www.youtube.com/@vascodagama2108/live",
-          "videoId": "cu7VZPzwFlw",
-          "online": false
+          "videoId": "csRQ1Qeb138",
+          "online": true
         },
         {
           "nome": "Ninja Warrior AU",
@@ -149,8 +149,8 @@
         {
           "nome": "X Sports Brasil",
           "url": "https://www.youtube.com/@xsports.brasil/live",
-          "videoId": "WHvEaWKvIrw",
-          "online": false
+          "videoId": "QXT274YovVo",
+          "online": true
         },
         {
           "nome": "Canal GOAT",
@@ -190,14 +190,14 @@
         {
           "nome": "Igreja Presbiteriana de Pinheiros",
           "url": "https://www.youtube.com/@ippinheiros/live",
-          "videoId": "HzX4UXPsxKc",
-          "online": false
+          "videoId": "wffCHt_c-3A",
+          "online": true
         },
         {
           "nome": "Planetshakers",
           "url": "https://www.youtube.com/@planetshakerstv/live",
           "videoId": "CfigYfDPjF4",
-          "online": true
+          "online": false
         }
       ]
     },
@@ -213,7 +213,7 @@
         {
           "nome": "FVF Drone",
           "url": "https://www.youtube.com/@fvfdrone/live",
-          "videoId": "FrWoQUVQqew",
+          "videoId": "5ZESZBWPCY4",
           "online": true
         },
         {
@@ -225,20 +225,20 @@
         {
           "nome": "FVF Drone",
           "url": "https://www.youtube.com/@fvfdrone/live",
-          "videoId": "FrWoQUVQqew",
+          "videoId": "5ZESZBWPCY4",
           "online": true
         },
         {
           "nome": "Mario negocio",
           "url": "https://www.youtube.com/@fvfdrone/live",
-          "videoId": "FrWoQUVQqew",
+          "videoId": "5ZESZBWPCY4",
           "online": true
         },
         {
           "nome": "Câmera 01",
           "url": "https://www.youtube.com/watch?v=zXwsShTCd4Y/live",
           "videoId": "zXwsShTCd4Y",
-          "online": true
+          "online": false
         },
         {
           "nome": "Câmera 02",
@@ -250,7 +250,7 @@
           "nome": "Câmera 03",
           "url": "https://www.youtube.com/watch?v=O00YZItaim8/live",
           "videoId": "O00YZItaim8",
-          "online": true
+          "online": false
         },
         {
           "nome": "Câmera 04",
