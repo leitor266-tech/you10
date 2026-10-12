@@ -25,18 +25,18 @@
           "nome": "Jovem Pan News",
           "url": "https://www.youtube.com/@jovempannews/live",
           "videoId": "6_3YS6yPk6E",
-          "online": true
+          "online": false
         },
         {
           "nome": "CNN Brasil",
           "url": "https://www.youtube.com/@CNNbrasil/live",
           "videoId": "GhbcvuT4nRw",
-          "online": true
+          "online": false
         },
         {
           "nome": "SBT News",
           "url": "https://www.youtube.com/@SBTNews/live",
-          "videoId": "OFGdjkFcnBA",
+          "videoId": "AeG1QCFKhnA",
           "online": true
         },
         {
@@ -150,7 +150,7 @@
           "nome": "X Sports Brasil",
           "url": "https://www.youtube.com/@xsports.brasil/live",
           "videoId": "aSgPbelQtg4",
-          "online": true
+          "online": false
         },
         {
           "nome": "Canal GOAT",
@@ -225,7 +225,7 @@
         {
           "nome": "FVF Drone",
           "url": "https://www.youtube.com/@fvfdrone/live",
-          "videoId": "5ZESZBWPCY4",
+          "videoId": "0FlBuPhY4EM",
           "online": true
         },
         {
@@ -285,7 +285,7 @@
           "nome": "TV Tropical RN",
           "url": "https://www.youtube.com/@TVTropicalRN/live",
           "videoId": "5j7K0ip2vXc",
-          "online": true
+          "online": false
         },
         {
           "nome": "G1 Globo",
