@@ -24,20 +24,20 @@
         {
           "nome": "Jovem Pan News",
           "url": "https://www.youtube.com/@jovempannews/live",
-          "videoId": "hdkJs-tkZw8",
-          "online": false
+          "videoId": "I_1qqmz6KhI",
+          "online": true
         },
         {
           "nome": "CNN Brasil",
           "url": "https://www.youtube.com/@CNNbrasil/live",
-          "videoId": "SJgMk6mpUxs",
-          "online": false
+          "videoId": "XLq5YgqYlME",
+          "online": true
         },
         {
           "nome": "SBT News",
           "url": "https://www.youtube.com/@SBTNews/live",
-          "videoId": "ghghcSg67GI",
-          "online": false
+          "videoId": "p71gve73aF8",
+          "online": true
         },
         {
           "nome": "Food Network Brasil",
@@ -213,7 +213,7 @@
         {
           "nome": "FVF Drone",
           "url": "https://www.youtube.com/@fvfdrone/live",
-          "videoId": "5ZESZBWPCY4",
+          "videoId": "0FlBuPhY4EM",
           "online": true
         },
         {
@@ -225,13 +225,13 @@
         {
           "nome": "FVF Drone",
           "url": "https://www.youtube.com/@fvfdrone/live",
-          "videoId": "5ZESZBWPCY4",
+          "videoId": "0FlBuPhY4EM",
           "online": true
         },
         {
           "nome": "Mario negocio",
           "url": "https://www.youtube.com/@fvfdrone/live",
-          "videoId": "5ZESZBWPCY4",
+          "videoId": "0FlBuPhY4EM",
           "online": true
         },
         {
@@ -348,8 +348,8 @@
         {
           "nome": "PJ Masks em Português",
           "url": "https://www.youtube.com/@PJMasksemPortugues/live",
-          "videoId": "SaNP77CQl_E",
-          "online": false
+          "videoId": "13ck0pnYSo4",
+          "online": true
         },
         {
           "nome": "Boomerang UK",
@@ -366,8 +366,8 @@
         {
           "nome": "SWAT em Português",
           "url": "https://www.youtube.com/@SWATEmPortugues/live",
-          "videoId": "DSJeJq-mfqQ",
-          "online": false
+          "videoId": "lJ5pd5VYBek",
+          "online": true
         }
       ]
     }
