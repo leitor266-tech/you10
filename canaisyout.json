@@ -19,25 +19,25 @@
           "nome": "Brasil Paralelo",
           "url": "https://www.youtube.com/@brasilparalelo/live",
           "videoId": "rdNdyK6C1eI",
-          "online": true
+          "online": false
         },
         {
           "nome": "Jovem Pan News",
           "url": "https://www.youtube.com/@jovempannews/live",
           "videoId": "B4JehUUvfMM",
-          "online": true
+          "online": false
         },
         {
           "nome": "CNN Brasil",
           "url": "https://www.youtube.com/@CNNbrasil/live",
           "videoId": "_BuvNm-0AOM",
-          "online": true
+          "online": false
         },
         {
           "nome": "SBT News",
           "url": "https://www.youtube.com/@SBTNews/live",
           "videoId": "KHIokBHIlWs",
-          "online": true
+          "online": false
         },
         {
           "nome": "Food Network Brasil",
@@ -296,14 +296,14 @@
         {
           "nome": "96 FM Natal RN",
           "url": "https://www.youtube.com/@96fmnatalrn/live",
-          "videoId": "-2x6KB6YDPw",
-          "online": false
+          "videoId": "a8YMqv9DhjE",
+          "online": true
         },
         {
           "nome": "Gazeta do Povo",
           "url": "https://www.youtube.com/@gazetadopovo/live",
           "videoId": "e5LUuCgoVKQ",
-          "online": true
+          "online": false
         }
       ]
     },
