@@ -18,25 +18,25 @@
         {
           "nome": "Brasil Paralelo",
           "url": "https://www.youtube.com/@brasilparalelo/live",
-          "videoId": "zEoK3PjRgJM",
-          "online": false
+          "videoId": "rdNdyK6C1eI",
+          "online": true
         },
         {
           "nome": "Jovem Pan News",
           "url": "https://www.youtube.com/@jovempannews/live",
-          "videoId": "tl9x1b4sHpU",
+          "videoId": "B4JehUUvfMM",
           "online": true
         },
         {
           "nome": "CNN Brasil",
           "url": "https://www.youtube.com/@CNNbrasil/live",
-          "videoId": "CtofIQGrnck",
+          "videoId": "_BuvNm-0AOM",
           "online": true
         },
         {
           "nome": "SBT News",
           "url": "https://www.youtube.com/@SBTNews/live",
-          "videoId": "kiCkRq29VY4",
+          "videoId": "KHIokBHIlWs",
           "online": true
         },
         {
@@ -162,7 +162,7 @@
           "nome": "TNT Sports Brasil",
           "url": "https://www.youtube.com/@TNTSportsBR/live",
           "videoId": "PcBgu4ct_E4",
-          "online": true
+          "online": false
         },
         {
           "nome": "Bellator MMA",
@@ -272,8 +272,8 @@
         {
           "nome": "Domingo Espetacular",
           "url": "https://www.youtube.com/@domingoespetacular/live",
-          "videoId": "wa8Hjd7sUcc",
-          "online": false
+          "videoId": "KuqWfP2CKt8",
+          "online": true
         },
         {
           "nome": "TV Ponta Negra RN",
@@ -302,7 +302,7 @@
         {
           "nome": "Gazeta do Povo",
           "url": "https://www.youtube.com/@gazetadopovo/live",
-          "videoId": "oP2khbun1wA",
+          "videoId": "e5LUuCgoVKQ",
           "online": true
         }
       ]
@@ -348,7 +348,7 @@
         {
           "nome": "PJ Masks em Português",
           "url": "https://www.youtube.com/@PJMasksemPortugues/live",
-          "videoId": "qg8gewyqH9w",
+          "videoId": "eXdLwAwM6sg",
           "online": true
         },
         {
