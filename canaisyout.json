@@ -37,7 +37,7 @@
           "nome": "SBT News",
           "url": "https://www.youtube.com/@SBTNews/live",
           "videoId": "AeG1QCFKhnA",
-          "online": true
+          "online": false
         },
         {
           "nome": "Food Network Brasil",
@@ -273,7 +273,7 @@
           "nome": "Domingo Espetacular",
           "url": "https://www.youtube.com/@domingoespetacular/live",
           "videoId": "wa8Hjd7sUcc",
-          "online": true
+          "online": false
         },
         {
           "nome": "TV Ponta Negra RN",
