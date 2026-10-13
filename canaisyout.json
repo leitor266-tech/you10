@@ -24,20 +24,20 @@
         {
           "nome": "Jovem Pan News",
           "url": "https://www.youtube.com/@jovempannews/live",
-          "videoId": "6_3YS6yPk6E",
-          "online": false
+          "videoId": "tl9x1b4sHpU",
+          "online": true
         },
         {
           "nome": "CNN Brasil",
           "url": "https://www.youtube.com/@CNNbrasil/live",
-          "videoId": "GhbcvuT4nRw",
-          "online": false
+          "videoId": "CtofIQGrnck",
+          "online": true
         },
         {
           "nome": "SBT News",
           "url": "https://www.youtube.com/@SBTNews/live",
-          "videoId": "AeG1QCFKhnA",
-          "online": false
+          "videoId": "kiCkRq29VY4",
+          "online": true
         },
         {
           "nome": "Food Network Brasil",
@@ -161,8 +161,8 @@
         {
           "nome": "TNT Sports Brasil",
           "url": "https://www.youtube.com/@TNTSportsBR/live",
-          "videoId": "Kjwu3BJDvHU",
-          "online": false
+          "videoId": "PcBgu4ct_E4",
+          "online": true
         },
         {
           "nome": "Bellator MMA",
@@ -213,7 +213,7 @@
         {
           "nome": "FVF Drone",
           "url": "https://www.youtube.com/@fvfdrone/live",
-          "videoId": "5ZESZBWPCY4",
+          "videoId": "0FlBuPhY4EM",
           "online": true
         },
         {
@@ -231,7 +231,7 @@
         {
           "nome": "Mario negocio",
           "url": "https://www.youtube.com/@fvfdrone/live",
-          "videoId": "5ZESZBWPCY4",
+          "videoId": "0FlBuPhY4EM",
           "online": true
         },
         {
@@ -302,8 +302,8 @@
         {
           "nome": "Gazeta do Povo",
           "url": "https://www.youtube.com/@gazetadopovo/live",
-          "videoId": "uVe_4MR8AmQ",
-          "online": false
+          "videoId": "oP2khbun1wA",
+          "online": true
         }
       ]
     },
