@@ -24,8 +24,8 @@
         {
           "nome": "Jovem Pan News",
           "url": "https://www.youtube.com/@jovempannews/live",
-          "videoId": "B4JehUUvfMM",
-          "online": false
+          "videoId": "ESmJR9HWczs",
+          "online": true
         },
         {
           "nome": "CNN Brasil",
@@ -297,7 +297,7 @@
           "nome": "96 FM Natal RN",
           "url": "https://www.youtube.com/@96fmnatalrn/live",
           "videoId": "a8YMqv9DhjE",
-          "online": true
+          "online": false
         },
         {
           "nome": "Gazeta do Povo",
