@@ -19,25 +19,25 @@
           "nome": "Brasil Paralelo",
           "url": "https://www.youtube.com/@brasilparalelo/live",
           "videoId": "adDQQ6YQzgM",
-          "online": true
+          "online": false
         },
         {
           "nome": "Jovem Pan News",
           "url": "https://www.youtube.com/@jovempannews/live",
           "videoId": "9lMf0daP9JM",
-          "online": true
+          "online": false
         },
         {
           "nome": "CNN Brasil",
           "url": "https://www.youtube.com/@CNNbrasil/live",
           "videoId": "j67wYg_PogY",
-          "online": true
+          "online": false
         },
         {
           "nome": "SBT News",
           "url": "https://www.youtube.com/@SBTNews/live",
           "videoId": "c2_vrhGzh5k",
-          "online": true
+          "online": false
         },
         {
           "nome": "Food Network Brasil",
@@ -285,7 +285,7 @@
           "nome": "TV Tropical RN",
           "url": "https://www.youtube.com/@TVTropicalRN/live",
           "videoId": "QAN8GO8O0F8",
-          "online": true
+          "online": false
         },
         {
           "nome": "G1 Globo",
