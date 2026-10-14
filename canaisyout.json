@@ -24,20 +24,20 @@
         {
           "nome": "Jovem Pan News",
           "url": "https://www.youtube.com/@jovempannews/live",
-          "videoId": "ESmJR9HWczs",
-          "online": false
+          "videoId": "RXgTZ0zOcnU",
+          "online": true
         },
         {
           "nome": "CNN Brasil",
           "url": "https://www.youtube.com/@CNNbrasil/live",
-          "videoId": "_BuvNm-0AOM",
-          "online": false
+          "videoId": "mxmVM2SUYe8",
+          "online": true
         },
         {
           "nome": "SBT News",
           "url": "https://www.youtube.com/@SBTNews/live",
-          "videoId": "KHIokBHIlWs",
-          "online": false
+          "videoId": "sb5aSrcxy6E",
+          "online": true
         },
         {
           "nome": "Food Network Brasil",
@@ -161,8 +161,8 @@
         {
           "nome": "TNT Sports Brasil",
           "url": "https://www.youtube.com/@TNTSportsBR/live",
-          "videoId": "PcBgu4ct_E4",
-          "online": false
+          "videoId": "ff57Qe3oriM",
+          "online": true
         },
         {
           "nome": "Bellator MMA",
@@ -190,8 +190,8 @@
         {
           "nome": "Igreja Presbiteriana de Pinheiros",
           "url": "https://www.youtube.com/@ippinheiros/live",
-          "videoId": "wffCHt_c-3A",
-          "online": false
+          "videoId": "DRXPgTzMCEg",
+          "online": true
         },
         {
           "nome": "Planetshakers",
@@ -302,8 +302,8 @@
         {
           "nome": "Gazeta do Povo",
           "url": "https://www.youtube.com/@gazetadopovo/live",
-          "videoId": "e5LUuCgoVKQ",
-          "online": false
+          "videoId": "e4vckgHCvEY",
+          "online": true
         }
       ]
     },
