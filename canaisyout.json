@@ -24,20 +24,20 @@
         {
           "nome": "Jovem Pan News",
           "url": "https://www.youtube.com/@jovempannews/live",
-          "videoId": "amuRaPd-RqI",
+          "videoId": "9lMf0daP9JM",
           "online": true
         },
         {
           "nome": "CNN Brasil",
           "url": "https://www.youtube.com/@CNNbrasil/live",
-          "videoId": "1UtvIfnCrI8",
+          "videoId": "j67wYg_PogY",
           "online": true
         },
         {
           "nome": "SBT News",
           "url": "https://www.youtube.com/@SBTNews/live",
-          "videoId": "sb5aSrcxy6E",
-          "online": false
+          "videoId": "c2_vrhGzh5k",
+          "online": true
         },
         {
           "nome": "Food Network Brasil",
@@ -126,7 +126,7 @@
           "nome": "CONMEBOL",
           "url": "https://www.youtube.com/@conmebol/live",
           "videoId": "7ERYRt4JnOQ",
-          "online": true
+          "online": false
         },
         {
           "nome": "Vasco da Gama",
@@ -191,7 +191,7 @@
           "nome": "Igreja Presbiteriana de Pinheiros",
           "url": "https://www.youtube.com/@ippinheiros/live",
           "videoId": "Q58PM_IImB4",
-          "online": true
+          "online": false
         },
         {
           "nome": "Planetshakers",
@@ -207,7 +207,7 @@
         {
           "nome": "Live Cam Natal",
           "url": "https://www.youtube.com/@LiveCamNatal/live",
-          "videoId": "VFY3kewTfok",
+          "videoId": "HRsn4y1vovM",
           "online": true
         },
         {
@@ -284,7 +284,7 @@
         {
           "nome": "TV Tropical RN",
           "url": "https://www.youtube.com/@TVTropicalRN/live",
-          "videoId": "IIfFLSGs5mc",
+          "videoId": "QAN8GO8O0F8",
           "online": true
         },
         {
@@ -303,7 +303,7 @@
           "nome": "Gazeta do Povo",
           "url": "https://www.youtube.com/@gazetadopovo/live",
           "videoId": "qmw36FaoZVc",
-          "online": true
+          "online": false
         }
       ]
     },
