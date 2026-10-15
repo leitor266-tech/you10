@@ -7,24 +7,24 @@
           "nome": "STF Oficial",
           "url": "https://www.youtube.com/@STF_oficial/live",
           "videoId": "8MVkcLhFUGY",
-          "online": true
+          "online": false
         },
         {
           "nome": "STF Oficial",
           "url": "https://www.youtube.com/@STF_oficial/live",
           "videoId": "8MVkcLhFUGY",
-          "online": true
+          "online": false
         },
         {
           "nome": "Brasil Paralelo",
           "url": "https://www.youtube.com/@brasilparalelo/live",
           "videoId": "rCywCnp8lF8",
-          "online": true
+          "online": false
         },
         {
           "nome": "Jovem Pan News",
           "url": "https://www.youtube.com/@jovempannews/live",
-          "videoId": "V9-q4kdzHCg",
+          "videoId": "qjPHLzk7RFk",
           "online": true
         },
         {
@@ -126,7 +126,7 @@
           "nome": "CONMEBOL",
           "url": "https://www.youtube.com/@conmebol/live",
           "videoId": "SFyL3te0-5Y",
-          "online": true
+          "online": false
         },
         {
           "nome": "Vasco da Gama",
@@ -303,7 +303,7 @@
           "nome": "Gazeta do Povo",
           "url": "https://www.youtube.com/@gazetadopovo/live",
           "videoId": "pCn_pmUQAcU",
-          "online": true
+          "online": false
         }
       ]
     },
