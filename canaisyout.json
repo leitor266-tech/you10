@@ -208,7 +208,7 @@
           "nome": "Live Cam Natal",
           "url": "https://www.youtube.com/@LiveCamNatal/live",
           "videoId": "HRsn4y1vovM",
-          "online": true
+          "online": false
         },
         {
           "nome": "FVF Drone",
@@ -273,7 +273,7 @@
           "nome": "Domingo Espetacular",
           "url": "https://www.youtube.com/@domingoespetacular/live",
           "videoId": "VbaQj1ZtK9Q",
-          "online": true
+          "online": false
         },
         {
           "nome": "TV Ponta Negra RN",
