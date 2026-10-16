@@ -190,8 +190,8 @@
         {
           "nome": "Igreja Presbiteriana de Pinheiros",
           "url": "https://www.youtube.com/@ippinheiros/live",
-          "videoId": "sbAMcj_rxCY",
-          "online": false
+          "videoId": "nGsiXBIYof4",
+          "online": true
         },
         {
           "nome": "Planetshakers",
@@ -273,7 +273,7 @@
           "nome": "Domingo Espetacular",
           "url": "https://www.youtube.com/@domingoespetacular/live",
           "videoId": "C2qCX08H74k",
-          "online": true
+          "online": false
         },
         {
           "nome": "TV Ponta Negra RN",
