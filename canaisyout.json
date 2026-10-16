@@ -25,7 +25,7 @@
           "nome": "Jovem Pan News",
           "url": "https://www.youtube.com/@jovempannews/live",
           "videoId": "qjPHLzk7RFk",
-          "online": true
+          "online": false
         },
         {
           "nome": "CNN Brasil",
@@ -314,7 +314,7 @@
           "nome": "NetMovies",
           "url": "https://www.youtube.com/@netmovies/live",
           "videoId": "j631-E3GVMQ",
-          "online": true
+          "online": false
         },
         {
           "nome": "Meu novo brinquedo",
@@ -332,7 +332,7 @@
           "nome": "Cine Família",
           "url": "https://www.youtube.com/@Cine_Familia/live",
           "videoId": "rxpHnQ0P018",
-          "online": true
+          "online": false
         }
       ]
     },
