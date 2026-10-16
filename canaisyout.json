@@ -24,20 +24,20 @@
         {
           "nome": "Jovem Pan News",
           "url": "https://www.youtube.com/@jovempannews/live",
-          "videoId": "qjPHLzk7RFk",
-          "online": false
+          "videoId": "zggz-uQR8xU",
+          "online": true
         },
         {
           "nome": "CNN Brasil",
           "url": "https://www.youtube.com/@CNNbrasil/live",
-          "videoId": "vSmw9jQqdJ8",
-          "online": false
+          "videoId": "yGYy8q3GxYA",
+          "online": true
         },
         {
           "nome": "SBT News",
           "url": "https://www.youtube.com/@SBTNews/live",
-          "videoId": "vISsYzf6mGg",
-          "online": false
+          "videoId": "zdkwe1xezpw",
+          "online": true
         },
         {
           "nome": "Food Network Brasil",
@@ -207,7 +207,7 @@
         {
           "nome": "Live Cam Natal",
           "url": "https://www.youtube.com/@LiveCamNatal/live",
-          "videoId": "jigBbC3G_-k",
+          "videoId": "sBJsjWrApHs",
           "online": true
         },
         {
@@ -278,14 +278,14 @@
         {
           "nome": "TV Ponta Negra RN",
           "url": "https://www.youtube.com/@tvpontanegrarn/live",
-          "videoId": "yEXWfu886vk",
-          "online": false
+          "videoId": "6mM1s0Mc3vk",
+          "online": true
         },
         {
           "nome": "TV Tropical RN",
           "url": "https://www.youtube.com/@TVTropicalRN/live",
-          "videoId": "5bMhS6kVh24",
-          "online": false
+          "videoId": "fNsPkXxFwg4",
+          "online": true
         },
         {
           "nome": "G1 Globo",
@@ -296,14 +296,14 @@
         {
           "nome": "96 FM Natal RN",
           "url": "https://www.youtube.com/@96fmnatalrn/live",
-          "videoId": "a8YMqv9DhjE",
-          "online": false
+          "videoId": "sioIWFCFbBc",
+          "online": true
         },
         {
           "nome": "Gazeta do Povo",
           "url": "https://www.youtube.com/@gazetadopovo/live",
-          "videoId": "pCn_pmUQAcU",
-          "online": false
+          "videoId": "vL7LmPxfG9E",
+          "online": true
         }
       ]
     },
@@ -355,7 +355,7 @@
           "nome": "Boomerang UK",
           "url": "https://www.youtube.com/@BoomerangUK/live",
           "videoId": "WMBR_vDkd94",
-          "online": true
+          "online": false
         },
         {
           "nome": "Três Espiãs Demais em Português",
