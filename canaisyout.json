@@ -30,14 +30,14 @@
         {
           "nome": "CNN Brasil",
           "url": "https://www.youtube.com/@CNNbrasil/live",
-          "videoId": "MPn8tJittjo",
-          "online": false
+          "videoId": "L4tz8t_zXaY",
+          "online": true
         },
         {
           "nome": "SBT News",
           "url": "https://www.youtube.com/@SBTNews/live",
-          "videoId": "SqbMkQ4acpw",
-          "online": false
+          "videoId": "r5660109sHg",
+          "online": true
         },
         {
           "nome": "Food Network Brasil",
@@ -207,7 +207,7 @@
         {
           "nome": "Live Cam Natal",
           "url": "https://www.youtube.com/@LiveCamNatal/live",
-          "videoId": "sBJsjWrApHs",
+          "videoId": "jigBbC3G_-k",
           "online": true
         },
         {
@@ -331,8 +331,8 @@
         {
           "nome": "Cine Família",
           "url": "https://www.youtube.com/@Cine_Familia/live",
-          "videoId": "rxpHnQ0P018",
-          "online": false
+          "videoId": "J3viKsObmhg",
+          "online": true
         }
       ]
     },
@@ -348,14 +348,14 @@
         {
           "nome": "PJ Masks em Português",
           "url": "https://www.youtube.com/@PJMasksemPortugues/live",
-          "videoId": "CArlAdAg-60",
-          "online": false
+          "videoId": "hS9IyqydBGI",
+          "online": true
         },
         {
           "nome": "Boomerang UK",
           "url": "https://www.youtube.com/@BoomerangUK/live",
-          "videoId": "WMBR_vDkd94",
-          "online": false
+          "videoId": "GEw3m4xvct4",
+          "online": true
         },
         {
           "nome": "Três Espiãs Demais em Português",
