@@ -24,19 +24,19 @@
         {
           "nome": "Jovem Pan News",
           "url": "https://www.youtube.com/@jovempannews/live",
-          "videoId": "Uw2zHuuxAqo",
-          "online": false
+          "videoId": "-g2Ezlw-PQY",
+          "online": true
         },
         {
           "nome": "CNN Brasil",
           "url": "https://www.youtube.com/@CNNbrasil/live",
-          "videoId": "L4tz8t_zXaY",
+          "videoId": "xhxXqAXUs8g",
           "online": true
         },
         {
           "nome": "SBT News",
           "url": "https://www.youtube.com/@SBTNews/live",
-          "videoId": "r5660109sHg",
+          "videoId": "3n-8xGxxOlc",
           "online": true
         },
         {
@@ -131,8 +131,8 @@
         {
           "nome": "Vasco da Gama",
           "url": "https://www.youtube.com/@vascodagama2108/live",
-          "videoId": "csRQ1Qeb138",
-          "online": false
+          "videoId": "RO3Jy4YfMDw",
+          "online": true
         },
         {
           "nome": "Ninja Warrior AU",
@@ -190,8 +190,8 @@
         {
           "nome": "Igreja Presbiteriana de Pinheiros",
           "url": "https://www.youtube.com/@ippinheiros/live",
-          "videoId": "nGsiXBIYof4",
-          "online": false
+          "videoId": "PAiMQJECo3w",
+          "online": true
         },
         {
           "nome": "Planetshakers",
@@ -213,7 +213,7 @@
         {
           "nome": "FVF Drone",
           "url": "https://www.youtube.com/@fvfdrone/live",
-          "videoId": "0FlBuPhY4EM",
+          "videoId": "fgXPysSoYuE",
           "online": true
         },
         {
@@ -225,13 +225,13 @@
         {
           "nome": "FVF Drone",
           "url": "https://www.youtube.com/@fvfdrone/live",
-          "videoId": "0FlBuPhY4EM",
+          "videoId": "fgXPysSoYuE",
           "online": true
         },
         {
           "nome": "Mario negocio",
           "url": "https://www.youtube.com/@fvfdrone/live",
-          "videoId": "0FlBuPhY4EM",
+          "videoId": "fgXPysSoYuE",
           "online": true
         },
         {
