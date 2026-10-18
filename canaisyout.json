@@ -25,13 +25,13 @@
           "nome": "Jovem Pan News",
           "url": "https://www.youtube.com/@jovempannews/live",
           "videoId": "-Wra8oanNeI",
-          "online": true
+          "online": false
         },
         {
           "nome": "CNN Brasil",
           "url": "https://www.youtube.com/@CNNbrasil/live",
           "videoId": "yWnOn_x65Xw",
-          "online": true
+          "online": false
         },
         {
           "nome": "SBT News",
@@ -125,8 +125,8 @@
         {
           "nome": "CONMEBOL",
           "url": "https://www.youtube.com/@conmebol/live",
-          "videoId": "SFyL3te0-5Y",
-          "online": false
+          "videoId": "CXlIFM_gqRo",
+          "online": true
         },
         {
           "nome": "Vasco da Gama",
@@ -191,7 +191,7 @@
           "nome": "Igreja Presbiteriana de Pinheiros",
           "url": "https://www.youtube.com/@ippinheiros/live",
           "videoId": "EV3k1eFZcWA",
-          "online": true
+          "online": false
         },
         {
           "nome": "Planetshakers",
@@ -349,7 +349,7 @@
           "nome": "PJ Masks em Português",
           "url": "https://www.youtube.com/@PJMasksemPortugues/live",
           "videoId": "lDdfjLd7Mw0",
-          "online": true
+          "online": false
         },
         {
           "nome": "Boomerang UK",
