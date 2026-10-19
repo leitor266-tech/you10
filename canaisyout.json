@@ -24,19 +24,19 @@
         {
           "nome": "Jovem Pan News",
           "url": "https://www.youtube.com/@jovempannews/live",
-          "videoId": "5BqiImsc_PI",
+          "videoId": "HuikRIqU4YY",
           "online": true
         },
         {
           "nome": "CNN Brasil",
           "url": "https://www.youtube.com/@CNNbrasil/live",
-          "videoId": "r0DZUSrsUJQ",
+          "videoId": "V2DHURyI0CA",
           "online": true
         },
         {
           "nome": "SBT News",
           "url": "https://www.youtube.com/@SBTNews/live",
-          "videoId": "SEgCJvb70ds",
+          "videoId": "1U_8YcCUD0w",
           "online": true
         },
         {
@@ -162,7 +162,7 @@
           "nome": "TNT Sports Brasil",
           "url": "https://www.youtube.com/@TNTSportsBR/live",
           "videoId": "SCPO1PSNM0w",
-          "online": true
+          "online": false
         },
         {
           "nome": "Bellator MMA",
@@ -190,8 +190,8 @@
         {
           "nome": "Igreja Presbiteriana de Pinheiros",
           "url": "https://www.youtube.com/@ippinheiros/live",
-          "videoId": "EV3k1eFZcWA",
-          "online": false
+          "videoId": "mzjfM6wChfs",
+          "online": true
         },
         {
           "nome": "Planetshakers",
@@ -272,8 +272,8 @@
         {
           "nome": "Domingo Espetacular",
           "url": "https://www.youtube.com/@domingoespetacular/live",
-          "videoId": "qwYV7bjkHpo",
-          "online": false
+          "videoId": "Hlf9OcS37cY",
+          "online": true
         },
         {
           "nome": "TV Ponta Negra RN",
@@ -302,7 +302,7 @@
         {
           "nome": "Gazeta do Povo",
           "url": "https://www.youtube.com/@gazetadopovo/live",
-          "videoId": "c_1DzOTw1q0",
+          "videoId": "qL-WEwuljqg",
           "online": true
         }
       ]
@@ -348,7 +348,7 @@
         {
           "nome": "PJ Masks em Português",
           "url": "https://www.youtube.com/@PJMasksemPortugues/live",
-          "videoId": "bPMoMhSgPC0",
+          "videoId": "4q-tvDUa-RY",
           "online": true
         },
         {
