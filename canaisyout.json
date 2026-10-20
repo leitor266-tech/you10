@@ -25,7 +25,7 @@
           "nome": "Jovem Pan News",
           "url": "https://www.youtube.com/@jovempannews/live",
           "videoId": "RrZ8X_UID64",
-          "online": true
+          "online": false
         },
         {
           "nome": "CNN Brasil",
@@ -37,7 +37,7 @@
           "nome": "SBT News",
           "url": "https://www.youtube.com/@SBTNews/live",
           "videoId": "N6-9o8iZmXY",
-          "online": true
+          "online": false
         },
         {
           "nome": "Food Network Brasil",
@@ -113,8 +113,8 @@
         {
           "nome": "ESPN Brasil",
           "url": "https://www.youtube.com/@espnbrasil/live",
-          "videoId": "_kU6Vsy5VUM",
-          "online": false
+          "videoId": "F5lHeSCIIFM",
+          "online": true
         },
         {
           "nome": "CazéTV",
