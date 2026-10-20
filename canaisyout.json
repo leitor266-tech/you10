@@ -114,7 +114,7 @@
           "nome": "ESPN Brasil",
           "url": "https://www.youtube.com/@espnbrasil/live",
           "videoId": "F5lHeSCIIFM",
-          "online": true
+          "online": false
         },
         {
           "nome": "CazéTV",
@@ -273,7 +273,7 @@
           "nome": "Domingo Espetacular",
           "url": "https://www.youtube.com/@domingoespetacular/live",
           "videoId": "Hlf9OcS37cY",
-          "online": true
+          "online": false
         },
         {
           "nome": "TV Ponta Negra RN",
