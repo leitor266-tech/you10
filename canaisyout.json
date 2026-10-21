@@ -7,13 +7,13 @@
           "nome": "STF Oficial",
           "url": "https://www.youtube.com/@STF_oficial/live",
           "videoId": "Ivo-wmtjl3A",
-          "online": true
+          "online": false
         },
         {
           "nome": "STF Oficial",
           "url": "https://www.youtube.com/@STF_oficial/live",
           "videoId": "Ivo-wmtjl3A",
-          "online": true
+          "online": false
         },
         {
           "nome": "Brasil Paralelo",
@@ -25,7 +25,7 @@
           "nome": "Jovem Pan News",
           "url": "https://www.youtube.com/@jovempannews/live",
           "videoId": "f5EC6Fli4nM",
-          "online": true
+          "online": false
         },
         {
           "nome": "CNN Brasil",
@@ -303,7 +303,7 @@
           "nome": "Gazeta do Povo",
           "url": "https://www.youtube.com/@gazetadopovo/live",
           "videoId": "PfIkfJsco9s",
-          "online": true
+          "online": false
         }
       ]
     },
