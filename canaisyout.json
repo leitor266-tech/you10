@@ -24,19 +24,19 @@
         {
           "nome": "Jovem Pan News",
           "url": "https://www.youtube.com/@jovempannews/live",
-          "videoId": "cYw1mnuKqbQ",
+          "videoId": "SfMhby8gKnc",
           "online": true
         },
         {
           "nome": "CNN Brasil",
           "url": "https://www.youtube.com/@CNNbrasil/live",
-          "videoId": "kr-F7mAfabY",
+          "videoId": "j2Ule-vMhps",
           "online": true
         },
         {
           "nome": "SBT News",
           "url": "https://www.youtube.com/@SBTNews/live",
-          "videoId": "KMEJ2nebioA",
+          "videoId": "sKF2FOpNIws",
           "online": true
         },
         {
@@ -114,7 +114,7 @@
           "nome": "ESPN Brasil",
           "url": "https://www.youtube.com/@espnbrasil/live",
           "videoId": "jG9DZDxGFSQ",
-          "online": true
+          "online": false
         },
         {
           "nome": "CazéTV",
@@ -126,7 +126,7 @@
           "nome": "CONMEBOL",
           "url": "https://www.youtube.com/@conmebol/live",
           "videoId": "FZSGXVh2gvA",
-          "online": true
+          "online": false
         },
         {
           "nome": "Vasco da Gama",
@@ -162,7 +162,7 @@
           "nome": "TNT Sports Brasil",
           "url": "https://www.youtube.com/@TNTSportsBR/live",
           "videoId": "uUT_F5ZLeNM",
-          "online": true
+          "online": false
         },
         {
           "nome": "Bellator MMA",
@@ -191,7 +191,7 @@
           "nome": "Igreja Presbiteriana de Pinheiros",
           "url": "https://www.youtube.com/@ippinheiros/live",
           "videoId": "_3q1ZYX2sAw",
-          "online": true
+          "online": false
         },
         {
           "nome": "Planetshakers",
@@ -279,13 +279,13 @@
           "nome": "TV Ponta Negra RN",
           "url": "https://www.youtube.com/@tvpontanegrarn/live",
           "videoId": "HG3yZXZfsto",
-          "online": true
+          "online": false
         },
         {
           "nome": "TV Tropical RN",
           "url": "https://www.youtube.com/@TVTropicalRN/live",
           "videoId": "vE7Rnq7aOcQ",
-          "online": true
+          "online": false
         },
         {
           "nome": "G1 Globo",
@@ -297,7 +297,7 @@
           "nome": "96 FM Natal RN",
           "url": "https://www.youtube.com/@96fmnatalrn/live",
           "videoId": "wR0fiE1Ftw8",
-          "online": true
+          "online": false
         },
         {
           "nome": "Gazeta do Povo",
