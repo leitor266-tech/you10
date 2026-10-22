@@ -24,19 +24,19 @@
         {
           "nome": "Jovem Pan News",
           "url": "https://www.youtube.com/@jovempannews/live",
-          "videoId": "FSG5PMX3fF8",
+          "videoId": "cYw1mnuKqbQ",
           "online": true
         },
         {
           "nome": "CNN Brasil",
           "url": "https://www.youtube.com/@CNNbrasil/live",
-          "videoId": "ilCLPm_b7Wo",
+          "videoId": "kr-F7mAfabY",
           "online": true
         },
         {
           "nome": "SBT News",
           "url": "https://www.youtube.com/@SBTNews/live",
-          "videoId": "r0u2Bmw22vg",
+          "videoId": "KMEJ2nebioA",
           "online": true
         },
         {
@@ -113,8 +113,8 @@
         {
           "nome": "ESPN Brasil",
           "url": "https://www.youtube.com/@espnbrasil/live",
-          "videoId": "-n0CNKb9eC0",
-          "online": false
+          "videoId": "jG9DZDxGFSQ",
+          "online": true
         },
         {
           "nome": "CazéTV",
@@ -125,8 +125,8 @@
         {
           "nome": "CONMEBOL",
           "url": "https://www.youtube.com/@conmebol/live",
-          "videoId": "-SKJ2KJgj_o",
-          "online": false
+          "videoId": "FZSGXVh2gvA",
+          "online": true
         },
         {
           "nome": "Vasco da Gama",
@@ -161,8 +161,8 @@
         {
           "nome": "TNT Sports Brasil",
           "url": "https://www.youtube.com/@TNTSportsBR/live",
-          "videoId": "HpOI-XLBEEQ",
-          "online": false
+          "videoId": "uUT_F5ZLeNM",
+          "online": true
         },
         {
           "nome": "Bellator MMA",
@@ -190,13 +190,13 @@
         {
           "nome": "Igreja Presbiteriana de Pinheiros",
           "url": "https://www.youtube.com/@ippinheiros/live",
-          "videoId": "0lHP7-dsT58",
+          "videoId": "_3q1ZYX2sAw",
           "online": true
         },
         {
           "nome": "Planetshakers",
           "url": "https://www.youtube.com/@planetshakerstv/live",
-          "videoId": "R7wpJkokcqw",
+          "videoId": "5ycN4ZjVba4",
           "online": true
         }
       ]
@@ -272,19 +272,19 @@
         {
           "nome": "Domingo Espetacular",
           "url": "https://www.youtube.com/@domingoespetacular/live",
-          "videoId": "rHJ6rtGsx4U",
-          "online": false
+          "videoId": "HrokylDdrqM",
+          "online": true
         },
         {
           "nome": "TV Ponta Negra RN",
           "url": "https://www.youtube.com/@tvpontanegrarn/live",
-          "videoId": "pFLJPUxldmI",
+          "videoId": "HG3yZXZfsto",
           "online": true
         },
         {
           "nome": "TV Tropical RN",
           "url": "https://www.youtube.com/@TVTropicalRN/live",
-          "videoId": "r95XqDuWiOU",
+          "videoId": "vE7Rnq7aOcQ",
           "online": true
         },
         {
@@ -296,14 +296,14 @@
         {
           "nome": "96 FM Natal RN",
           "url": "https://www.youtube.com/@96fmnatalrn/live",
-          "videoId": "wmMZPXZBB_Q",
+          "videoId": "wR0fiE1Ftw8",
           "online": true
         },
         {
           "nome": "Gazeta do Povo",
           "url": "https://www.youtube.com/@gazetadopovo/live",
           "videoId": "OH3ZYJSmzQU",
-          "online": true
+          "online": false
         }
       ]
     },
@@ -349,7 +349,7 @@
           "nome": "PJ Masks em Português",
           "url": "https://www.youtube.com/@PJMasksemPortugues/live",
           "videoId": "iBNw1964kko",
-          "online": true
+          "online": false
         },
         {
           "nome": "Boomerang UK",
