@@ -24,19 +24,19 @@
         {
           "nome": "Jovem Pan News",
           "url": "https://www.youtube.com/@jovempannews/live",
-          "videoId": "eMwA5yjjR-U",
+          "videoId": "XQEz-VMA0fE",
           "online": true
         },
         {
           "nome": "CNN Brasil",
           "url": "https://www.youtube.com/@CNNbrasil/live",
-          "videoId": "pl_2M4yk_g4",
+          "videoId": "KTFoJPO-TcA",
           "online": true
         },
         {
           "nome": "SBT News",
           "url": "https://www.youtube.com/@SBTNews/live",
-          "videoId": "XVoNjHPuMxI",
+          "videoId": "Jf8t5WZJXZ0",
           "online": true
         },
         {
@@ -114,7 +114,7 @@
           "nome": "ESPN Brasil",
           "url": "https://www.youtube.com/@espnbrasil/live",
           "videoId": "VMDGPvk8nB4",
-          "online": true
+          "online": false
         },
         {
           "nome": "CazéTV",
@@ -126,7 +126,7 @@
           "nome": "CONMEBOL",
           "url": "https://www.youtube.com/@conmebol/live",
           "videoId": "Km_HuZtWK7Y",
-          "online": true
+          "online": false
         },
         {
           "nome": "Vasco da Gama",
