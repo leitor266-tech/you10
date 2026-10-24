@@ -37,7 +37,7 @@
           "nome": "SBT News",
           "url": "https://www.youtube.com/@SBTNews/live",
           "videoId": "MC-UdO1NSYM",
-          "online": true
+          "online": false
         },
         {
           "nome": "Food Network Brasil",
@@ -191,7 +191,7 @@
           "nome": "Igreja Presbiteriana de Pinheiros",
           "url": "https://www.youtube.com/@ippinheiros/live",
           "videoId": "pct9llo5V0I",
-          "online": true
+          "online": false
         },
         {
           "nome": "Planetshakers",
