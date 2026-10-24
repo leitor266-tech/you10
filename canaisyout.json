@@ -24,20 +24,20 @@
         {
           "nome": "Jovem Pan News",
           "url": "https://www.youtube.com/@jovempannews/live",
-          "videoId": "XQEz-VMA0fE",
-          "online": false
+          "videoId": "HdTXAZ-rZLc",
+          "online": true
         },
         {
           "nome": "CNN Brasil",
           "url": "https://www.youtube.com/@CNNbrasil/live",
-          "videoId": "KTFoJPO-TcA",
-          "online": false
+          "videoId": "2jTXFR44bEs",
+          "online": true
         },
         {
           "nome": "SBT News",
           "url": "https://www.youtube.com/@SBTNews/live",
-          "videoId": "MC-UdO1NSYM",
-          "online": false
+          "videoId": "OIPEnvXLmY8",
+          "online": true
         },
         {
           "nome": "Food Network Brasil",
@@ -54,7 +54,7 @@
         {
           "nome": "Nat Geo Animals",
           "url": "https://www.youtube.com/@NatGeoAnimals/live",
-          "videoId": "R7Jfda-StTA",
+          "videoId": "MiQe9ob9aDc",
           "online": true
         },
         {
@@ -190,8 +190,8 @@
         {
           "nome": "Igreja Presbiteriana de Pinheiros",
           "url": "https://www.youtube.com/@ippinheiros/live",
-          "videoId": "pct9llo5V0I",
-          "online": false
+          "videoId": "0lHP7-dsT58",
+          "online": true
         },
         {
           "nome": "Planetshakers",
@@ -231,7 +231,7 @@
         {
           "nome": "Mario negocio",
           "url": "https://www.youtube.com/@fvfdrone/live",
-          "videoId": "vDVjzYxEUok",
+          "videoId": "FrWoQUVQqew",
           "online": true
         },
         {
