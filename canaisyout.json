@@ -24,19 +24,19 @@
         {
           "nome": "Jovem Pan News",
           "url": "https://www.youtube.com/@jovempannews/live",
-          "videoId": "HdTXAZ-rZLc",
+          "videoId": "11Od06irraY",
           "online": true
         },
         {
           "nome": "CNN Brasil",
           "url": "https://www.youtube.com/@CNNbrasil/live",
-          "videoId": "2jTXFR44bEs",
+          "videoId": "CweCGmBunZM",
           "online": true
         },
         {
           "nome": "SBT News",
           "url": "https://www.youtube.com/@SBTNews/live",
-          "videoId": "OIPEnvXLmY8",
+          "videoId": "iXpkcF8SMuQ",
           "online": true
         },
         {
@@ -143,8 +143,8 @@
         {
           "nome": "Palmeiras",
           "url": "https://www.youtube.com/@Palmeiras/live",
-          "videoId": "sWCEwJjyppU",
-          "online": false
+          "videoId": "nofaJ968cOs",
+          "online": true
         },
         {
           "nome": "X Sports Brasil",
