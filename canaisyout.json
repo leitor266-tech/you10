@@ -126,7 +126,7 @@
           "nome": "CONMEBOL",
           "url": "https://www.youtube.com/@conmebol/live",
           "videoId": "_bmhLbgjodo",
-          "online": true
+          "online": false
         },
         {
           "nome": "Vasco da Gama",
@@ -138,7 +138,7 @@
           "nome": "Ninja Warrior AU",
           "url": "https://www.youtube.com/@NinjaWarriorAU/live",
           "videoId": "xDsH6Rojmac",
-          "online": true
+          "online": false
         },
         {
           "nome": "Palmeiras",
