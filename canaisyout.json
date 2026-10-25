@@ -24,20 +24,20 @@
         {
           "nome": "Jovem Pan News",
           "url": "https://www.youtube.com/@jovempannews/live",
-          "videoId": "eTz4XgOQaAE",
+          "videoId": "lO6zooFHVFI",
           "online": true
         },
         {
           "nome": "CNN Brasil",
           "url": "https://www.youtube.com/@CNNbrasil/live",
-          "videoId": "CweCGmBunZM",
-          "online": false
+          "videoId": "2H06jLK6oeM",
+          "online": true
         },
         {
           "nome": "SBT News",
           "url": "https://www.youtube.com/@SBTNews/live",
-          "videoId": "XRd5cRbg--g",
-          "online": false
+          "videoId": "wnPpVYByYk4",
+          "online": true
         },
         {
           "nome": "Food Network Brasil",
@@ -190,7 +190,7 @@
         {
           "nome": "Igreja Presbiteriana de Pinheiros",
           "url": "https://www.youtube.com/@ippinheiros/live",
-          "videoId": "0lHP7-dsT58",
+          "videoId": "eLLtiDQ1P64",
           "online": true
         },
         {
@@ -213,7 +213,7 @@
         {
           "nome": "FVF Drone",
           "url": "https://www.youtube.com/@fvfdrone/live",
-          "videoId": "fgXPysSoYuE",
+          "videoId": "xp6BJKex-oE",
           "online": true
         },
         {
@@ -225,13 +225,13 @@
         {
           "nome": "FVF Drone",
           "url": "https://www.youtube.com/@fvfdrone/live",
-          "videoId": "fgXPysSoYuE",
+          "videoId": "xp6BJKex-oE",
           "online": true
         },
         {
           "nome": "Mario negocio",
           "url": "https://www.youtube.com/@fvfdrone/live",
-          "videoId": "fgXPysSoYuE",
+          "videoId": "xp6BJKex-oE",
           "online": true
         },
         {
@@ -284,14 +284,14 @@
         {
           "nome": "TV Tropical RN",
           "url": "https://www.youtube.com/@TVTropicalRN/live",
-          "videoId": "7YZ0RK04ax0",
-          "online": false
+          "videoId": "TYFcnCkE8Lk",
+          "online": true
         },
         {
           "nome": "G1 Globo",
           "url": "https://www.youtube.com/@g1globo/live",
-          "videoId": "vk2GoWof2Go",
-          "online": false
+          "videoId": "S6szqyBvqrc",
+          "online": true
         },
         {
           "nome": "96 FM Natal RN",
@@ -348,8 +348,8 @@
         {
           "nome": "PJ Masks em Português",
           "url": "https://www.youtube.com/@PJMasksemPortugues/live",
-          "videoId": "dSa3_WAJw68",
-          "online": false
+          "videoId": "hZPc1gdfXRI",
+          "online": true
         },
         {
           "nome": "Boomerang UK",
