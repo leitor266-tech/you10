@@ -18,8 +18,8 @@
         {
           "nome": "Brasil Paralelo",
           "url": "https://www.youtube.com/@brasilparalelo/live",
-          "videoId": "rCywCnp8lF8",
-          "online": false
+          "videoId": "09Iw56sXrQg",
+          "online": true
         },
         {
           "nome": "Jovem Pan News",
@@ -31,13 +31,13 @@
           "nome": "CNN Brasil",
           "url": "https://www.youtube.com/@CNNbrasil/live",
           "videoId": "o6Z6Ax_XVsY",
-          "online": true
+          "online": false
         },
         {
           "nome": "SBT News",
           "url": "https://www.youtube.com/@SBTNews/live",
           "videoId": "wnPpVYByYk4",
-          "online": true
+          "online": false
         },
         {
           "nome": "Food Network Brasil",
@@ -125,8 +125,8 @@
         {
           "nome": "CONMEBOL",
           "url": "https://www.youtube.com/@conmebol/live",
-          "videoId": "ZiujRYUD1xU",
-          "online": false
+          "videoId": "_bmhLbgjodo",
+          "online": true
         },
         {
           "nome": "Vasco da Gama",
