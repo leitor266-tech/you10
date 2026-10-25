@@ -48,8 +48,8 @@
         {
           "nome": "Band Jornalismo",
           "url": "https://www.youtube.com/@bandjornalismo/live",
-          "videoId": "LWtykmNhRwg",
-          "online": false
+          "videoId": "2gRTiQYxhOg",
+          "online": true
         },
         {
           "nome": "Nat Geo Animals",
@@ -126,7 +126,7 @@
           "nome": "CONMEBOL",
           "url": "https://www.youtube.com/@conmebol/live",
           "videoId": "ZiujRYUD1xU",
-          "online": true
+          "online": false
         },
         {
           "nome": "Vasco da Gama",
@@ -225,7 +225,7 @@
         {
           "nome": "FVF Drone",
           "url": "https://www.youtube.com/@fvfdrone/live",
-          "videoId": "FrWoQUVQqew",
+          "videoId": "xp6BJKex-oE",
           "online": true
         },
         {
