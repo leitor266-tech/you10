@@ -49,7 +49,7 @@
           "nome": "Band Jornalismo",
           "url": "https://www.youtube.com/@bandjornalismo/live",
           "videoId": "2gRTiQYxhOg",
-          "online": true
+          "online": false
         },
         {
           "nome": "Nat Geo Animals",
@@ -297,7 +297,7 @@
           "nome": "96 FM Natal RN",
           "url": "https://www.youtube.com/@96fmnatalrn/live",
           "videoId": "AbyPW_075uE",
-          "online": true
+          "online": false
         },
         {
           "nome": "Gazeta do Povo",
@@ -354,7 +354,7 @@
         {
           "nome": "Boomerang UK",
           "url": "https://www.youtube.com/@BoomerangUK/live",
-          "videoId": "90kaC8Kbw0k",
+          "videoId": "rEKifG2XUZg",
           "online": true
         },
         {
