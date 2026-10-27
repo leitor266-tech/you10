@@ -6,13 +6,13 @@
         {
           "nome": "STF Oficial",
           "url": "https://www.youtube.com/@STF_oficial/live",
-          "videoId": "XfwDB9udBLw",
+          "videoId": "sZhnRph0fA8",
           "online": true
         },
         {
           "nome": "STF Oficial",
           "url": "https://www.youtube.com/@STF_oficial/live",
-          "videoId": "XfwDB9udBLw",
+          "videoId": "sZhnRph0fA8",
           "online": true
         },
         {
@@ -24,19 +24,19 @@
         {
           "nome": "Jovem Pan News",
           "url": "https://www.youtube.com/@jovempannews/live",
-          "videoId": "IhFskmGNVBw",
+          "videoId": "pRmUtGTdRtQ",
           "online": true
         },
         {
           "nome": "CNN Brasil",
           "url": "https://www.youtube.com/@CNNbrasil/live",
-          "videoId": "Fn7E6aUVKuA",
+          "videoId": "D-PLtEZelok",
           "online": true
         },
         {
           "nome": "SBT News",
           "url": "https://www.youtube.com/@SBTNews/live",
-          "videoId": "Su11EAJkNe0",
+          "videoId": "VDN8eS1z5h8",
           "online": true
         },
         {
@@ -48,8 +48,8 @@
         {
           "nome": "Band Jornalismo",
           "url": "https://www.youtube.com/@bandjornalismo/live",
-          "videoId": "2gRTiQYxhOg",
-          "online": false
+          "videoId": "DJ2WRYBGT2w",
+          "online": true
         },
         {
           "nome": "Nat Geo Animals",
@@ -162,7 +162,7 @@
           "nome": "TNT Sports Brasil",
           "url": "https://www.youtube.com/@TNTSportsBR/live",
           "videoId": "_YCndGdKx4U",
-          "online": true
+          "online": false
         },
         {
           "nome": "Bellator MMA",
@@ -190,7 +190,7 @@
         {
           "nome": "Igreja Presbiteriana de Pinheiros",
           "url": "https://www.youtube.com/@ippinheiros/live",
-          "videoId": "EGJKQ5Nines",
+          "videoId": "HTZpl-VOrmI",
           "online": true
         },
         {
@@ -302,7 +302,7 @@
         {
           "nome": "Gazeta do Povo",
           "url": "https://www.youtube.com/@gazetadopovo/live",
-          "videoId": "1QXwmTdW4wo",
+          "videoId": "89xEaBJCY8s",
           "online": true
         }
       ]
@@ -349,7 +349,7 @@
           "nome": "PJ Masks em Português",
           "url": "https://www.youtube.com/@PJMasksemPortugues/live",
           "videoId": "WQxsxdewW04",
-          "online": true
+          "online": false
         },
         {
           "nome": "Boomerang UK",
@@ -367,7 +367,7 @@
           "nome": "SWAT em Português",
           "url": "https://www.youtube.com/@SWATEmPortugues/live",
           "videoId": "2rtEbYuTV8w",
-          "online": true
+          "online": false
         }
       ]
     }
