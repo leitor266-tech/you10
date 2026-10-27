@@ -24,20 +24,20 @@
         {
           "nome": "Jovem Pan News",
           "url": "https://www.youtube.com/@jovempannews/live",
-          "videoId": "6NGKSa3zNnc",
-          "online": false
+          "videoId": "eTz4XgOQaAE",
+          "online": true
         },
         {
           "nome": "CNN Brasil",
           "url": "https://www.youtube.com/@CNNbrasil/live",
-          "videoId": "ImIBL-88tQ0",
-          "online": false
+          "videoId": "zuMGHiPEOr4",
+          "online": true
         },
         {
           "nome": "SBT News",
           "url": "https://www.youtube.com/@SBTNews/live",
-          "videoId": "_tYl0v3s2fo",
-          "online": false
+          "videoId": "r31wqILfZG8",
+          "online": true
         },
         {
           "nome": "Food Network Brasil",
@@ -120,7 +120,7 @@
           "nome": "CazéTV",
           "url": "https://www.youtube.com/@CazeTV/live",
           "videoId": "dpkwMjudZME",
-          "online": true
+          "online": false
         },
         {
           "nome": "CONMEBOL",
@@ -173,7 +173,7 @@
         {
           "nome": "Boxing Mates",
           "url": "https://www.youtube.com/@BoxingMates1/live",
-          "videoId": "BBUFSZ0ORUc",
+          "videoId": "CeI_65aLq-8",
           "online": true
         },
         {
@@ -273,7 +273,7 @@
           "nome": "Domingo Espetacular",
           "url": "https://www.youtube.com/@domingoespetacular/live",
           "videoId": "EPfcRs3cHi4",
-          "online": true
+          "online": false
         },
         {
           "nome": "TV Ponta Negra RN",
@@ -366,8 +366,8 @@
         {
           "nome": "SWAT em Português",
           "url": "https://www.youtube.com/@SWATEmPortugues/live",
-          "videoId": "AoA0LLz0FeM",
-          "online": false
+          "videoId": "2rtEbYuTV8w",
+          "online": true
         }
       ]
     }
