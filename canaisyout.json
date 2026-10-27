@@ -7,12 +7,12 @@
           "nome": "STF Oficial",
           "url": "https://www.youtube.com/@STF_oficial/live",
           "videoId": "sZhnRph0fA8",
-          "online": true
+          "online": false
         },
         {
           "nome": "STF Oficial",
           "url": "https://www.youtube.com/@STF_oficial/live",
-          "videoId": "sZhnRph0fA8",
+          "videoId": "XfwDB9udBLw",
           "online": true
         },
         {
@@ -25,19 +25,19 @@
           "nome": "Jovem Pan News",
           "url": "https://www.youtube.com/@jovempannews/live",
           "videoId": "pRmUtGTdRtQ",
-          "online": true
+          "online": false
         },
         {
           "nome": "CNN Brasil",
           "url": "https://www.youtube.com/@CNNbrasil/live",
           "videoId": "D-PLtEZelok",
-          "online": true
+          "online": false
         },
         {
           "nome": "SBT News",
           "url": "https://www.youtube.com/@SBTNews/live",
           "videoId": "VDN8eS1z5h8",
-          "online": true
+          "online": false
         },
         {
           "nome": "Food Network Brasil",
@@ -49,7 +49,7 @@
           "nome": "Band Jornalismo",
           "url": "https://www.youtube.com/@bandjornalismo/live",
           "videoId": "DJ2WRYBGT2w",
-          "online": true
+          "online": false
         },
         {
           "nome": "Nat Geo Animals",
@@ -190,7 +190,7 @@
         {
           "nome": "Igreja Presbiteriana de Pinheiros",
           "url": "https://www.youtube.com/@ippinheiros/live",
-          "videoId": "HTZpl-VOrmI",
+          "videoId": "0lHP7-dsT58",
           "online": true
         },
         {
@@ -284,8 +284,8 @@
         {
           "nome": "TV Tropical RN",
           "url": "https://www.youtube.com/@TVTropicalRN/live",
-          "videoId": "TYFcnCkE8Lk",
-          "online": false
+          "videoId": "Q-hIMkTkaKY",
+          "online": true
         },
         {
           "nome": "G1 Globo",
@@ -303,7 +303,7 @@
           "nome": "Gazeta do Povo",
           "url": "https://www.youtube.com/@gazetadopovo/live",
           "videoId": "89xEaBJCY8s",
-          "online": true
+          "online": false
         }
       ]
     },
