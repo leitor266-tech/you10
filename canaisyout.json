@@ -6,8 +6,8 @@
         {
           "nome": "STF Oficial",
           "url": "https://www.youtube.com/@STF_oficial/live",
-          "videoId": "sZhnRph0fA8",
-          "online": false
+          "videoId": "XfwDB9udBLw",
+          "online": true
         },
         {
           "nome": "STF Oficial",
@@ -285,7 +285,7 @@
           "nome": "TV Tropical RN",
           "url": "https://www.youtube.com/@TVTropicalRN/live",
           "videoId": "Q-hIMkTkaKY",
-          "online": true
+          "online": false
         },
         {
           "nome": "G1 Globo",
