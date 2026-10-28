@@ -7,13 +7,13 @@
           "nome": "STF Oficial",
           "url": "https://www.youtube.com/@STF_oficial/live",
           "videoId": "o-W8ydjcY0c",
-          "online": true
+          "online": false
         },
         {
           "nome": "STF Oficial",
           "url": "https://www.youtube.com/@STF_oficial/live",
           "videoId": "o-W8ydjcY0c",
-          "online": true
+          "online": false
         },
         {
           "nome": "Brasil Paralelo",
@@ -25,19 +25,19 @@
           "nome": "Jovem Pan News",
           "url": "https://www.youtube.com/@jovempannews/live",
           "videoId": "UUR_BQQ0Ly4",
-          "online": true
+          "online": false
         },
         {
           "nome": "CNN Brasil",
           "url": "https://www.youtube.com/@CNNbrasil/live",
           "videoId": "rWs1GRF8eyo",
-          "online": true
+          "online": false
         },
         {
           "nome": "SBT News",
           "url": "https://www.youtube.com/@SBTNews/live",
           "videoId": "S7QhwTqy8gc",
-          "online": true
+          "online": false
         },
         {
           "nome": "Food Network Brasil",
