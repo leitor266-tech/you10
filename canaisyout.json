@@ -6,13 +6,13 @@
         {
           "nome": "STF Oficial",
           "url": "https://www.youtube.com/@STF_oficial/live",
-          "videoId": "XfwDB9udBLw",
+          "videoId": "o-W8ydjcY0c",
           "online": true
         },
         {
           "nome": "STF Oficial",
           "url": "https://www.youtube.com/@STF_oficial/live",
-          "videoId": "XfwDB9udBLw",
+          "videoId": "o-W8ydjcY0c",
           "online": true
         },
         {
@@ -24,19 +24,19 @@
         {
           "nome": "Jovem Pan News",
           "url": "https://www.youtube.com/@jovempannews/live",
-          "videoId": "evGa3XSPBc0",
+          "videoId": "UUR_BQQ0Ly4",
           "online": true
         },
         {
           "nome": "CNN Brasil",
           "url": "https://www.youtube.com/@CNNbrasil/live",
-          "videoId": "McwaYFPaCRo",
+          "videoId": "rWs1GRF8eyo",
           "online": true
         },
         {
           "nome": "SBT News",
           "url": "https://www.youtube.com/@SBTNews/live",
-          "videoId": "l8tq0qf-LXQ",
+          "videoId": "S7QhwTqy8gc",
           "online": true
         },
         {
@@ -114,7 +114,7 @@
           "nome": "ESPN Brasil",
           "url": "https://www.youtube.com/@espnbrasil/live",
           "videoId": "ezHfLdveWrk",
-          "online": true
+          "online": false
         },
         {
           "nome": "CazéTV",
@@ -132,7 +132,7 @@
           "nome": "Vasco da Gama",
           "url": "https://www.youtube.com/@vascodagama2108/live",
           "videoId": "jxnQ0_asLQk",
-          "online": true
+          "online": false
         },
         {
           "nome": "Ninja Warrior AU",
@@ -162,7 +162,7 @@
           "nome": "TNT Sports Brasil",
           "url": "https://www.youtube.com/@TNTSportsBR/live",
           "videoId": "aSAfrEE9osY",
-          "online": true
+          "online": false
         },
         {
           "nome": "Bellator MMA",
@@ -190,7 +190,7 @@
         {
           "nome": "Igreja Presbiteriana de Pinheiros",
           "url": "https://www.youtube.com/@ippinheiros/live",
-          "videoId": "Y7qzXiji7CI",
+          "videoId": "0lHP7-dsT58",
           "online": true
         },
         {
@@ -279,7 +279,7 @@
           "nome": "TV Ponta Negra RN",
           "url": "https://www.youtube.com/@tvpontanegrarn/live",
           "videoId": "W65HZkNhm6I",
-          "online": true
+          "online": false
         },
         {
           "nome": "TV Tropical RN",
@@ -303,7 +303,7 @@
           "nome": "Gazeta do Povo",
           "url": "https://www.youtube.com/@gazetadopovo/live",
           "videoId": "ABcXy6xDOt0",
-          "online": true
+          "online": false
         }
       ]
     },
@@ -348,7 +348,7 @@
         {
           "nome": "PJ Masks em Português",
           "url": "https://www.youtube.com/@PJMasksemPortugues/live",
-          "videoId": "UeJvVeYJSLI",
+          "videoId": "3NEH6sIHUwo",
           "online": true
         },
         {
