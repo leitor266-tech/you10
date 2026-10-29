@@ -24,19 +24,19 @@
         {
           "nome": "Jovem Pan News",
           "url": "https://www.youtube.com/@jovempannews/live",
-          "videoId": "nMipY2ZaWok",
+          "videoId": "B0iHcD43xGM",
           "online": true
         },
         {
           "nome": "CNN Brasil",
           "url": "https://www.youtube.com/@CNNbrasil/live",
-          "videoId": "GPsrC5eOrBo",
+          "videoId": "HZzuCQz2ZoQ",
           "online": true
         },
         {
           "nome": "SBT News",
           "url": "https://www.youtube.com/@SBTNews/live",
-          "videoId": "xaj3hkLP7pU",
+          "videoId": "S16vLmT4_Ak",
           "online": true
         },
         {
@@ -114,7 +114,7 @@
           "nome": "ESPN Brasil",
           "url": "https://www.youtube.com/@espnbrasil/live",
           "videoId": "lZPK052lK7M",
-          "online": true
+          "online": false
         },
         {
           "nome": "CazéTV",
@@ -131,8 +131,8 @@
         {
           "nome": "Vasco da Gama",
           "url": "https://www.youtube.com/@vascodagama2108/live",
-          "videoId": "jxnQ0_asLQk",
-          "online": false
+          "videoId": "B6E4kIUeVfA",
+          "online": true
         },
         {
           "nome": "Ninja Warrior AU",
@@ -190,7 +190,7 @@
         {
           "nome": "Igreja Presbiteriana de Pinheiros",
           "url": "https://www.youtube.com/@ippinheiros/live",
-          "videoId": "ZTzBlQfSTSw",
+          "videoId": "0lHP7-dsT58",
           "online": true
         },
         {
@@ -279,13 +279,13 @@
           "nome": "TV Ponta Negra RN",
           "url": "https://www.youtube.com/@tvpontanegrarn/live",
           "videoId": "biDpUD5f4ck",
-          "online": true
+          "online": false
         },
         {
           "nome": "TV Tropical RN",
           "url": "https://www.youtube.com/@TVTropicalRN/live",
           "videoId": "xGgDAnEpAUs",
-          "online": true
+          "online": false
         },
         {
           "nome": "G1 Globo",
