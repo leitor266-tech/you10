@@ -25,19 +25,19 @@
           "nome": "Jovem Pan News",
           "url": "https://www.youtube.com/@jovempannews/live",
           "videoId": "fmXSEMrNN7A",
-          "online": true
+          "online": false
         },
         {
           "nome": "CNN Brasil",
           "url": "https://www.youtube.com/@CNNbrasil/live",
-          "videoId": "8GreR6Bga2c",
+          "videoId": "-ZhGLe_62c8",
           "online": true
         },
         {
           "nome": "SBT News",
           "url": "https://www.youtube.com/@SBTNews/live",
           "videoId": "utqnAY5lZ8Y",
-          "online": true
+          "online": false
         },
         {
           "nome": "Food Network Brasil",
@@ -226,7 +226,7 @@
           "nome": "FVF Drone",
           "url": "https://www.youtube.com/@fvfdrone/live",
           "videoId": "fgXPysSoYuE",
-          "online": true
+          "online": false
         },
         {
           "nome": "Mario negocio",
@@ -303,7 +303,7 @@
           "nome": "Gazeta do Povo",
           "url": "https://www.youtube.com/@gazetadopovo/live",
           "videoId": "zYWYYl_wxrg",
-          "online": true
+          "online": false
         }
       ]
     },
