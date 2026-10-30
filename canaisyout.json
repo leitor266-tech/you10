@@ -24,20 +24,20 @@
         {
           "nome": "Jovem Pan News",
           "url": "https://www.youtube.com/@jovempannews/live",
-          "videoId": "B0iHcD43xGM",
-          "online": false
+          "videoId": "6nldbYvEDrk",
+          "online": true
         },
         {
           "nome": "CNN Brasil",
           "url": "https://www.youtube.com/@CNNbrasil/live",
-          "videoId": "HZzuCQz2ZoQ",
-          "online": false
+          "videoId": "TurwIPv-6k0",
+          "online": true
         },
         {
           "nome": "SBT News",
           "url": "https://www.youtube.com/@SBTNews/live",
-          "videoId": "S16vLmT4_Ak",
-          "online": false
+          "videoId": "-ZowXABy7g8",
+          "online": true
         },
         {
           "nome": "Food Network Brasil",
@@ -54,13 +54,13 @@
         {
           "nome": "Nat Geo Animals",
           "url": "https://www.youtube.com/@NatGeoAnimals/live",
-          "videoId": "MiQe9ob9aDc",
+          "videoId": "Qp2BQr6BaPk",
           "online": true
         },
         {
           "nome": "Nature Time Brasil",
           "url": "https://www.youtube.com/@NatureTimeBrasil/live",
-          "videoId": "7SxLbOowyHY",
+          "videoId": "-3-OLSk2bqA",
           "online": true
         },
         {
@@ -131,8 +131,8 @@
         {
           "nome": "Vasco da Gama",
           "url": "https://www.youtube.com/@vascodagama2108/live",
-          "videoId": "B6E4kIUeVfA",
-          "online": false
+          "videoId": "-H7oNXP3mXM",
+          "online": true
         },
         {
           "nome": "Ninja Warrior AU",
@@ -149,8 +149,8 @@
         {
           "nome": "X Sports Brasil",
           "url": "https://www.youtube.com/@xsports.brasil/live",
-          "videoId": "aSgPbelQtg4",
-          "online": false
+          "videoId": "UYcxvxA2h8Y",
+          "online": true
         },
         {
           "nome": "Canal GOAT",
@@ -161,8 +161,8 @@
         {
           "nome": "TNT Sports Brasil",
           "url": "https://www.youtube.com/@TNTSportsBR/live",
-          "videoId": "aSAfrEE9osY",
-          "online": false
+          "videoId": "thtLbN_WGGA",
+          "online": true
         },
         {
           "nome": "Bellator MMA",
@@ -190,7 +190,7 @@
         {
           "nome": "Igreja Presbiteriana de Pinheiros",
           "url": "https://www.youtube.com/@ippinheiros/live",
-          "videoId": "0lHP7-dsT58",
+          "videoId": "CNBYd68CIpI",
           "online": true
         },
         {
@@ -302,8 +302,8 @@
         {
           "nome": "Gazeta do Povo",
           "url": "https://www.youtube.com/@gazetadopovo/live",
-          "videoId": "ABcXy6xDOt0",
-          "online": false
+          "videoId": "nCxxe0Gcydc",
+          "online": true
         }
       ]
     },
