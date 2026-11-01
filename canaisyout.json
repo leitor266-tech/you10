@@ -25,18 +25,18 @@
           "nome": "Jovem Pan News",
           "url": "https://www.youtube.com/@jovempannews/live",
           "videoId": "fmE4FN7xNME",
-          "online": true
+          "online": false
         },
         {
           "nome": "CNN Brasil",
           "url": "https://www.youtube.com/@CNNbrasil/live",
           "videoId": "OdUHLLcWglc",
-          "online": true
+          "online": false
         },
         {
           "nome": "SBT News",
           "url": "https://www.youtube.com/@SBTNews/live",
-          "videoId": "6cmbQaZ4En0",
+          "videoId": "ujAOvXN5mYU",
           "online": true
         },
         {
@@ -132,7 +132,7 @@
           "nome": "Vasco da Gama",
           "url": "https://www.youtube.com/@vascodagama2108/live",
           "videoId": "va47tq2w7Hk",
-          "online": true
+          "online": false
         },
         {
           "nome": "Ninja Warrior AU",
@@ -144,13 +144,13 @@
           "nome": "Palmeiras",
           "url": "https://www.youtube.com/@Palmeiras/live",
           "videoId": "nOq2ofiwZoQ",
-          "online": true
+          "online": false
         },
         {
           "nome": "X Sports Brasil",
           "url": "https://www.youtube.com/@xsports.brasil/live",
-          "videoId": "c-fo7kkQVBo",
-          "online": false
+          "videoId": "5spy--z_GR4",
+          "online": true
         },
         {
           "nome": "Canal GOAT",
