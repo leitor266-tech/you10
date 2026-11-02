@@ -24,20 +24,20 @@
         {
           "nome": "Jovem Pan News",
           "url": "https://www.youtube.com/@jovempannews/live",
-          "videoId": "fmE4FN7xNME",
-          "online": false
+          "videoId": "zEmgMQr7lkg",
+          "online": true
         },
         {
           "nome": "CNN Brasil",
           "url": "https://www.youtube.com/@CNNbrasil/live",
-          "videoId": "OdUHLLcWglc",
-          "online": false
+          "videoId": "Tu2_flePXLI",
+          "online": true
         },
         {
           "nome": "SBT News",
           "url": "https://www.youtube.com/@SBTNews/live",
-          "videoId": "ujAOvXN5mYU",
-          "online": false
+          "videoId": "VCXQIFpdvvQ",
+          "online": true
         },
         {
           "nome": "Food Network Brasil",
@@ -213,7 +213,7 @@
         {
           "nome": "FVF Drone",
           "url": "https://www.youtube.com/@fvfdrone/live",
-          "videoId": "JxN06DJgRaw",
+          "videoId": "xp6BJKex-oE",
           "online": true
         },
         {
@@ -272,8 +272,8 @@
         {
           "nome": "Domingo Espetacular",
           "url": "https://www.youtube.com/@domingoespetacular/live",
-          "videoId": "LE67lsseO2Y",
-          "online": false
+          "videoId": "dvcdqW9KznQ",
+          "online": true
         },
         {
           "nome": "TV Ponta Negra RN",
@@ -348,7 +348,7 @@
         {
           "nome": "PJ Masks em Português",
           "url": "https://www.youtube.com/@PJMasksemPortugues/live",
-          "videoId": "0z6t6HauQcg",
+          "videoId": "LGen3sVAToc",
           "online": true
         },
         {
