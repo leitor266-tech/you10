@@ -37,7 +37,7 @@
           "nome": "SBT News",
           "url": "https://www.youtube.com/@SBTNews/live",
           "videoId": "ujAOvXN5mYU",
-          "online": true
+          "online": false
         },
         {
           "nome": "Food Network Brasil",
@@ -150,7 +150,7 @@
           "nome": "X Sports Brasil",
           "url": "https://www.youtube.com/@xsports.brasil/live",
           "videoId": "5spy--z_GR4",
-          "online": true
+          "online": false
         },
         {
           "nome": "Canal GOAT",
