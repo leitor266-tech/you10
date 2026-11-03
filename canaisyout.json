@@ -6,13 +6,13 @@
         {
           "nome": "STF Oficial",
           "url": "https://www.youtube.com/@STF_oficial/live",
-          "videoId": "JoyPHsA_u_0",
+          "videoId": "Hwjn3V6Li4k",
           "online": true
         },
         {
           "nome": "STF Oficial",
           "url": "https://www.youtube.com/@STF_oficial/live",
-          "videoId": "JoyPHsA_u_0",
+          "videoId": "Hwjn3V6Li4k",
           "online": true
         },
         {
@@ -24,19 +24,19 @@
         {
           "nome": "Jovem Pan News",
           "url": "https://www.youtube.com/@jovempannews/live",
-          "videoId": "9G_JtiCRZY4",
+          "videoId": "olLn7Sv5xdc",
           "online": true
         },
         {
           "nome": "CNN Brasil",
           "url": "https://www.youtube.com/@CNNbrasil/live",
-          "videoId": "wfGldMjbUtk",
+          "videoId": "fKx81h7SkOY",
           "online": true
         },
         {
           "nome": "SBT News",
           "url": "https://www.youtube.com/@SBTNews/live",
-          "videoId": "DSkwLFW9Ies",
+          "videoId": "u175KyuRSu4",
           "online": true
         },
         {
@@ -54,7 +54,7 @@
         {
           "nome": "Nat Geo Animals",
           "url": "https://www.youtube.com/@NatGeoAnimals/live",
-          "videoId": "Qp2BQr6BaPk",
+          "videoId": "MiQe9ob9aDc",
           "online": true
         },
         {
@@ -114,7 +114,7 @@
           "nome": "ESPN Brasil",
           "url": "https://www.youtube.com/@espnbrasil/live",
           "videoId": "ZounsDyC150",
-          "online": true
+          "online": false
         },
         {
           "nome": "CazéTV",
@@ -162,7 +162,7 @@
           "nome": "TNT Sports Brasil",
           "url": "https://www.youtube.com/@TNTSportsBR/live",
           "videoId": "jNLnxZpYvwQ",
-          "online": true
+          "online": false
         },
         {
           "nome": "Bellator MMA",
@@ -173,7 +173,7 @@
         {
           "nome": "Boxing Mates",
           "url": "https://www.youtube.com/@BoxingMates1/live",
-          "videoId": "CeI_65aLq-8",
+          "videoId": "iQupcK33upk",
           "online": true
         },
         {
@@ -231,7 +231,7 @@
         {
           "nome": "Mario negocio",
           "url": "https://www.youtube.com/@fvfdrone/live",
-          "videoId": "jWvqBTa8j5o",
+          "videoId": "HKkhSAYELvM",
           "online": true
         },
         {
@@ -279,12 +279,12 @@
           "nome": "TV Ponta Negra RN",
           "url": "https://www.youtube.com/@tvpontanegrarn/live",
           "videoId": "zrIHWrdunUE",
-          "online": true
+          "online": false
         },
         {
           "nome": "TV Tropical RN",
           "url": "https://www.youtube.com/@TVTropicalRN/live",
-          "videoId": "sxxDYA4dg6A",
+          "videoId": "GDIR3ZXs3Ww",
           "online": true
         },
         {
@@ -296,7 +296,7 @@
         {
           "nome": "96 FM Natal RN",
           "url": "https://www.youtube.com/@96fmnatalrn/live",
-          "videoId": "OdkQqPbHNkU",
+          "videoId": "tLV9-xtBgFo",
           "online": true
         },
         {
@@ -332,7 +332,7 @@
           "nome": "Cine Família",
           "url": "https://www.youtube.com/@Cine_Familia/live",
           "videoId": "J3viKsObmhg",
-          "online": true
+          "online": false
         }
       ]
     },
