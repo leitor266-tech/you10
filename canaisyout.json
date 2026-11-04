@@ -6,13 +6,13 @@
         {
           "nome": "STF Oficial",
           "url": "https://www.youtube.com/@STF_oficial/live",
-          "videoId": "Hwjn3V6Li4k",
+          "videoId": "XfwDB9udBLw",
           "online": true
         },
         {
           "nome": "STF Oficial",
           "url": "https://www.youtube.com/@STF_oficial/live",
-          "videoId": "Hwjn3V6Li4k",
+          "videoId": "XfwDB9udBLw",
           "online": true
         },
         {
@@ -24,19 +24,19 @@
         {
           "nome": "Jovem Pan News",
           "url": "https://www.youtube.com/@jovempannews/live",
-          "videoId": "olLn7Sv5xdc",
+          "videoId": "MjdZS-wUA6s",
           "online": true
         },
         {
           "nome": "CNN Brasil",
           "url": "https://www.youtube.com/@CNNbrasil/live",
           "videoId": "fKx81h7SkOY",
-          "online": true
+          "online": false
         },
         {
           "nome": "SBT News",
           "url": "https://www.youtube.com/@SBTNews/live",
-          "videoId": "u175KyuRSu4",
+          "videoId": "MqIJrziJ2VA",
           "online": true
         },
         {
@@ -60,7 +60,7 @@
         {
           "nome": "Nature Time Brasil",
           "url": "https://www.youtube.com/@NatureTimeBrasil/live",
-          "videoId": "-3-OLSk2bqA",
+          "videoId": "7SxLbOowyHY",
           "online": true
         },
         {
@@ -231,7 +231,7 @@
         {
           "nome": "Mario negocio",
           "url": "https://www.youtube.com/@fvfdrone/live",
-          "videoId": "HKkhSAYELvM",
+          "videoId": "uf5ZLVScncI",
           "online": true
         },
         {
@@ -285,7 +285,7 @@
           "nome": "TV Tropical RN",
           "url": "https://www.youtube.com/@TVTropicalRN/live",
           "videoId": "GDIR3ZXs3Ww",
-          "online": true
+          "online": false
         },
         {
           "nome": "G1 Globo",
@@ -297,7 +297,7 @@
           "nome": "96 FM Natal RN",
           "url": "https://www.youtube.com/@96fmnatalrn/live",
           "videoId": "tLV9-xtBgFo",
-          "online": true
+          "online": false
         },
         {
           "nome": "Gazeta do Povo",
