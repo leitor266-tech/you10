@@ -24,20 +24,20 @@
         {
           "nome": "Jovem Pan News",
           "url": "https://www.youtube.com/@jovempannews/live",
-          "videoId": "xWf73qk0L1w",
-          "online": false
+          "videoId": "eTz4XgOQaAE",
+          "online": true
         },
         {
           "nome": "CNN Brasil",
           "url": "https://www.youtube.com/@CNNbrasil/live",
-          "videoId": "aIEgMFoiddM",
-          "online": false
+          "videoId": "btGjpqkcmrg",
+          "online": true
         },
         {
           "nome": "SBT News",
           "url": "https://www.youtube.com/@SBTNews/live",
-          "videoId": "tRtzUmGl2Vk",
-          "online": false
+          "videoId": "FN6p2Z6LhaE",
+          "online": true
         },
         {
           "nome": "Food Network Brasil",
@@ -131,8 +131,8 @@
         {
           "nome": "Vasco da Gama",
           "url": "https://www.youtube.com/@vascodagama2108/live",
-          "videoId": "CDJW64E1df8",
-          "online": false
+          "videoId": "b4XagRUA8lk",
+          "online": true
         },
         {
           "nome": "Ninja Warrior AU",
@@ -143,8 +143,8 @@
         {
           "nome": "Palmeiras",
           "url": "https://www.youtube.com/@Palmeiras/live",
-          "videoId": "nOq2ofiwZoQ",
-          "online": false
+          "videoId": "Ri7hMioet_E",
+          "online": true
         },
         {
           "nome": "X Sports Brasil",
@@ -173,7 +173,7 @@
         {
           "nome": "Boxing Mates",
           "url": "https://www.youtube.com/@BoxingMates1/live",
-          "videoId": "Yz05zU_0Rbc",
+          "videoId": "iQupcK33upk",
           "online": true
         },
         {
@@ -213,7 +213,7 @@
         {
           "nome": "FVF Drone",
           "url": "https://www.youtube.com/@fvfdrone/live",
-          "videoId": "uf5ZLVScncI",
+          "videoId": "HKkhSAYELvM",
           "online": true
         },
         {
@@ -225,13 +225,13 @@
         {
           "nome": "FVF Drone",
           "url": "https://www.youtube.com/@fvfdrone/live",
-          "videoId": "uf5ZLVScncI",
+          "videoId": "HKkhSAYELvM",
           "online": true
         },
         {
           "nome": "Mario negocio",
           "url": "https://www.youtube.com/@fvfdrone/live",
-          "videoId": "uf5ZLVScncI",
+          "videoId": "HKkhSAYELvM",
           "online": true
         },
         {
@@ -342,8 +342,8 @@
         {
           "nome": "Bluey Português Brasil",
           "url": "https://www.youtube.com/@blueyportuguesbrasil-canal/live",
-          "videoId": "8j_JujndtaY",
-          "online": false
+          "videoId": "OBe-ehVPKKk",
+          "online": true
         },
         {
           "nome": "PJ Masks em Português",
@@ -354,7 +354,7 @@
         {
           "nome": "Boomerang UK",
           "url": "https://www.youtube.com/@BoomerangUK/live",
-          "videoId": "rEKifG2XUZg",
+          "videoId": "ALGbqW-tUAQ",
           "online": true
         },
         {
