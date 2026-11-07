@@ -24,19 +24,19 @@
         {
           "nome": "Jovem Pan News",
           "url": "https://www.youtube.com/@jovempannews/live",
-          "videoId": "6SXNvB_Cnt4",
-          "online": false
+          "videoId": "xWf73qk0L1w",
+          "online": true
         },
         {
           "nome": "CNN Brasil",
           "url": "https://www.youtube.com/@CNNbrasil/live",
-          "videoId": "AloQbzoaPX8",
+          "videoId": "aIEgMFoiddM",
           "online": true
         },
         {
           "nome": "SBT News",
           "url": "https://www.youtube.com/@SBTNews/live",
-          "videoId": "NBL2OIjkekk",
+          "videoId": "tRtzUmGl2Vk",
           "online": true
         },
         {
@@ -342,7 +342,7 @@
         {
           "nome": "Bluey Português Brasil",
           "url": "https://www.youtube.com/@blueyportuguesbrasil-canal/live",
-          "videoId": "OBe-ehVPKKk",
+          "videoId": "8j_JujndtaY",
           "online": true
         },
         {
