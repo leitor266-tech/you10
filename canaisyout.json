@@ -25,19 +25,19 @@
           "nome": "Jovem Pan News",
           "url": "https://www.youtube.com/@jovempannews/live",
           "videoId": "xWf73qk0L1w",
-          "online": true
+          "online": false
         },
         {
           "nome": "CNN Brasil",
           "url": "https://www.youtube.com/@CNNbrasil/live",
           "videoId": "aIEgMFoiddM",
-          "online": true
+          "online": false
         },
         {
           "nome": "SBT News",
           "url": "https://www.youtube.com/@SBTNews/live",
           "videoId": "tRtzUmGl2Vk",
-          "online": true
+          "online": false
         },
         {
           "nome": "Food Network Brasil",
@@ -273,7 +273,7 @@
           "nome": "Domingo Espetacular",
           "url": "https://www.youtube.com/@domingoespetacular/live",
           "videoId": "kHqLmki7sgA",
-          "online": true
+          "online": false
         },
         {
           "nome": "TV Ponta Negra RN",
@@ -343,7 +343,7 @@
           "nome": "Bluey Português Brasil",
           "url": "https://www.youtube.com/@blueyportuguesbrasil-canal/live",
           "videoId": "8j_JujndtaY",
-          "online": true
+          "online": false
         },
         {
           "nome": "PJ Masks em Português",
