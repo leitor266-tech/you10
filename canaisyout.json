@@ -24,13 +24,13 @@
         {
           "nome": "Jovem Pan News",
           "url": "https://www.youtube.com/@jovempannews/live",
-          "videoId": "eTz4XgOQaAE",
+          "videoId": "vFYkctg2Fy4",
           "online": true
         },
         {
           "nome": "CNN Brasil",
           "url": "https://www.youtube.com/@CNNbrasil/live",
-          "videoId": "btGjpqkcmrg",
+          "videoId": "hKicOTcg8XA",
           "online": true
         },
         {
@@ -54,7 +54,7 @@
         {
           "nome": "Nat Geo Animals",
           "url": "https://www.youtube.com/@NatGeoAnimals/live",
-          "videoId": "Qp2BQr6BaPk",
+          "videoId": "MiQe9ob9aDc",
           "online": true
         },
         {
@@ -113,8 +113,8 @@
         {
           "nome": "ESPN Brasil",
           "url": "https://www.youtube.com/@espnbrasil/live",
-          "videoId": "nZs9W1yGWUA",
-          "online": false
+          "videoId": "KKEo5ygtVr4",
+          "online": true
         },
         {
           "nome": "CazéTV",
@@ -132,7 +132,7 @@
           "nome": "Vasco da Gama",
           "url": "https://www.youtube.com/@vascodagama2108/live",
           "videoId": "b4XagRUA8lk",
-          "online": true
+          "online": false
         },
         {
           "nome": "Ninja Warrior AU",
@@ -144,7 +144,7 @@
           "nome": "Palmeiras",
           "url": "https://www.youtube.com/@Palmeiras/live",
           "videoId": "Ri7hMioet_E",
-          "online": true
+          "online": false
         },
         {
           "nome": "X Sports Brasil",
@@ -272,8 +272,8 @@
         {
           "nome": "Domingo Espetacular",
           "url": "https://www.youtube.com/@domingoespetacular/live",
-          "videoId": "kHqLmki7sgA",
-          "online": false
+          "videoId": "4g7n43Epago",
+          "online": true
         },
         {
           "nome": "TV Ponta Negra RN",
@@ -348,7 +348,7 @@
         {
           "nome": "PJ Masks em Português",
           "url": "https://www.youtube.com/@PJMasksemPortugues/live",
-          "videoId": "3Z8sd0fvp5k",
+          "videoId": "w_biaSZI5i4",
           "online": true
         },
         {
