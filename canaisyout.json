@@ -24,14 +24,14 @@
         {
           "nome": "Jovem Pan News",
           "url": "https://www.youtube.com/@jovempannews/live",
-          "videoId": "eTz4XgOQaAE",
+          "videoId": "0ut116sJ3eg",
           "online": true
         },
         {
           "nome": "CNN Brasil",
           "url": "https://www.youtube.com/@CNNbrasil/live",
-          "videoId": "u77M5Z1PR5k",
-          "online": false
+          "videoId": "KEuPkGcx2WA",
+          "online": true
         },
         {
           "nome": "SBT News",
@@ -190,7 +190,7 @@
         {
           "nome": "Igreja Presbiteriana de Pinheiros",
           "url": "https://www.youtube.com/@ippinheiros/live",
-          "videoId": "0lHP7-dsT58",
+          "videoId": "HxKxnxgVtqk",
           "online": true
         },
         {
@@ -290,8 +290,8 @@
         {
           "nome": "G1 Globo",
           "url": "https://www.youtube.com/@g1globo/live",
-          "videoId": "S6szqyBvqrc",
-          "online": false
+          "videoId": "GERjWDc9w6M",
+          "online": true
         },
         {
           "nome": "96 FM Natal RN",
