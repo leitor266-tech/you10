@@ -25,19 +25,19 @@
           "nome": "Jovem Pan News",
           "url": "https://www.youtube.com/@jovempannews/live",
           "videoId": "4oFZ47cIUoo",
-          "online": true
+          "online": false
         },
         {
           "nome": "CNN Brasil",
           "url": "https://www.youtube.com/@CNNbrasil/live",
-          "videoId": "5ZHOU0v195U",
+          "videoId": "StqQRXLUK5M",
           "online": true
         },
         {
           "nome": "SBT News",
           "url": "https://www.youtube.com/@SBTNews/live",
           "videoId": "kf7IDgLsQV0",
-          "online": true
+          "online": false
         },
         {
           "nome": "Food Network Brasil",
@@ -49,7 +49,7 @@
           "nome": "Band Jornalismo",
           "url": "https://www.youtube.com/@bandjornalismo/live",
           "videoId": "1vES_EMm8Gk",
-          "online": true
+          "online": false
         },
         {
           "nome": "Nat Geo Animals",
@@ -132,7 +132,7 @@
           "nome": "Vasco da Gama",
           "url": "https://www.youtube.com/@vascodagama2108/live",
           "videoId": "VyaD6fW5l-s",
-          "online": true
+          "online": false
         },
         {
           "nome": "Ninja Warrior AU",
@@ -144,7 +144,7 @@
           "nome": "Palmeiras",
           "url": "https://www.youtube.com/@Palmeiras/live",
           "videoId": "HbHgWoGsp-Q",
-          "online": true
+          "online": false
         },
         {
           "nome": "X Sports Brasil",
@@ -190,7 +190,7 @@
         {
           "nome": "Igreja Presbiteriana de Pinheiros",
           "url": "https://www.youtube.com/@ippinheiros/live",
-          "videoId": "0lHP7-dsT58",
+          "videoId": "Tl1F4bPKITg",
           "online": true
         },
         {
