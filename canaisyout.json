@@ -24,13 +24,13 @@
         {
           "nome": "Jovem Pan News",
           "url": "https://www.youtube.com/@jovempannews/live",
-          "videoId": "0ut116sJ3eg",
+          "videoId": "4oFZ47cIUoo",
           "online": true
         },
         {
           "nome": "CNN Brasil",
           "url": "https://www.youtube.com/@CNNbrasil/live",
-          "videoId": "KEuPkGcx2WA",
+          "videoId": "5ZHOU0v195U",
           "online": true
         },
         {
@@ -48,8 +48,8 @@
         {
           "nome": "Band Jornalismo",
           "url": "https://www.youtube.com/@bandjornalismo/live",
-          "videoId": "DJ2WRYBGT2w",
-          "online": false
+          "videoId": "1vES_EMm8Gk",
+          "online": true
         },
         {
           "nome": "Nat Geo Animals",
@@ -131,8 +131,8 @@
         {
           "nome": "Vasco da Gama",
           "url": "https://www.youtube.com/@vascodagama2108/live",
-          "videoId": "b4XagRUA8lk",
-          "online": false
+          "videoId": "VyaD6fW5l-s",
+          "online": true
         },
         {
           "nome": "Ninja Warrior AU",
@@ -143,8 +143,8 @@
         {
           "nome": "Palmeiras",
           "url": "https://www.youtube.com/@Palmeiras/live",
-          "videoId": "Ri7hMioet_E",
-          "online": false
+          "videoId": "HbHgWoGsp-Q",
+          "online": true
         },
         {
           "nome": "X Sports Brasil",
@@ -190,7 +190,7 @@
         {
           "nome": "Igreja Presbiteriana de Pinheiros",
           "url": "https://www.youtube.com/@ippinheiros/live",
-          "videoId": "HxKxnxgVtqk",
+          "videoId": "0lHP7-dsT58",
           "online": true
         },
         {
@@ -291,7 +291,7 @@
           "nome": "G1 Globo",
           "url": "https://www.youtube.com/@g1globo/live",
           "videoId": "GERjWDc9w6M",
-          "online": true
+          "online": false
         },
         {
           "nome": "96 FM Natal RN",
@@ -348,7 +348,7 @@
         {
           "nome": "PJ Masks em Português",
           "url": "https://www.youtube.com/@PJMasksemPortugues/live",
-          "videoId": "w_biaSZI5i4",
+          "videoId": "FUhcEdORCnE",
           "online": true
         },
         {
