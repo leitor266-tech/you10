@@ -24,19 +24,19 @@
         {
           "nome": "Jovem Pan News",
           "url": "https://www.youtube.com/@jovempannews/live",
-          "videoId": "663lJqhOFQ8",
+          "videoId": "HS0QiKKkMQo",
           "online": true
         },
         {
           "nome": "CNN Brasil",
           "url": "https://www.youtube.com/@CNNbrasil/live",
-          "videoId": "i2zUeGSgBx0",
+          "videoId": "c2dPWH2WNCU",
           "online": true
         },
         {
           "nome": "SBT News",
           "url": "https://www.youtube.com/@SBTNews/live",
-          "videoId": "XUiaFwxs9tI",
+          "videoId": "eoBVJ2ud7xw",
           "online": true
         },
         {
@@ -272,8 +272,8 @@
         {
           "nome": "Domingo Espetacular",
           "url": "https://www.youtube.com/@domingoespetacular/live",
-          "videoId": "4g7n43Epago",
-          "online": false
+          "videoId": "sBAG8ofD5Zs",
+          "online": true
         },
         {
           "nome": "TV Ponta Negra RN",
@@ -285,7 +285,7 @@
           "nome": "TV Tropical RN",
           "url": "https://www.youtube.com/@TVTropicalRN/live",
           "videoId": "_XraAZXZIyE",
-          "online": true
+          "online": false
         },
         {
           "nome": "G1 Globo",
@@ -296,14 +296,14 @@
         {
           "nome": "96 FM Natal RN",
           "url": "https://www.youtube.com/@96fmnatalrn/live",
-          "videoId": "pul2Ee8joOg",
+          "videoId": "vh-xcSLSnjM",
           "online": true
         },
         {
           "nome": "Gazeta do Povo",
           "url": "https://www.youtube.com/@gazetadopovo/live",
-          "videoId": "V-Um23L_HhI",
-          "online": false
+          "videoId": "P401VehsrUE",
+          "online": true
         }
       ]
     },
@@ -349,7 +349,7 @@
           "nome": "PJ Masks em Português",
           "url": "https://www.youtube.com/@PJMasksemPortugues/live",
           "videoId": "FUhcEdORCnE",
-          "online": true
+          "online": false
         },
         {
           "nome": "Boomerang UK",
