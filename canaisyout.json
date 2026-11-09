@@ -24,14 +24,14 @@
         {
           "nome": "Jovem Pan News",
           "url": "https://www.youtube.com/@jovempannews/live",
-          "videoId": "4oFZ47cIUoo",
-          "online": false
+          "videoId": "eTz4XgOQaAE",
+          "online": true
         },
         {
           "nome": "CNN Brasil",
           "url": "https://www.youtube.com/@CNNbrasil/live",
           "videoId": "StqQRXLUK5M",
-          "online": true
+          "online": false
         },
         {
           "nome": "SBT News",
@@ -191,7 +191,7 @@
           "nome": "Igreja Presbiteriana de Pinheiros",
           "url": "https://www.youtube.com/@ippinheiros/live",
           "videoId": "Tl1F4bPKITg",
-          "online": true
+          "online": false
         },
         {
           "nome": "Planetshakers",
