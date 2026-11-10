@@ -24,19 +24,19 @@
         {
           "nome": "Jovem Pan News",
           "url": "https://www.youtube.com/@jovempannews/live",
-          "videoId": "eTz4XgOQaAE",
+          "videoId": "YmhNDr58ZVI",
           "online": true
         },
         {
           "nome": "CNN Brasil",
           "url": "https://www.youtube.com/@CNNbrasil/live",
-          "videoId": "fFKLPJU02D4",
+          "videoId": "yYBCPZV5HOE",
           "online": true
         },
         {
           "nome": "SBT News",
           "url": "https://www.youtube.com/@SBTNews/live",
-          "videoId": "ZWezZNWLs-M",
+          "videoId": "BiuVhNMSSj0",
           "online": true
         },
         {
@@ -48,8 +48,8 @@
         {
           "nome": "Band Jornalismo",
           "url": "https://www.youtube.com/@bandjornalismo/live",
-          "videoId": "1vES_EMm8Gk",
-          "online": false
+          "videoId": "hLePxSgXv2M",
+          "online": true
         },
         {
           "nome": "Nat Geo Animals",
@@ -273,19 +273,19 @@
           "nome": "Domingo Espetacular",
           "url": "https://www.youtube.com/@domingoespetacular/live",
           "videoId": "sBAG8ofD5Zs",
-          "online": true
+          "online": false
         },
         {
           "nome": "TV Ponta Negra RN",
           "url": "https://www.youtube.com/@tvpontanegrarn/live",
-          "videoId": "Ue0bKhyi2lg",
-          "online": false
+          "videoId": "IrEOejmr18Q",
+          "online": true
         },
         {
           "nome": "TV Tropical RN",
           "url": "https://www.youtube.com/@TVTropicalRN/live",
-          "videoId": "_XraAZXZIyE",
-          "online": false
+          "videoId": "UDnrTAa-w7Y",
+          "online": true
         },
         {
           "nome": "G1 Globo",
@@ -296,14 +296,14 @@
         {
           "nome": "96 FM Natal RN",
           "url": "https://www.youtube.com/@96fmnatalrn/live",
-          "videoId": "vh-xcSLSnjM",
-          "online": false
+          "videoId": "xH-Aj-LbRr8",
+          "online": true
         },
         {
           "nome": "Gazeta do Povo",
           "url": "https://www.youtube.com/@gazetadopovo/live",
-          "videoId": "P401VehsrUE",
-          "online": false
+          "videoId": "uqz-HJ-onzI",
+          "online": true
         }
       ]
     },
@@ -331,8 +331,8 @@
         {
           "nome": "Cine Família",
           "url": "https://www.youtube.com/@Cine_Familia/live",
-          "videoId": "J3viKsObmhg",
-          "online": false
+          "videoId": "GHJ8uUMsZk0",
+          "online": true
         }
       ]
     },
@@ -348,8 +348,8 @@
         {
           "nome": "PJ Masks em Português",
           "url": "https://www.youtube.com/@PJMasksemPortugues/live",
-          "videoId": "FUhcEdORCnE",
-          "online": false
+          "videoId": "1mJXTiMNCsA",
+          "online": true
         },
         {
           "nome": "Boomerang UK",
