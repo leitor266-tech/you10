@@ -24,20 +24,20 @@
         {
           "nome": "Jovem Pan News",
           "url": "https://www.youtube.com/@jovempannews/live",
-          "videoId": "vTMibfOgoJU",
-          "online": false
+          "videoId": "-eNCqzSK2vI",
+          "online": true
         },
         {
           "nome": "CNN Brasil",
           "url": "https://www.youtube.com/@CNNbrasil/live",
-          "videoId": "h2yZ6qG9QY0",
-          "online": false
+          "videoId": "J3tt8_hErEI",
+          "online": true
         },
         {
           "nome": "SBT News",
           "url": "https://www.youtube.com/@SBTNews/live",
-          "videoId": "DSp2Bm4BPrc",
-          "online": false
+          "videoId": "rUsGY1EJG3U",
+          "online": true
         },
         {
           "nome": "Food Network Brasil",
@@ -207,7 +207,7 @@
         {
           "nome": "Live Cam Natal",
           "url": "https://www.youtube.com/@LiveCamNatal/live",
-          "videoId": "jigBbC3G_-k",
+          "videoId": "jhIKYFLSJmY",
           "online": true
         },
         {
@@ -273,7 +273,7 @@
           "nome": "Domingo Espetacular",
           "url": "https://www.youtube.com/@domingoespetacular/live",
           "videoId": "FaTtLz6jFVc",
-          "online": true
+          "online": false
         },
         {
           "nome": "TV Ponta Negra RN",
@@ -284,8 +284,8 @@
         {
           "nome": "TV Tropical RN",
           "url": "https://www.youtube.com/@TVTropicalRN/live",
-          "videoId": "91zP_-1IFK8",
-          "online": false
+          "videoId": "LvloQ166Vc4",
+          "online": true
         },
         {
           "nome": "G1 Globo",
@@ -296,14 +296,14 @@
         {
           "nome": "96 FM Natal RN",
           "url": "https://www.youtube.com/@96fmnatalrn/live",
-          "videoId": "xH-Aj-LbRr8",
-          "online": false
+          "videoId": "ymnYD5laJSk",
+          "online": true
         },
         {
           "nome": "Gazeta do Povo",
           "url": "https://www.youtube.com/@gazetadopovo/live",
-          "videoId": "zyz-c4R_Y7E",
-          "online": false
+          "videoId": "7-9MyKpLue8",
+          "online": true
         }
       ]
     },
