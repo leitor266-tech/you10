@@ -24,19 +24,19 @@
         {
           "nome": "Jovem Pan News",
           "url": "https://www.youtube.com/@jovempannews/live",
-          "videoId": "34IQl7ZH0ok",
+          "videoId": "wkDSQzh_TI8",
           "online": true
         },
         {
           "nome": "CNN Brasil",
           "url": "https://www.youtube.com/@CNNbrasil/live",
           "videoId": "8VTkqrGWhqM",
-          "online": true
+          "online": false
         },
         {
           "nome": "SBT News",
           "url": "https://www.youtube.com/@SBTNews/live",
-          "videoId": "-sn2_HxJFxM",
+          "videoId": "1U8ceCaKfI8",
           "online": true
         },
         {
@@ -191,7 +191,7 @@
           "nome": "Igreja Presbiteriana de Pinheiros",
           "url": "https://www.youtube.com/@ippinheiros/live",
           "videoId": "9i0IW2pQja4",
-          "online": true
+          "online": false
         },
         {
           "nome": "Planetshakers",
@@ -285,7 +285,7 @@
           "nome": "TV Tropical RN",
           "url": "https://www.youtube.com/@TVTropicalRN/live",
           "videoId": "kzxrVMNpQZc",
-          "online": true
+          "online": false
         },
         {
           "nome": "G1 Globo",
@@ -303,7 +303,7 @@
           "nome": "Gazeta do Povo",
           "url": "https://www.youtube.com/@gazetadopovo/live",
           "videoId": "mgp3etOGg_w",
-          "online": true
+          "online": false
         }
       ]
     },
