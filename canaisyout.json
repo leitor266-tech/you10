@@ -25,7 +25,7 @@
           "nome": "Jovem Pan News",
           "url": "https://www.youtube.com/@jovempannews/live",
           "videoId": "wkDSQzh_TI8",
-          "online": true
+          "online": false
         },
         {
           "nome": "CNN Brasil",
@@ -37,7 +37,7 @@
           "nome": "SBT News",
           "url": "https://www.youtube.com/@SBTNews/live",
           "videoId": "1U8ceCaKfI8",
-          "online": true
+          "online": false
         },
         {
           "nome": "Food Network Brasil",
@@ -273,7 +273,7 @@
           "nome": "Domingo Espetacular",
           "url": "https://www.youtube.com/@domingoespetacular/live",
           "videoId": "u_OfCFM9-n8",
-          "online": true
+          "online": false
         },
         {
           "nome": "TV Ponta Negra RN",
@@ -332,7 +332,7 @@
           "nome": "Cine Família",
           "url": "https://www.youtube.com/@Cine_Familia/live",
           "videoId": "GHJ8uUMsZk0",
-          "online": true
+          "online": false
         }
       ]
     },
