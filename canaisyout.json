@@ -25,19 +25,19 @@
           "nome": "Jovem Pan News",
           "url": "https://www.youtube.com/@jovempannews/live",
           "videoId": "BYyUhPCfQss",
-          "online": true
+          "online": false
         },
         {
           "nome": "CNN Brasil",
           "url": "https://www.youtube.com/@CNNbrasil/live",
           "videoId": "qolZgDuGbgg",
-          "online": true
+          "online": false
         },
         {
           "nome": "SBT News",
           "url": "https://www.youtube.com/@SBTNews/live",
           "videoId": "YmxclZupIoo",
-          "online": true
+          "online": false
         },
         {
           "nome": "Food Network Brasil",
@@ -150,7 +150,7 @@
           "nome": "X Sports Brasil",
           "url": "https://www.youtube.com/@xsports.brasil/live",
           "videoId": "qWGosXrAbAQ",
-          "online": true
+          "online": false
         },
         {
           "nome": "Canal GOAT",
