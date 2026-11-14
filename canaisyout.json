@@ -24,8 +24,8 @@
         {
           "nome": "Jovem Pan News",
           "url": "https://www.youtube.com/@jovempannews/live",
-          "videoId": "3411gTC-oGc",
-          "online": false
+          "videoId": "LmtD-z96VTw",
+          "online": true
         },
         {
           "nome": "CNN Brasil",
@@ -36,8 +36,8 @@
         {
           "nome": "SBT News",
           "url": "https://www.youtube.com/@SBTNews/live",
-          "videoId": "NiICLuY45Mg",
-          "online": false
+          "videoId": "osbHYcI4geg",
+          "online": true
         },
         {
           "nome": "Food Network Brasil",
@@ -273,7 +273,7 @@
           "nome": "Domingo Espetacular",
           "url": "https://www.youtube.com/@domingoespetacular/live",
           "videoId": "9SjxSP4XP74",
-          "online": true
+          "online": false
         },
         {
           "nome": "TV Ponta Negra RN",
@@ -348,8 +348,8 @@
         {
           "nome": "PJ Masks em Português",
           "url": "https://www.youtube.com/@PJMasksemPortugues/live",
-          "videoId": "OHFuGfaxBTE",
-          "online": false
+          "videoId": "sMQuzBpYjds",
+          "online": true
         },
         {
           "nome": "Boomerang UK",
@@ -366,8 +366,8 @@
         {
           "nome": "SWAT em Português",
           "url": "https://www.youtube.com/@SWATEmPortugues/live",
-          "videoId": "Nl1ZFdqapWU",
-          "online": false
+          "videoId": "BIQEsLCADPQ",
+          "online": true
         }
       ]
     }
