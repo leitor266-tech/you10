@@ -24,19 +24,19 @@
         {
           "nome": "Jovem Pan News",
           "url": "https://www.youtube.com/@jovempannews/live",
-          "videoId": "LmtD-z96VTw",
+          "videoId": "e8d7g0uFBSM",
           "online": true
         },
         {
           "nome": "CNN Brasil",
           "url": "https://www.youtube.com/@CNNbrasil/live",
-          "videoId": "7-jXZmeLDrw",
-          "online": false
+          "videoId": "o8W3uV-ySIE",
+          "online": true
         },
         {
           "nome": "SBT News",
           "url": "https://www.youtube.com/@SBTNews/live",
-          "videoId": "osbHYcI4geg",
+          "videoId": "1DbVYe0ZX_Y",
           "online": true
         },
         {
@@ -149,8 +149,8 @@
         {
           "nome": "X Sports Brasil",
           "url": "https://www.youtube.com/@xsports.brasil/live",
-          "videoId": "5spy--z_GR4",
-          "online": false
+          "videoId": "5Qsf47i9tL0",
+          "online": true
         },
         {
           "nome": "Canal GOAT",
@@ -190,7 +190,7 @@
         {
           "nome": "Igreja Presbiteriana de Pinheiros",
           "url": "https://www.youtube.com/@ippinheiros/live",
-          "videoId": "0lHP7-dsT58",
+          "videoId": "oQHmH6tUToU",
           "online": true
         },
         {
@@ -225,7 +225,7 @@
         {
           "nome": "FVF Drone",
           "url": "https://www.youtube.com/@fvfdrone/live",
-          "videoId": "hO2jqejQmVc",
+          "videoId": "HKkhSAYELvM",
           "online": true
         },
         {
@@ -272,8 +272,8 @@
         {
           "nome": "Domingo Espetacular",
           "url": "https://www.youtube.com/@domingoespetacular/live",
-          "videoId": "9SjxSP4XP74",
-          "online": false
+          "videoId": "tsJR6b3sDaM",
+          "online": true
         },
         {
           "nome": "TV Ponta Negra RN",
@@ -348,7 +348,7 @@
         {
           "nome": "PJ Masks em Português",
           "url": "https://www.youtube.com/@PJMasksemPortugues/live",
-          "videoId": "sMQuzBpYjds",
+          "videoId": "mv5MyOFWLKE",
           "online": true
         },
         {
