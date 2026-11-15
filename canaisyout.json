@@ -25,19 +25,19 @@
           "nome": "Jovem Pan News",
           "url": "https://www.youtube.com/@jovempannews/live",
           "videoId": "34w3F5AzGrA",
-          "online": true
+          "online": false
         },
         {
           "nome": "CNN Brasil",
           "url": "https://www.youtube.com/@CNNbrasil/live",
-          "videoId": "uk7BpvTeiB0",
+          "videoId": "zPQw-LNMAFY",
           "online": true
         },
         {
           "nome": "SBT News",
           "url": "https://www.youtube.com/@SBTNews/live",
           "videoId": "cUurr-IT5K0",
-          "online": true
+          "online": false
         },
         {
           "nome": "Food Network Brasil",
@@ -291,7 +291,7 @@
           "nome": "G1 Globo",
           "url": "https://www.youtube.com/@g1globo/live",
           "videoId": "kvCogMZHGbU",
-          "online": true
+          "online": false
         },
         {
           "nome": "96 FM Natal RN",
