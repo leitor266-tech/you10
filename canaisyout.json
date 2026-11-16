@@ -24,19 +24,19 @@
         {
           "nome": "Jovem Pan News",
           "url": "https://www.youtube.com/@jovempannews/live",
-          "videoId": "SfHvcilYMWo",
+          "videoId": "EKim1odyYLk",
           "online": true
         },
         {
           "nome": "CNN Brasil",
           "url": "https://www.youtube.com/@CNNbrasil/live",
-          "videoId": "HA4gJX73DZQ",
+          "videoId": "BZSM2W7eqKA",
           "online": true
         },
         {
           "nome": "SBT News",
           "url": "https://www.youtube.com/@SBTNews/live",
-          "videoId": "C4yn0WKE60U",
+          "videoId": "K4gDzMkKS3Y",
           "online": true
         },
         {
@@ -272,8 +272,8 @@
         {
           "nome": "Domingo Espetacular",
           "url": "https://www.youtube.com/@domingoespetacular/live",
-          "videoId": "tsJR6b3sDaM",
-          "online": false
+          "videoId": "zz_PLFqLjbY",
+          "online": true
         },
         {
           "nome": "TV Ponta Negra RN",
@@ -285,7 +285,7 @@
           "nome": "TV Tropical RN",
           "url": "https://www.youtube.com/@TVTropicalRN/live",
           "videoId": "RUiO--xKq1g",
-          "online": true
+          "online": false
         },
         {
           "nome": "G1 Globo",
@@ -297,13 +297,13 @@
           "nome": "96 FM Natal RN",
           "url": "https://www.youtube.com/@96fmnatalrn/live",
           "videoId": "GIb6dN9nbxo",
-          "online": true
+          "online": false
         },
         {
           "nome": "Gazeta do Povo",
           "url": "https://www.youtube.com/@gazetadopovo/live",
-          "videoId": "ZYI6zkjRwmQ",
-          "online": false
+          "videoId": "IizlFgQHGoE",
+          "online": true
         }
       ]
     },
@@ -331,8 +331,8 @@
         {
           "nome": "Cine Família",
           "url": "https://www.youtube.com/@Cine_Familia/live",
-          "videoId": "GHJ8uUMsZk0",
-          "online": false
+          "videoId": "ZtuIqEYPexI",
+          "online": true
         }
       ]
     },
@@ -348,7 +348,7 @@
         {
           "nome": "PJ Masks em Português",
           "url": "https://www.youtube.com/@PJMasksemPortugues/live",
-          "videoId": "KZcGJXkREp0",
+          "videoId": "NFe1yUPmtbg",
           "online": true
         },
         {
