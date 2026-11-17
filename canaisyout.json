@@ -6,13 +6,13 @@
         {
           "nome": "STF Oficial",
           "url": "https://www.youtube.com/@STF_oficial/live",
-          "videoId": "XfwDB9udBLw",
+          "videoId": "apdIi6VUZlE",
           "online": true
         },
         {
           "nome": "STF Oficial",
           "url": "https://www.youtube.com/@STF_oficial/live",
-          "videoId": "XfwDB9udBLw",
+          "videoId": "apdIi6VUZlE",
           "online": true
         },
         {
@@ -24,19 +24,19 @@
         {
           "nome": "Jovem Pan News",
           "url": "https://www.youtube.com/@jovempannews/live",
-          "videoId": "3MJL0MvlXyM",
+          "videoId": "ggsVVlioW98",
           "online": true
         },
         {
           "nome": "CNN Brasil",
           "url": "https://www.youtube.com/@CNNbrasil/live",
-          "videoId": "5F_e9fhJm0k",
+          "videoId": "W5K6PDMlyaU",
           "online": true
         },
         {
           "nome": "SBT News",
           "url": "https://www.youtube.com/@SBTNews/live",
-          "videoId": "RooVoKNrgi0",
+          "videoId": "x7pkNt_GY-M",
           "online": true
         },
         {
@@ -272,20 +272,20 @@
         {
           "nome": "Domingo Espetacular",
           "url": "https://www.youtube.com/@domingoespetacular/live",
-          "videoId": "zz_PLFqLjbY",
-          "online": false
+          "videoId": "d_EGpFVeYWE",
+          "online": true
         },
         {
           "nome": "TV Ponta Negra RN",
           "url": "https://www.youtube.com/@tvpontanegrarn/live",
           "videoId": "kUKnPowOIZ4",
-          "online": true
+          "online": false
         },
         {
           "nome": "TV Tropical RN",
           "url": "https://www.youtube.com/@TVTropicalRN/live",
           "videoId": "JpTaXUyZPSM",
-          "online": true
+          "online": false
         },
         {
           "nome": "G1 Globo",
@@ -302,7 +302,7 @@
         {
           "nome": "Gazeta do Povo",
           "url": "https://www.youtube.com/@gazetadopovo/live",
-          "videoId": "SPwTg4lApnI",
+          "videoId": "kOmy7IhXoR4",
           "online": true
         }
       ]
@@ -313,8 +313,8 @@
         {
           "nome": "NetMovies",
           "url": "https://www.youtube.com/@netmovies/live",
-          "videoId": "Fc0A5K1bf2Y",
-          "online": false
+          "videoId": "J8REsVDg2LQ",
+          "online": true
         },
         {
           "nome": "Meu novo brinquedo",
@@ -348,7 +348,7 @@
         {
           "nome": "PJ Masks em Português",
           "url": "https://www.youtube.com/@PJMasksemPortugues/live",
-          "videoId": "NFe1yUPmtbg",
+          "videoId": "1Ejk-E1IQnM",
           "online": true
         },
         {
@@ -366,8 +366,8 @@
         {
           "nome": "SWAT em Português",
           "url": "https://www.youtube.com/@SWATEmPortugues/live",
-          "videoId": "BIQEsLCADPQ",
-          "online": false
+          "videoId": "pBK2qR3Usok",
+          "online": true
         }
       ]
     }
