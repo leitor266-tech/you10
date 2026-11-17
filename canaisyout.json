@@ -25,18 +25,18 @@
           "nome": "Jovem Pan News",
           "url": "https://www.youtube.com/@jovempannews/live",
           "videoId": "EKim1odyYLk",
-          "online": true
+          "online": false
         },
         {
           "nome": "CNN Brasil",
           "url": "https://www.youtube.com/@CNNbrasil/live",
-          "videoId": "BZSM2W7eqKA",
+          "videoId": "ej8HTH5QYpI",
           "online": true
         },
         {
           "nome": "SBT News",
           "url": "https://www.youtube.com/@SBTNews/live",
-          "videoId": "K4gDzMkKS3Y",
+          "videoId": "3UCkE0Hs34U",
           "online": true
         },
         {
@@ -208,7 +208,7 @@
           "nome": "Live Cam Natal",
           "url": "https://www.youtube.com/@LiveCamNatal/live",
           "videoId": "jhIKYFLSJmY",
-          "online": true
+          "online": false
         },
         {
           "nome": "FVF Drone",
@@ -303,7 +303,7 @@
           "nome": "Gazeta do Povo",
           "url": "https://www.youtube.com/@gazetadopovo/live",
           "videoId": "IizlFgQHGoE",
-          "online": true
+          "online": false
         }
       ]
     },
