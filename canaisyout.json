@@ -24,19 +24,19 @@
         {
           "nome": "Jovem Pan News",
           "url": "https://www.youtube.com/@jovempannews/live",
-          "videoId": "vnS2yBzcij8",
+          "videoId": "l1B5rJO6cnY",
           "online": true
         },
         {
           "nome": "CNN Brasil",
           "url": "https://www.youtube.com/@CNNbrasil/live",
-          "videoId": "ouYhA6hhqzw",
+          "videoId": "G6XAMpXzYP0",
           "online": true
         },
         {
           "nome": "SBT News",
           "url": "https://www.youtube.com/@SBTNews/live",
-          "videoId": "8a-O2B1K9_0",
+          "videoId": "sBiB1rdCkxA",
           "online": true
         },
         {
@@ -114,7 +114,7 @@
           "nome": "ESPN Brasil",
           "url": "https://www.youtube.com/@espnbrasil/live",
           "videoId": "a5Y31w52ZbI",
-          "online": true
+          "online": false
         },
         {
           "nome": "CazéTV",
@@ -131,8 +131,8 @@
         {
           "nome": "Vasco da Gama",
           "url": "https://www.youtube.com/@vascodagama2108/live",
-          "videoId": "mbLef0JON8A",
-          "online": false
+          "videoId": "IUI0W_IEMiU",
+          "online": true
         },
         {
           "nome": "Ninja Warrior AU",
@@ -190,7 +190,7 @@
         {
           "nome": "Igreja Presbiteriana de Pinheiros",
           "url": "https://www.youtube.com/@ippinheiros/live",
-          "videoId": "0lHP7-dsT58",
+          "videoId": "NmK-cIjj2Es",
           "online": true
         },
         {
@@ -279,13 +279,13 @@
           "nome": "TV Ponta Negra RN",
           "url": "https://www.youtube.com/@tvpontanegrarn/live",
           "videoId": "ZW-iwOeAmDU",
-          "online": true
+          "online": false
         },
         {
           "nome": "TV Tropical RN",
           "url": "https://www.youtube.com/@TVTropicalRN/live",
           "videoId": "wruzQ3rSjz0",
-          "online": true
+          "online": false
         },
         {
           "nome": "G1 Globo",
@@ -302,7 +302,7 @@
         {
           "nome": "Gazeta do Povo",
           "url": "https://www.youtube.com/@gazetadopovo/live",
-          "videoId": "X8apdhUuXYI",
+          "videoId": "888uVLeYXT8",
           "online": true
         }
       ]
