@@ -24,20 +24,20 @@
         {
           "nome": "Jovem Pan News",
           "url": "https://www.youtube.com/@jovempannews/live",
-          "videoId": "hzYor1FEtJI",
+          "videoId": "eTz4XgOQaAE",
           "online": true
         },
         {
           "nome": "CNN Brasil",
           "url": "https://www.youtube.com/@CNNbrasil/live",
           "videoId": "PaKgG2sMDR8",
-          "online": true
+          "online": false
         },
         {
           "nome": "SBT News",
           "url": "https://www.youtube.com/@SBTNews/live",
           "videoId": "98iVNDos4Io",
-          "online": true
+          "online": false
         },
         {
           "nome": "Food Network Brasil",
@@ -273,7 +273,7 @@
           "nome": "Domingo Espetacular",
           "url": "https://www.youtube.com/@domingoespetacular/live",
           "videoId": "faYRdKR9DF4",
-          "online": true
+          "online": false
         },
         {
           "nome": "TV Ponta Negra RN",
@@ -291,7 +291,7 @@
           "nome": "G1 Globo",
           "url": "https://www.youtube.com/@g1globo/live",
           "videoId": "nYFmEfRK_iA",
-          "online": true
+          "online": false
         },
         {
           "nome": "96 FM Natal RN",
