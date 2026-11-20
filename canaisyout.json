@@ -24,19 +24,19 @@
         {
           "nome": "Jovem Pan News",
           "url": "https://www.youtube.com/@jovempannews/live",
-          "videoId": "gnuuZe5XBwM",
+          "videoId": "hxX2vdVWBKw",
           "online": true
         },
         {
           "nome": "CNN Brasil",
           "url": "https://www.youtube.com/@CNNbrasil/live",
-          "videoId": "c_C4S3wuzZw",
+          "videoId": "g7ww-a5JyVw",
           "online": true
         },
         {
           "nome": "SBT News",
           "url": "https://www.youtube.com/@SBTNews/live",
-          "videoId": "81Hn_7sw13g",
+          "videoId": "99OFL4Qh72I",
           "online": true
         },
         {
@@ -162,7 +162,7 @@
           "nome": "TNT Sports Brasil",
           "url": "https://www.youtube.com/@TNTSportsBR/live",
           "videoId": "LWdJhwkEZg8",
-          "online": true
+          "online": false
         },
         {
           "nome": "Bellator MMA",
@@ -207,7 +207,7 @@
         {
           "nome": "Live Cam Natal",
           "url": "https://www.youtube.com/@LiveCamNatal/live",
-          "videoId": "uvEZOoMK3ys",
+          "videoId": "VdiCLGG0JrE",
           "online": true
         },
         {
@@ -272,8 +272,8 @@
         {
           "nome": "Domingo Espetacular",
           "url": "https://www.youtube.com/@domingoespetacular/live",
-          "videoId": "00x-QQQQSpk",
-          "online": false
+          "videoId": "ABE6L296thQ",
+          "online": true
         },
         {
           "nome": "TV Ponta Negra RN",
@@ -348,7 +348,7 @@
         {
           "nome": "PJ Masks em Português",
           "url": "https://www.youtube.com/@PJMasksemPortugues/live",
-          "videoId": "wi7afWod8C8",
+          "videoId": "RD8Jdm5EZIc",
           "online": true
         },
         {
