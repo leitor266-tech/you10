@@ -25,18 +25,18 @@
           "nome": "Jovem Pan News",
           "url": "https://www.youtube.com/@jovempannews/live",
           "videoId": "J0_Dr9-1zbg",
-          "online": true
+          "online": false
         },
         {
           "nome": "CNN Brasil",
           "url": "https://www.youtube.com/@CNNbrasil/live",
-          "videoId": "-ntg6TSVk54",
+          "videoId": "KWKwCfhvGJg",
           "online": true
         },
         {
           "nome": "SBT News",
           "url": "https://www.youtube.com/@SBTNews/live",
-          "videoId": "y5dUGtbn_cw",
+          "videoId": "9iMrBZBZD9o",
           "online": true
         },
         {
@@ -149,8 +149,8 @@
         {
           "nome": "X Sports Brasil",
           "url": "https://www.youtube.com/@xsports.brasil/live",
-          "videoId": "qWGosXrAbAQ",
-          "online": false
+          "videoId": "KnuLLQ8tzBQ",
+          "online": true
         },
         {
           "nome": "Canal GOAT",
@@ -161,8 +161,8 @@
         {
           "nome": "TNT Sports Brasil",
           "url": "https://www.youtube.com/@TNTSportsBR/live",
-          "videoId": "LWdJhwkEZg8",
-          "online": false
+          "videoId": "7PPPG6yAfZQ",
+          "online": true
         },
         {
           "nome": "Bellator MMA",
@@ -285,7 +285,7 @@
           "nome": "TV Tropical RN",
           "url": "https://www.youtube.com/@TVTropicalRN/live",
           "videoId": "olbUcphVLIs",
-          "online": true
+          "online": false
         },
         {
           "nome": "G1 Globo",
