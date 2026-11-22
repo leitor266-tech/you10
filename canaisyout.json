@@ -24,20 +24,20 @@
         {
           "nome": "Jovem Pan News",
           "url": "https://www.youtube.com/@jovempannews/live",
-          "videoId": "J0_Dr9-1zbg",
-          "online": false
+          "videoId": "eTz4XgOQaAE",
+          "online": true
         },
         {
           "nome": "CNN Brasil",
           "url": "https://www.youtube.com/@CNNbrasil/live",
-          "videoId": "KWKwCfhvGJg",
-          "online": false
+          "videoId": "PDM7J2jOel0",
+          "online": true
         },
         {
           "nome": "SBT News",
           "url": "https://www.youtube.com/@SBTNews/live",
-          "videoId": "9iMrBZBZD9o",
-          "online": false
+          "videoId": "XmN3ClDzQiI",
+          "online": true
         },
         {
           "nome": "Food Network Brasil",
@@ -196,7 +196,7 @@
         {
           "nome": "Planetshakers",
           "url": "https://www.youtube.com/@planetshakerstv/live",
-          "videoId": "1VcquY9xqWA",
+          "videoId": "lzqPafahNUE",
           "online": true
         }
       ]
@@ -207,13 +207,13 @@
         {
           "nome": "Live Cam Natal",
           "url": "https://www.youtube.com/@LiveCamNatal/live",
-          "videoId": "VdiCLGG0JrE",
-          "online": false
+          "videoId": "NBi5nfrfFlk",
+          "online": true
         },
         {
           "nome": "FVF Drone",
           "url": "https://www.youtube.com/@fvfdrone/live",
-          "videoId": "hO2jqejQmVc",
+          "videoId": "vHVhPGzGnds",
           "online": true
         },
         {
@@ -231,7 +231,7 @@
         {
           "nome": "Mario negocio",
           "url": "https://www.youtube.com/@fvfdrone/live",
-          "videoId": "9QRWzgIg21w",
+          "videoId": "hO2jqejQmVc",
           "online": true
         },
         {
@@ -273,7 +273,7 @@
           "nome": "Domingo Espetacular",
           "url": "https://www.youtube.com/@domingoespetacular/live",
           "videoId": "0e2T51q8SuI",
-          "online": true
+          "online": false
         },
         {
           "nome": "TV Ponta Negra RN",
