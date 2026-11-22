@@ -24,20 +24,20 @@
         {
           "nome": "Jovem Pan News",
           "url": "https://www.youtube.com/@jovempannews/live",
-          "videoId": "YDp-9LOGNeA",
+          "videoId": "SXUD3BzV0Ac",
           "online": true
         },
         {
           "nome": "CNN Brasil",
           "url": "https://www.youtube.com/@CNNbrasil/live",
-          "videoId": "XI5m00HmrFM",
+          "videoId": "q37GOcv8e2s",
           "online": true
         },
         {
           "nome": "SBT News",
           "url": "https://www.youtube.com/@SBTNews/live",
           "videoId": "XmN3ClDzQiI",
-          "online": true
+          "online": false
         },
         {
           "nome": "Food Network Brasil",
