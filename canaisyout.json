@@ -24,19 +24,19 @@
         {
           "nome": "Jovem Pan News",
           "url": "https://www.youtube.com/@jovempannews/live",
-          "videoId": "eTz4XgOQaAE",
+          "videoId": "A6ABzdI_ti8",
           "online": true
         },
         {
           "nome": "CNN Brasil",
           "url": "https://www.youtube.com/@CNNbrasil/live",
-          "videoId": "N3OmxOLxA0I",
+          "videoId": "7E3F--86AEk",
           "online": true
         },
         {
           "nome": "SBT News",
           "url": "https://www.youtube.com/@SBTNews/live",
-          "videoId": "LGT-vOIRq0M",
+          "videoId": "u6kl08P6HqM",
           "online": true
         },
         {
@@ -161,8 +161,8 @@
         {
           "nome": "TNT Sports Brasil",
           "url": "https://www.youtube.com/@TNTSportsBR/live",
-          "videoId": "7PPPG6yAfZQ",
-          "online": false
+          "videoId": "J__Vc7NNvZ4",
+          "online": true
         },
         {
           "nome": "Bellator MMA",
@@ -173,7 +173,7 @@
         {
           "nome": "Boxing Mates",
           "url": "https://www.youtube.com/@BoxingMates1/live",
-          "videoId": "d3n2KEIB9k0",
+          "videoId": "CeI_65aLq-8",
           "online": true
         },
         {
@@ -213,7 +213,7 @@
         {
           "nome": "FVF Drone",
           "url": "https://www.youtube.com/@fvfdrone/live",
-          "videoId": "kYfPWeEAecA",
+          "videoId": "vHVhPGzGnds",
           "online": true
         },
         {
@@ -231,7 +231,7 @@
         {
           "nome": "Mario negocio",
           "url": "https://www.youtube.com/@fvfdrone/live",
-          "videoId": "WyGD0m0bza0",
+          "videoId": "vHVhPGzGnds",
           "online": true
         },
         {
@@ -273,7 +273,7 @@
           "nome": "Domingo Espetacular",
           "url": "https://www.youtube.com/@domingoespetacular/live",
           "videoId": "CCMCzOQKi_E",
-          "online": true
+          "online": false
         },
         {
           "nome": "TV Ponta Negra RN",
@@ -302,8 +302,8 @@
         {
           "nome": "Gazeta do Povo",
           "url": "https://www.youtube.com/@gazetadopovo/live",
-          "videoId": "hYS9a5hMdqU",
-          "online": false
+          "videoId": "Uf4cLY_Vutw",
+          "online": true
         }
       ]
     },
@@ -367,7 +367,7 @@
           "nome": "SWAT em Português",
           "url": "https://www.youtube.com/@SWATEmPortugues/live",
           "videoId": "0oDKfie5xZo",
-          "online": true
+          "online": false
         }
       ]
     }
