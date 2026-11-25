@@ -24,19 +24,19 @@
         {
           "nome": "Jovem Pan News",
           "url": "https://www.youtube.com/@jovempannews/live",
-          "videoId": "wG1u__Gcn6k",
+          "videoId": "eTz4XgOQaAE",
           "online": true
         },
         {
           "nome": "CNN Brasil",
           "url": "https://www.youtube.com/@CNNbrasil/live",
-          "videoId": "9DU_gPwGv2Y",
+          "videoId": "N3OmxOLxA0I",
           "online": true
         },
         {
           "nome": "SBT News",
           "url": "https://www.youtube.com/@SBTNews/live",
-          "videoId": "u_IAomQ5y94",
+          "videoId": "LGT-vOIRq0M",
           "online": true
         },
         {
@@ -132,7 +132,7 @@
           "nome": "Vasco da Gama",
           "url": "https://www.youtube.com/@vascodagama2108/live",
           "videoId": "knHtIKw5lus",
-          "online": true
+          "online": false
         },
         {
           "nome": "Ninja Warrior AU",
@@ -190,7 +190,7 @@
         {
           "nome": "Igreja Presbiteriana de Pinheiros",
           "url": "https://www.youtube.com/@ippinheiros/live",
-          "videoId": "8P-9BPO3sC4",
+          "videoId": "0lHP7-dsT58",
           "online": true
         },
         {
@@ -213,7 +213,7 @@
         {
           "nome": "FVF Drone",
           "url": "https://www.youtube.com/@fvfdrone/live",
-          "videoId": "vHVhPGzGnds",
+          "videoId": "kYfPWeEAecA",
           "online": true
         },
         {
@@ -225,13 +225,13 @@
         {
           "nome": "FVF Drone",
           "url": "https://www.youtube.com/@fvfdrone/live",
-          "videoId": "vHVhPGzGnds",
+          "videoId": "WyGD0m0bza0",
           "online": true
         },
         {
           "nome": "Mario negocio",
           "url": "https://www.youtube.com/@fvfdrone/live",
-          "videoId": "vHVhPGzGnds",
+          "videoId": "WyGD0m0bza0",
           "online": true
         },
         {
@@ -285,7 +285,7 @@
           "nome": "TV Tropical RN",
           "url": "https://www.youtube.com/@TVTropicalRN/live",
           "videoId": "ztbJRBOXXHA",
-          "online": true
+          "online": false
         },
         {
           "nome": "G1 Globo",
@@ -303,7 +303,7 @@
           "nome": "Gazeta do Povo",
           "url": "https://www.youtube.com/@gazetadopovo/live",
           "videoId": "hYS9a5hMdqU",
-          "online": true
+          "online": false
         }
       ]
     },
