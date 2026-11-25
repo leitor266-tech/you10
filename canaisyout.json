@@ -24,19 +24,19 @@
         {
           "nome": "Jovem Pan News",
           "url": "https://www.youtube.com/@jovempannews/live",
-          "videoId": "A6ABzdI_ti8",
+          "videoId": "Eh8J1olCLCU",
           "online": true
         },
         {
           "nome": "CNN Brasil",
           "url": "https://www.youtube.com/@CNNbrasil/live",
-          "videoId": "7E3F--86AEk",
+          "videoId": "NS3jjoiFL3A",
           "online": true
         },
         {
           "nome": "SBT News",
           "url": "https://www.youtube.com/@SBTNews/live",
-          "videoId": "u6kl08P6HqM",
+          "videoId": "bwtdDPkQIl8",
           "online": true
         },
         {
@@ -113,8 +113,8 @@
         {
           "nome": "ESPN Brasil",
           "url": "https://www.youtube.com/@espnbrasil/live",
-          "videoId": "_YsOfXZp6iA",
-          "online": false
+          "videoId": "fuyFDKdUqHg",
+          "online": true
         },
         {
           "nome": "CazéTV",
@@ -162,7 +162,7 @@
           "nome": "TNT Sports Brasil",
           "url": "https://www.youtube.com/@TNTSportsBR/live",
           "videoId": "J__Vc7NNvZ4",
-          "online": true
+          "online": false
         },
         {
           "nome": "Bellator MMA",
@@ -173,7 +173,7 @@
         {
           "nome": "Boxing Mates",
           "url": "https://www.youtube.com/@BoxingMates1/live",
-          "videoId": "CeI_65aLq-8",
+          "videoId": "d3n2KEIB9k0",
           "online": true
         },
         {
@@ -207,7 +207,7 @@
         {
           "nome": "Live Cam Natal",
           "url": "https://www.youtube.com/@LiveCamNatal/live",
-          "videoId": "s1M-3FQPQWk",
+          "videoId": "9tTthlytbBY",
           "online": true
         },
         {
@@ -225,7 +225,7 @@
         {
           "nome": "FVF Drone",
           "url": "https://www.youtube.com/@fvfdrone/live",
-          "videoId": "WyGD0m0bza0",
+          "videoId": "kYfPWeEAecA",
           "online": true
         },
         {
@@ -296,14 +296,14 @@
         {
           "nome": "96 FM Natal RN",
           "url": "https://www.youtube.com/@96fmnatalrn/live",
-          "videoId": "ddqNf7kPC7w",
-          "online": false
+          "videoId": "yZwl4K4iudk",
+          "online": true
         },
         {
           "nome": "Gazeta do Povo",
           "url": "https://www.youtube.com/@gazetadopovo/live",
           "videoId": "Uf4cLY_Vutw",
-          "online": true
+          "online": false
         }
       ]
     },
@@ -348,7 +348,7 @@
         {
           "nome": "PJ Masks em Português",
           "url": "https://www.youtube.com/@PJMasksemPortugues/live",
-          "videoId": "ZE-2EBSaAXM",
+          "videoId": "J_6Iclwy8Bw",
           "online": true
         },
         {
