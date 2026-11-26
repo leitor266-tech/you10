@@ -24,19 +24,19 @@
         {
           "nome": "Jovem Pan News",
           "url": "https://www.youtube.com/@jovempannews/live",
-          "videoId": "VK05AO5QGpE",
+          "videoId": "SIORvrl1KYQ",
           "online": true
         },
         {
           "nome": "CNN Brasil",
           "url": "https://www.youtube.com/@CNNbrasil/live",
-          "videoId": "NsKA1o0HRuU",
+          "videoId": "ie71Lq4DsQ0",
           "online": true
         },
         {
           "nome": "SBT News",
           "url": "https://www.youtube.com/@SBTNews/live",
-          "videoId": "g66BNri4Bk4",
+          "videoId": "CWB46ogt_YM",
           "online": true
         },
         {
@@ -143,8 +143,8 @@
         {
           "nome": "Palmeiras",
           "url": "https://www.youtube.com/@Palmeiras/live",
-          "videoId": "HbHgWoGsp-Q",
-          "online": false
+          "videoId": "HpCbISlY-fg",
+          "online": true
         },
         {
           "nome": "X Sports Brasil",
@@ -162,7 +162,7 @@
           "nome": "TNT Sports Brasil",
           "url": "https://www.youtube.com/@TNTSportsBR/live",
           "videoId": "VMTFxLMEOzo",
-          "online": true
+          "online": false
         },
         {
           "nome": "Bellator MMA",
@@ -173,7 +173,7 @@
         {
           "nome": "Boxing Mates",
           "url": "https://www.youtube.com/@BoxingMates1/live",
-          "videoId": "d3n2KEIB9k0",
+          "videoId": "CeI_65aLq-8",
           "online": true
         },
         {
@@ -213,7 +213,7 @@
         {
           "nome": "FVF Drone",
           "url": "https://www.youtube.com/@fvfdrone/live",
-          "videoId": "vHVhPGzGnds",
+          "videoId": "WyGD0m0bza0",
           "online": true
         },
         {
@@ -225,13 +225,13 @@
         {
           "nome": "FVF Drone",
           "url": "https://www.youtube.com/@fvfdrone/live",
-          "videoId": "vHVhPGzGnds",
+          "videoId": "HKkhSAYELvM",
           "online": true
         },
         {
           "nome": "Mario negocio",
           "url": "https://www.youtube.com/@fvfdrone/live",
-          "videoId": "kYfPWeEAecA",
+          "videoId": "vHVhPGzGnds",
           "online": true
         },
         {
@@ -272,14 +272,14 @@
         {
           "nome": "Domingo Espetacular",
           "url": "https://www.youtube.com/@domingoespetacular/live",
-          "videoId": "CCMCzOQKi_E",
-          "online": false
+          "videoId": "tYfc-IzyDZk",
+          "online": true
         },
         {
           "nome": "TV Ponta Negra RN",
           "url": "https://www.youtube.com/@tvpontanegrarn/live",
-          "videoId": "jpewxgUsb1s",
-          "online": false
+          "videoId": "taC6Nr7FmKQ",
+          "online": true
         },
         {
           "nome": "TV Tropical RN",
@@ -303,7 +303,7 @@
           "nome": "Gazeta do Povo",
           "url": "https://www.youtube.com/@gazetadopovo/live",
           "videoId": "xLtrG5XRGoY",
-          "online": true
+          "online": false
         }
       ]
     },
@@ -349,7 +349,7 @@
           "nome": "PJ Masks em Português",
           "url": "https://www.youtube.com/@PJMasksemPortugues/live",
           "videoId": "J_6Iclwy8Bw",
-          "online": true
+          "online": false
         },
         {
           "nome": "Boomerang UK",
