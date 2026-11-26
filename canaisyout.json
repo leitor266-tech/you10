@@ -24,19 +24,19 @@
         {
           "nome": "Jovem Pan News",
           "url": "https://www.youtube.com/@jovempannews/live",
-          "videoId": "Eh8J1olCLCU",
-          "online": false
+          "videoId": "VK05AO5QGpE",
+          "online": true
         },
         {
           "nome": "CNN Brasil",
           "url": "https://www.youtube.com/@CNNbrasil/live",
-          "videoId": "cQLZTZm7BbI",
+          "videoId": "NsKA1o0HRuU",
           "online": true
         },
         {
           "nome": "SBT News",
           "url": "https://www.youtube.com/@SBTNews/live",
-          "videoId": "TRozpLTZT7o",
+          "videoId": "g66BNri4Bk4",
           "online": true
         },
         {
@@ -161,8 +161,8 @@
         {
           "nome": "TNT Sports Brasil",
           "url": "https://www.youtube.com/@TNTSportsBR/live",
-          "videoId": "J__Vc7NNvZ4",
-          "online": false
+          "videoId": "VMTFxLMEOzo",
+          "online": true
         },
         {
           "nome": "Bellator MMA",
@@ -207,13 +207,13 @@
         {
           "nome": "Live Cam Natal",
           "url": "https://www.youtube.com/@LiveCamNatal/live",
-          "videoId": "9tTthlytbBY",
+          "videoId": "s1M-3FQPQWk",
           "online": true
         },
         {
           "nome": "FVF Drone",
           "url": "https://www.youtube.com/@fvfdrone/live",
-          "videoId": "WyGD0m0bza0",
+          "videoId": "vHVhPGzGnds",
           "online": true
         },
         {
@@ -225,13 +225,13 @@
         {
           "nome": "FVF Drone",
           "url": "https://www.youtube.com/@fvfdrone/live",
-          "videoId": "kYfPWeEAecA",
+          "videoId": "vHVhPGzGnds",
           "online": true
         },
         {
           "nome": "Mario negocio",
           "url": "https://www.youtube.com/@fvfdrone/live",
-          "videoId": "vHVhPGzGnds",
+          "videoId": "kYfPWeEAecA",
           "online": true
         },
         {
@@ -302,8 +302,8 @@
         {
           "nome": "Gazeta do Povo",
           "url": "https://www.youtube.com/@gazetadopovo/live",
-          "videoId": "Uf4cLY_Vutw",
-          "online": false
+          "videoId": "xLtrG5XRGoY",
+          "online": true
         }
       ]
     },
