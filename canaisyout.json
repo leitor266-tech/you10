@@ -24,20 +24,20 @@
         {
           "nome": "Jovem Pan News",
           "url": "https://www.youtube.com/@jovempannews/live",
-          "videoId": "eTz4XgOQaAE",
+          "videoId": "1rhBDgNuG64",
           "online": true
         },
         {
           "nome": "CNN Brasil",
           "url": "https://www.youtube.com/@CNNbrasil/live",
-          "videoId": "1_Q1JGxz4xg",
+          "videoId": "4hYW7lma4ok",
           "online": true
         },
         {
           "nome": "SBT News",
           "url": "https://www.youtube.com/@SBTNews/live",
-          "videoId": "CWB46ogt_YM",
-          "online": false
+          "videoId": "9Jr9LJLTDoA",
+          "online": true
         },
         {
           "nome": "Food Network Brasil",
@@ -161,8 +161,8 @@
         {
           "nome": "TNT Sports Brasil",
           "url": "https://www.youtube.com/@TNTSportsBR/live",
-          "videoId": "VMTFxLMEOzo",
-          "online": false
+          "videoId": "MIA7_Q5e4eE",
+          "online": true
         },
         {
           "nome": "Bellator MMA",
@@ -190,7 +190,7 @@
         {
           "nome": "Igreja Presbiteriana de Pinheiros",
           "url": "https://www.youtube.com/@ippinheiros/live",
-          "videoId": "0lHP7-dsT58",
+          "videoId": "f-ThxE6svgw",
           "online": true
         },
         {
@@ -213,7 +213,7 @@
         {
           "nome": "FVF Drone",
           "url": "https://www.youtube.com/@fvfdrone/live",
-          "videoId": "WyGD0m0bza0",
+          "videoId": "HKkhSAYELvM",
           "online": true
         },
         {
@@ -225,13 +225,13 @@
         {
           "nome": "FVF Drone",
           "url": "https://www.youtube.com/@fvfdrone/live",
-          "videoId": "HKkhSAYELvM",
+          "videoId": "S1t6uaj82lY",
           "online": true
         },
         {
           "nome": "Mario negocio",
           "url": "https://www.youtube.com/@fvfdrone/live",
-          "videoId": "vHVhPGzGnds",
+          "videoId": "S1t6uaj82lY",
           "online": true
         },
         {
@@ -302,8 +302,8 @@
         {
           "nome": "Gazeta do Povo",
           "url": "https://www.youtube.com/@gazetadopovo/live",
-          "videoId": "xLtrG5XRGoY",
-          "online": false
+          "videoId": "vnIBCd_QceM",
+          "online": true
         }
       ]
     },
