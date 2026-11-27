@@ -24,20 +24,20 @@
         {
           "nome": "Jovem Pan News",
           "url": "https://www.youtube.com/@jovempannews/live",
-          "videoId": "SIORvrl1KYQ",
+          "videoId": "eTz4XgOQaAE",
           "online": true
         },
         {
           "nome": "CNN Brasil",
           "url": "https://www.youtube.com/@CNNbrasil/live",
-          "videoId": "ie71Lq4DsQ0",
+          "videoId": "1_Q1JGxz4xg",
           "online": true
         },
         {
           "nome": "SBT News",
           "url": "https://www.youtube.com/@SBTNews/live",
           "videoId": "CWB46ogt_YM",
-          "online": true
+          "online": false
         },
         {
           "nome": "Food Network Brasil",
@@ -144,7 +144,7 @@
           "nome": "Palmeiras",
           "url": "https://www.youtube.com/@Palmeiras/live",
           "videoId": "HpCbISlY-fg",
-          "online": true
+          "online": false
         },
         {
           "nome": "X Sports Brasil",
@@ -173,7 +173,7 @@
         {
           "nome": "Boxing Mates",
           "url": "https://www.youtube.com/@BoxingMates1/live",
-          "videoId": "CeI_65aLq-8",
+          "videoId": "d3n2KEIB9k0",
           "online": true
         },
         {
@@ -273,13 +273,13 @@
           "nome": "Domingo Espetacular",
           "url": "https://www.youtube.com/@domingoespetacular/live",
           "videoId": "tYfc-IzyDZk",
-          "online": true
+          "online": false
         },
         {
           "nome": "TV Ponta Negra RN",
           "url": "https://www.youtube.com/@tvpontanegrarn/live",
           "videoId": "taC6Nr7FmKQ",
-          "online": true
+          "online": false
         },
         {
           "nome": "TV Tropical RN",
@@ -348,8 +348,8 @@
         {
           "nome": "PJ Masks em Português",
           "url": "https://www.youtube.com/@PJMasksemPortugues/live",
-          "videoId": "J_6Iclwy8Bw",
-          "online": false
+          "videoId": "yApfMdECCfU",
+          "online": true
         },
         {
           "nome": "Boomerang UK",
