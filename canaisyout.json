@@ -25,18 +25,18 @@
           "nome": "Jovem Pan News",
           "url": "https://www.youtube.com/@jovempannews/live",
           "videoId": "jHviAlic0FA",
-          "online": true
+          "online": false
         },
         {
           "nome": "CNN Brasil",
           "url": "https://www.youtube.com/@CNNbrasil/live",
-          "videoId": "YR36NIro5x4",
+          "videoId": "W5bX0bnViD0",
           "online": true
         },
         {
           "nome": "SBT News",
           "url": "https://www.youtube.com/@SBTNews/live",
-          "videoId": "JjyKGiM8S1k",
+          "videoId": "5lu_DVsUtZs",
           "online": true
         },
         {
@@ -79,7 +79,7 @@
           "nome": "Batalha da Aldeia",
           "url": "https://www.youtube.com/@BatalhaDaAldeia/live",
           "videoId": "JozAtuoJtLg",
-          "online": true
+          "online": false
         },
         {
           "nome": "Animal Planet Brasil",
@@ -207,7 +207,7 @@
         {
           "nome": "Live Cam Natal",
           "url": "https://www.youtube.com/@LiveCamNatal/live",
-          "videoId": "9tTthlytbBY",
+          "videoId": "s1M-3FQPQWk",
           "online": true
         },
         {
@@ -273,19 +273,19 @@
           "nome": "Domingo Espetacular",
           "url": "https://www.youtube.com/@domingoespetacular/live",
           "videoId": "8raeAKWAxjs",
-          "online": true
+          "online": false
         },
         {
           "nome": "TV Ponta Negra RN",
           "url": "https://www.youtube.com/@tvpontanegrarn/live",
           "videoId": "NmyjbG2FFrQ",
-          "online": true
+          "online": false
         },
         {
           "nome": "TV Tropical RN",
           "url": "https://www.youtube.com/@TVTropicalRN/live",
           "videoId": "wlS-Ol6ipd4",
-          "online": true
+          "online": false
         },
         {
           "nome": "G1 Globo",
@@ -297,7 +297,7 @@
           "nome": "96 FM Natal RN",
           "url": "https://www.youtube.com/@96fmnatalrn/live",
           "videoId": "JKDl_FEMbBM",
-          "online": true
+          "online": false
         },
         {
           "nome": "Gazeta do Povo",
