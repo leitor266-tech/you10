@@ -24,19 +24,19 @@
         {
           "nome": "Jovem Pan News",
           "url": "https://www.youtube.com/@jovempannews/live",
-          "videoId": "jHviAlic0FA",
-          "online": false
+          "videoId": "vhUpfn47gBk",
+          "online": true
         },
         {
           "nome": "CNN Brasil",
           "url": "https://www.youtube.com/@CNNbrasil/live",
-          "videoId": "W5bX0bnViD0",
+          "videoId": "DF5HDC0E7jo",
           "online": true
         },
         {
           "nome": "SBT News",
           "url": "https://www.youtube.com/@SBTNews/live",
-          "videoId": "5lu_DVsUtZs",
+          "videoId": "yeIWlniTvZM",
           "online": true
         },
         {
@@ -231,7 +231,7 @@
         {
           "nome": "Mario negocio",
           "url": "https://www.youtube.com/@fvfdrone/live",
-          "videoId": "S1t6uaj82lY",
+          "videoId": "HKkhSAYELvM",
           "online": true
         },
         {
